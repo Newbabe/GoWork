@@ -1,0 +1,34 @@
+package service
+
+import (
+	"testing"
+)
+
+func TestCopyTable(t *testing.T) {
+	//dao.RemoveTmpTableData("song_info_merge_tmp")
+	//dao.TransferDataBToA("song_info_merge_tmp", "song_info_merge")
+	//UpdateMergeTmpStatus()
+	//dao.CreateBackupTable("song_info_merge_tmp", "song_info_merge2")
+	//dao.AddPrimaryKey()
+	//dao.AddUNIQUEIndex()
+	//dao.AddIndex("singer")
+	//dao.AddIndex("status")
+	//dao.AddIndex("dossier_name")
+	//dao.AddIndex2("source_status")
+	//dao.AddFULLTEXTIndex("song_name")
+	//dao.UpdateSongInfoMerge2Data()
+	//dao.UpdateSongInfoMerge2Status()
+	//dao.DelTable("song_info_merge")
+	//dao.UpdateTableName("song_info_merge", "song_info_merge2")
+	//oldBackupsTable := "song_info_merge_" + time.Now().AddDate(0, 0, -3).Format("20060102")
+	//fmt.Println(oldBackupsTable)
+	//dao.IfExistsDelTable(oldBackupsTable)
+	//8.删除song_info_youtube_info的Id字
+	//	dao.DeleteIdByTableName("song_info_youtube_info")
+	//9.song_info_youtube_info表添加id字段且主键自增
+	//	dao.AddIdByTableName("song_info_youtube_info")
+	//10.除song_info_youtube_info_check的Id字段
+	//	dao.DeleteIdByTableName("song_info_youtube_info_check")
+	//11.song_info_youtube_info_check表添加id字段且主键自增
+	//	dao.AddIdByTableName("song_info_youtube_info_check")
+}

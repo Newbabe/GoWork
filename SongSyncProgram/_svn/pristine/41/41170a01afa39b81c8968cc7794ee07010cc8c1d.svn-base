@@ -1,0 +1,46 @@
+package action
+
+import (
+	"SongSyncProgram/service"
+	"fmt"
+	"time"
+)
+
+func StartYoutubeTV() {
+
+	groupNum := service.GetGroupNum() + 1 //每次运行加1
+	t1 := time.Now().Unix()
+	service.SaveAutomaticUpdateLog(groupNum)
+	t2 := time.Now().Unix()
+	fmt.Println("第一次记录日志结束,用时:", t2-t1, "秒")
+	service.TVCopyTable()
+	t3 := time.Now().Unix()
+	//修改songinfoMergrTvStatus
+	fmt.Println("复制表结束,用时:", t3-t2, "秒")
+	service.UpdateMergeTVSong()
+	t4 := time.Now().Unix()
+	fmt.Println("修改临时表结束,用时:", t4-t3, "秒")
+	//更新数据
+	service.AddYoutubeTVSong()
+	t5 := time.Now().Unix()
+	fmt.Println("操作临时表结束,用时:", t5-t4, "秒")
+	service.SaveAutomaticUpdateLog2(groupNum)
+	t6 := time.Now().Unix()
+	fmt.Println("第二次记录日志结束,用时:", t6-t5, "秒")
+	//跟新txt文件
+	//更新TV
+	list := service.UpdateTv()
+	t7 := time.Now().Unix()
+	fmt.Println("更新TV表结束,用时:", t7-t6, "秒")
+	service.UpdateCacheMap()
+	t8 := time.Now().Unix()
+	fmt.Println("更新cacheMap文件结束,用时:", t8-t7, "秒")
+	service.SaveNewMv(list)
+	t9 := time.Now().Unix()
+	fmt.Println("更新mv歌曲标签结束,用时:", t9-t8, "秒")
+	t10 := time.Now().Unix()
+	service.UpdateBeiYuanFileSize()
+	fmt.Println("备源歌词文件更新结束,用时", t10-t9, "秒")
+	fmt.Println("总用时", t10-t1)
+
+}

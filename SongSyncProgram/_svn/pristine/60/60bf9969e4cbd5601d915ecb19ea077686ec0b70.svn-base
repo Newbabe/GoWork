@@ -1,0 +1,39 @@
+package action
+
+import (
+	"SongSyncProgram/service"
+	"fmt"
+	"time"
+)
+
+func StartYoutubePhone() {
+	t1 := time.Now()
+	tt1 := time.Now().Unix()
+	fmt.Println("手机歌曲同步开始:", t1.Format("2006-01-02 15:04:05"))
+	groupNum := service.GetGroupNum() + 1 //每次运行加1
+	// 先统计平差值表的信息
+	// 插入log表
+	fmt.Println("开始记录日志:", time.Now().Format("2006-01-02 15:04:05"))
+	service.SaveAutomaticUpdateLog(groupNum)
+	// 复制表
+	fmt.Println("开始复制表:", time.Now().Format("2006-01-02 15:04:05"))
+	service.CopyTable()
+	//修改临时表数据状态
+	fmt.Println("开始修改临时表的数据:", time.Now().Format("2006-01-02 15:04:05"))
+	service.UpdateMergeTmpStatus()
+	//临时表添加数据【】
+	fmt.Println("开始添加数据:", time.Now().Format("2006-01-02 15:04:05"))
+	//service.AddYoutubeSong()
+	fmt.Println("第二次记录日志:", time.Now().Format("2006-01-02 15:04:05"))
+	service.SaveAutomaticUpdateLog2(groupNum)
+	//更新singer表
+	fmt.Println("更新表:", time.Now().Format("2006-01-02 15:04:05"))
+	service.UpdateAllTables()
+	//更新CacheMap文件
+	fmt.Println("更新txt文件:", time.Now().Format("2006-01-02 15:04:05"))
+	service.UpdateCacheMap()
+	t2 := time.Now()
+	fmt.Println("手机歌曲同步结束:", t2.Format("2006-01-02 15:04:05"))
+	tt2 := time.Now().Unix()
+	fmt.Println("共用时", tt2-tt1)
+}

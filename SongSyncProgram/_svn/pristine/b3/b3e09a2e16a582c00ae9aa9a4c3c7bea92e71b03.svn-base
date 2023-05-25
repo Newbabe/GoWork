@@ -1,0 +1,11 @@
+package service
+
+import (
+	"SongSyncProgram/dao"
+	"SongSyncProgram/model"
+)
+
+func GetDoremiLastUpdateTime() []model.DoremiUpdateTime {
+	return dao.GetDoremiUpdateTime()
+
+}

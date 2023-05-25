@@ -1,0 +1,60 @@
+package dao
+
+import (
+	"SongSyncProgram/model"
+	"SongSyncProgram/util"
+	"fmt"
+	"runtime/debug"
+)
+
+func SelectNoUpdateSong() []model.UpdateSongInfoStatus {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+			debug.PrintStack()
+		}
+	}()
+	sql := "SELECT `song_id`,`source_id`,`source` FROM song.update_song_info_status where status = 1"
+	query, err := util.DbSongTest.Query(sql)
+	if err != nil {
+		return nil
+	}
+	var UpdateSongInfoStatusList []model.UpdateSongInfoStatus
+	for query.Next() {
+		var UpdateSongInfoStatus model.UpdateSongInfoStatus
+		query.Scan(&UpdateSongInfoStatus.SongId, &UpdateSongInfoStatus.SourceId, &UpdateSongInfoStatus.Source)
+		UpdateSongInfoStatusList = append(UpdateSongInfoStatusList, UpdateSongInfoStatus)
+	}
+	return UpdateSongInfoStatusList
+}
+func GetSourceIdAndLrcChannelBySongNameAndSinger(songName, Singer string) model.SourceIdAndChannel {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+			debug.PrintStack()
+		}
+	}()
+	sql := "select source_id,lrc_channel from song.song_info_merge_tv_test  where source = 3  and status in (1,2,-2) and song_name=? and singer=? limit 1 "
+	stmt := util.GetDbSongRead().QueryRow(sql, songName, Singer)
+	var sourceIdAndChannel model.SourceIdAndChannel
+	stmt.Scan(&sourceIdAndChannel.SourceId, &sourceIdAndChannel.LrcChannel)
+	return sourceIdAndChannel
+
+}
+
+func UpdateStatus(sourceId int) {
+	fmt.Println()
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+			debug.PrintStack()
+		}
+	}()
+	sql := " update   song.song_info_merge_tv_tmp set  status = 1 where source_id = ?"
+	stmt, err := util.DbSongTest.Prepare(sql)
+	defer stmt.Close()
+	if err != nil {
+		return
+	}
+	stmt.Exec(sourceId)
+}

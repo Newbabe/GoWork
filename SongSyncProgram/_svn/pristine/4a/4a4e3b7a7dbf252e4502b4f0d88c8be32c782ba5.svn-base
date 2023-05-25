@@ -1,0 +1,12 @@
+package action
+
+import (
+	"testing"
+)
+
+func TestTVCopyTable(t *testing.T) {
+	//service.TVCopyTable()
+	StartYoutubeTV()
+
+	//service.UpdateMergeTVSong()
+}

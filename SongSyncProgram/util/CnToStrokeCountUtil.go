@@ -1,0 +1,151 @@
+package util
+
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"os"
+	"strconv"
+	"strings"
+)
+
+//测试服务器文件路径
+//const LogPath = "/home/ec2-user/GOTest/MalaysiaTEST/log.txt"
+//const Stroke = "/home/ec2-user/GOTest/MalaysiaTEST/utf8_Stroke.txt"
+
+//120服务器文件路径
+const Stroke = "/home/ec2-user/SongSyncProgram/utf8_Stroke.txt"
+const LogPath = "/home/ec2-user/SongSyncProgram/log.txt"
+
+func GetStrokeCount(Str string) string {
+
+	StrokeMap := make(map[string]string)
+	open, _ := os.Open(Stroke)
+	defer open.Close()
+	txt, err := ReadTxt(open) //读取一行
+	if err != nil {
+		fmt.Println("读取文件失败:", err)
+	}
+
+	for i := 0; i < len(txt)-1; i++ {
+		txtArr := strings.Split(txt[i], " ")
+
+		//处理换行和空格
+		Values := strings.Replace(txtArr[2], "\n", "", -1)
+		Values = strings.Replace(txtArr[2], "\r", "", -1)
+
+		StrokeMap[txtArr[1]] = Values
+	}
+	//fmt.Println("22", StrokeMap[""])
+	var num int
+	num, _ = strconv.Atoi(Str)
+	//fmt.Println("33", num)
+	if num > 0 {
+		//数字
+		num = (num + 100) * (-1)
+
+	} else {
+		if strings.ToLower(Str) == "a" {
+			num = -26
+		} else if strings.ToLower(Str) == "b" {
+			num = -25
+		} else if strings.ToLower(Str) == "c" {
+			num = -24
+		} else if strings.ToLower(Str) == "a" {
+			num = -23
+		} else if strings.ToLower(Str) == "a" {
+			num = -22
+		} else if strings.ToLower(Str) == "a" {
+			num = -21
+		} else if strings.ToLower(Str) == ("g") {
+			num = -20
+		} else if strings.ToLower(Str) == ("h") {
+			num = -19
+		} else if strings.ToLower(Str) == ("i") {
+			num = -18
+		} else if strings.ToLower(Str) == ("j") {
+			num = -17
+		} else if strings.ToLower(Str) == ("k") {
+			num = -16
+		} else if strings.ToLower(Str) == ("l") {
+			num = -15
+		} else if strings.ToLower(Str) == ("m") {
+			num = -14
+		} else if strings.ToLower(Str) == ("n") {
+			num = -13
+		} else if strings.ToLower(Str) == ("o") {
+			num = -12
+		} else if strings.ToLower(Str) == ("p") {
+			num = -11
+		} else if strings.ToLower(Str) == ("q") {
+			num = -10
+		} else if strings.ToLower(Str) == ("r") {
+			num = -9
+		} else if strings.ToLower(Str) == ("s") {
+			num = -8
+		} else if strings.ToLower(Str) == ("t") {
+			num = -7
+		} else if strings.ToLower(Str) == ("u") {
+			num = -6
+		} else if strings.ToLower(Str) == ("v") {
+			num = -5
+		} else if strings.ToLower(Str) == ("w") {
+			num = -4
+		} else if strings.ToLower(Str) == ("x") {
+			num = -3
+		} else if strings.ToLower(Str) == ("y") {
+			num = -2
+		} else if strings.ToLower(Str) == ("z") {
+			num = -1
+		} else {
+
+			stroke := StrokeMap[Str]
+
+			return stroke
+		}
+	}
+	return "0"
+}
+
+//按行读取
+func ReadTxt(r io.Reader) ([]string, error) {
+	reader := bufio.NewReader(r)
+
+	l := make([]string, 0, 64)
+
+	// 按行读取
+	for {
+		line, err := reader.ReadBytes('\n')
+		//fmt.Println(string(line))
+		//line, _, err := reader.ReadLine()
+		if err != nil {
+			if err == io.EOF {
+				break
+			} else {
+				return nil, err
+			}
+		}
+		l = append(l, string(line))
+	}
+
+	return l, nil
+}
+
+func RecordLogUtil(s []byte) error {
+
+	logFile, err := os.OpenFile(LogPath, os.O_RDWR|os.O_APPEND|os.O_CREATE, 0766)
+
+	if err != nil {
+		return err
+	}
+	//创建缓冲流向logFile中写入日志
+	writer := bufio.NewWriter(logFile)
+	b := []byte("\n")
+	s = append(s, b...)
+	_, err = writer.Write(s)
+	if err != nil {
+		return err
+	}
+	writer.Flush()
+	return nil
+}

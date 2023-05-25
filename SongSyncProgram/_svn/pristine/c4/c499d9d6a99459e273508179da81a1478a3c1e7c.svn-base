@@ -1,0 +1,14 @@
+package util
+
+func URDUtil(sql string, parameterList ...any) (int, error) {
+
+	stmt, err := GetDbSongTest().Prepare(sql)
+	defer stmt.Close()
+	exec, err := stmt.Exec(parameterList...)
+	if err != nil {
+		return 0, err
+	}
+	i, _ := exec.RowsAffected()
+	return int(i), nil
+
+}

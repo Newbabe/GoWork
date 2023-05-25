@@ -1,0 +1,122 @@
+package service
+
+import (
+	"SongSyncProgram/dao"
+	"SongSyncProgram/util"
+	"bufio"
+	"fmt"
+	"os"
+	"strconv"
+	"testing"
+)
+
+func TestUpdateDoremiUpdateTimeAndFile(t *testing.T) {
+	mp3Dir := Path + "youtube_tv_mp3/"
+	//判断目录是否存在不存在创建目录
+	exists, _ := PathExists(mp3Dir)
+	if !exists {
+		err := os.Mkdir(mp3Dir, 0666)
+		if err != nil {
+			fmt.Println("创建mp3DirFile路径异常")
+			return
+		}
+	}
+	sourceId := 34249
+	mp3FileName := mp3Dir + strconv.Itoa(sourceId) + ".mp3"
+
+	doremiLogin := dao.GetDoremiLogin2()
+
+	//下载mp3
+	result := dao.DownloadMp3(doremiLogin, sourceId)
+
+	if result.Code == 403 {
+		doremiLogin = dao.GetDoremiLogin()
+		result = dao.DownloadMp3(doremiLogin, sourceId)
+	}
+	mp3Bytes := util.DownLoadFromUrl(string(result.Bytes))
+	if mp3Bytes.Code == 200 { //歌曲正常下载了才存入服务器中
+		//创建MP3文件
+		mp3file, err := os.Create(mp3FileName)
+		if err != nil {
+			fmt.Println("创建文件异常", err)
+		}
+		defer mp3file.Close()
+		if err != nil {
+			return
+		}
+		NewWriter := bufio.NewWriter(mp3file)
+		NewWriter.Write(mp3Bytes.Bytes)
+		NewWriter.Flush()
+	}
+
+}
+
+func TestUploadS3(t *testing.T) {
+	mp3Dir := Path + "youtube_tv_mp3/"
+	//url := "/YTsong_test/"//亚马逊路径
+	//读取服务器的文件写入亚马逊数据库\
+	sourceId := 10004364
+	mp3FileName := mp3Dir + strconv.Itoa(sourceId) + ".mp3"
+	doremiLogin := dao.GetDoremiLogin2()
+	result := dao.DownloadMp3(doremiLogin, sourceId)
+	mp3Bytes := util.DownLoadFromUrl(string(result.Bytes))
+	fmt.Println("下载状态码", mp3Bytes.Code)
+	UploadS3(mp3Bytes, mp3FileName)
+
+}
+
+func TestReadSongStructure(t *testing.T) {
+	doremiLogin := dao.GetDoremiLogin2()
+	sourceId := 10812
+	lrc2 := dao.DownloadStructLrc(doremiLogin, sourceId, 2)
+	fmt.Println("json", string(lrc2.Bytes))
+	c2 := util.ReadSongStructure(lrc2.Bytes)
+	fmt.Println("c2", c2)
+	fmt.Println("汉字")
+}
+
+func TestUploadLrc(t *testing.T) {
+	lrcDir := Path + "youtube_struct_lyrics/"
+	//判断路径是否存在
+	pathExists, _ := PathExists(lrcDir)
+	if !pathExists { //如果不存在就创建目录
+		err := os.Mkdir(lrcDir, 0766)
+		if err != nil {
+			fmt.Println("创建mp3DirFile路径异常")
+			return
+		}
+	}
+
+	doremiLogin := dao.GetDoremiLogin2()
+	sourceId := 10812
+	lrc2 := dao.DownloadStructLrc(doremiLogin, sourceId, 2)
+	if string(lrc2.Bytes) != "" && len(string(lrc2.Bytes)) > 0 {
+		fileName := lrcDir + strconv.Itoa(sourceId) + ".lrc"
+		//此处是判断亚马逊服务器文件是否存在【】
+		fileExit := util.ExistS3SongFile(fileName)
+		if fileExit {
+			return
+		}
+		S3YoutubeStructLrcFile(lrc2, fileName)
+		clip1 := util.ReadSongStructure(lrc2.Bytes)
+		fmt.Println("ccc", clip1)
+
+	}
+}
+
+/*//测试修复歌词文部分
+func TestSong(t *testing.T) {
+	SongMap := GetSongIdSngVersionLrcVersionBySourceId(sourceId)
+	if SongMap["id"] != "" {
+		songIdStr := SongMap["id"]
+		songVersionStr := SongMap["songVersion"]
+		lrcVersionStr := SongMap["lrcVersion"]
+		songId, _ := strconv.Atoi(songIdStr)
+		songVersion, _ := strconv.Atoi(songVersionStr)
+		lrcVersion, _ := strconv.Atoi(lrcVersionStr)
+		dao.Save(songId, sourceId, doremiSong.YoutubeSongType, songVersion, lrcVersion, doremiSong.LrcChannel)
+	} else {
+		fmt.Println("songId等于null:", sourceId)
+	}
+}
+*/

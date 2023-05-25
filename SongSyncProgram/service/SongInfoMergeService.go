@@ -1,0 +1,478 @@
+package service
+
+import (
+	"SongSyncProgram/dao"
+	"SongSyncProgram/model"
+	"SongSyncProgram/util"
+	"fmt"
+	"github.com/ozgio/strutil"
+	"github.com/tidwall/gjson"
+	"strconv"
+	"time"
+)
+
+func CopyTable() {
+	//创建当天的备份表并将song_info_merge中的数据复制进去
+	//正式数据库测试表
+	songInfoMerge := "song_info_merge" + suffix
+	BackupTableName := "song_info_merge_" + util.GetNowData() + suffix
+	//dao.CreateBackupTable(songInfoMerge, BackupTableName)
+	dao.CreateBackupTable(songInfoMerge, BackupTableName)
+	//清除临时表的数据
+	songInfoMergeTmp := "song_info_merge_tmp" + suffix
+	//fmt.Println("songInfoMerge:", songInfoMerge, "BackupTableName:", BackupTableName, "songInfoMergeTmp:", songInfoMergeTmp)
+	//dao.RemoveTmpTableData(songInfoMergeTmp)
+	dao.RemoveTmpTableData(songInfoMergeTmp)
+	//把正式表的数据赋值到临时表中【临时测试表】
+	//dao.TransferDataBToA(songInfoMergeTmp, songInfoMerge)
+	dao.TransferDataBToA(songInfoMergeTmp, songInfoMerge)
+
+}
+
+// 修改临时表数据状态
+func UpdateMergeTmpStatus() {
+	//将youtube歌曲status=1的修改为-1
+	/*i :=*/
+	dao.UpdateYoutubeStatus("song_info_merge_tmp"+suffix, 1, -1) //[将此步骤注掉]go程序做了优化没有更新的数据不做处理
+	//将youtube歌曲status=2的修改为-99
+	//num := dao.UpdateYoutubeStatus("song_info_merge_tmp"+suffix, -2, -99)
+	/*num := */
+	dao.UpdateYoutubeStatus("song_info_merge_tmp"+suffix, -2, -99)
+
+	//fmt.Println("受影响行数", num)
+
+}
+
+// 获取表中已存在的数据
+func SelectSongInfoMerge() []model.SongInfoMerger {
+	return dao.SelectSongInfoMerge("song_info_merge" + suffix)
+}
+
+// UpdateAllTables 更新表数据
+/*
+1.用临时表的数据创建新的表song_info_merge2
+2.给表song_info_merge2添加主键和索引
+String sqlPrimary = "ALTER TABLE `song_info_merge2` MODIFY COLUMN `id` int(11) NOT NULL AUTO_INCREMENT FIRST ,ADD PRIMARY KEY (`id`) ";
+		String sqlPrimary2 = "ALTER TABLE `song_info_merge2` ADD UNIQUE source_id( `source_id`,`source`)";
+		String sqlPrimary3 = "ALTER TABLE `song_info_merge2` ADD INDEX singer  ( `singer` )";
+		String sqlPrimary4 = "ALTER TABLE `song_info_merge2` ADD INDEX status ( `status` )";
+		String sqlPrimary5 = "ALTER TABLE `song_info_merge2` ADD INDEX dossier_name ( `dossier_name` )";
+		String sqlPrimary6 = "ALTER TABLE `song_info_merge2` ADD INDEX source_status ( `source`,`status` )";
+		String sqlPrimary7 = "ALTER TABLE `song_info_merge2` ADD FULLTEXT song_name ( `song_name` )";
+3.更新song_info_merge2的数据
+4.修改song_info_merge2数据状态
+5.删除song_info_merge表
+6.将song_info_merge2表名改为song_info_merge
+7.删除三天前的备份表
+8.删除song_info_youtube_info的Id字
+9.song_info_youtube_info表添加id字段且主键自增
+10.除song_info_youtube_info_check的Id字段
+11.song_info_youtube_info_check表添加id字段且主键自增
+
+*/
+func UpdateAllTables() {
+	songInfoMergeTmp := "song_info_merge_tmp" + suffix
+	songInfoMerge2 := "song_info_merge2" + suffix
+	//1用临时表的数据创建新的表song_info_merge2
+	dao.CreateBackupTable(songInfoMergeTmp, songInfoMerge2)
+	//2.给表song_info_merge2添加主键和索引
+	dao.AddSongInfoMerge2PrimaryKey(songInfoMerge2)
+	dao.AddSongInfoMerge2UNIQUEIndex(songInfoMerge2)
+	dao.AddSongInfoMerge2Index(songInfoMerge2, "singer")
+	dao.AddSongInfoMerge2Index(songInfoMerge2, "status")
+	dao.AddSongInfoMerge2Index(songInfoMerge2, "dossier_name")
+	dao.AddSongInfoMerge2Index2(songInfoMerge2, "source_status")
+	dao.AddSongInfoMerge2FULLTEXTIndex(songInfoMerge2, "song_name")
+
+	//3.更新song_info_merge2的数据
+	dao.UpdateSongInfoMerge2Data(songInfoMerge2, songInfoMergeTmp)
+	//4.更新song_info_merge2数据状态
+	dao.UpdateSongInfoMerge2Status(songInfoMerge2)
+	//5.删除song_info_merge表
+	//正式数据库测试不能删除[删除正式数据库的测试表]
+	songINfoMerge := "song_info_merge" + suffix
+	dao.DelTable(songINfoMerge)
+	//6.将song_info_merge2表名改为song_info_merge
+	dao.UpdateTableName(songINfoMerge, songInfoMerge2)
+	//7.删除三天前的备份表
+	//获取三天前的时间
+	oldBackupsTable := "song_info_merge_" + util.GetNowData2() + suffix
+	//fmt.Println("oldBackupsTable", oldBackupsTable)
+	dao.IfExistsDelTable(oldBackupsTable)
+	//8.删除song_info_youtube_info的Id字
+	dao.DeleteIdByTableName("song_info_youtube_info")
+	//9.song_info_youtube_info表添加id字段且主键自增
+	dao.AddIdByTableName("song_info_youtube_info")
+	//10.除song_info_youtube_info_check的Id字段
+	dao.DeleteIdByTableName("song_info_youtube_info_check")
+	//11.song_info_youtube_info_check表添加id字段且主键自增
+	dao.AddIdByTableName("song_info_youtube_info_check")
+}
+
+func AddYoutubeSong() {
+
+	/*
+		判断备份表是否存在如果存在就删除
+		复制当前表数据到备份表【把当前表备份一份存在一天】
+		操作当前表
+	*/
+	dao.IfExistsDelTableTestDb("song_info_youtube_info_backup")
+	dao.CreateBackupTableTestDb("song_info_youtube_info", "song_info_youtube_info_backup")
+	ClearYoutubeOffest() //【正式服务器运行记得修改数据库链接】
+	SongInfoMergeList := SelectSongInfoMerge()
+	songUrl := "https://api.karadoremi.net/api/song/get_song_list_by_tag.php"
+	pageSize := 1000
+	//记录api中所有的上线歌曲
+	//onlineSongMap := make(map[int]string)
+	var num int
+	for page := 0; page < 20; page++ {
+		/*if page == 2 {
+			break
+		}*/
+		//t1 := time.Now().UnixNano() / 1e6
+		songParam := "device_id=999&platform=8&client_version=0.0.0&service=3&song_tag_id=-1&song_learn_material=4&page=" + strconv.Itoa(page) + "&page_size=" + strconv.Itoa(pageSize)
+		result := util.HttpsPost(songUrl, []byte(songParam))
+		jsonString := string(result.Bytes)
+		//处理得到的数据
+		status := gjson.Get(jsonString, "status").String()
+		//判断请求是否成功
+		if status != "success" { //如果请求退出循环
+			break
+		}
+		array := gjson.Get(jsonString, "song_list").Array()
+		if len(array) == 0 {
+			break
+		}
+		//循环songList
+		for _, SongJson := range array {
+
+			//查询表中是否存在改sourceId对应的数据
+			//	t2 := time.Now().UnixNano() / 1e6
+			var exist bool
+			var existSongInfoMerge model.SongInfoMerger
+			sourceIdStr := GetInt("song_id", SongJson.String())
+			sourceId, _ := strconv.Atoi(sourceIdStr)
+			//	onlineSongMap[sourceId] = strconv.Itoa(sourceId)
+			exist, existSongInfoMerge = GetIsExt(SongInfoMergeList, sourceId)
+
+			TableLastUpdateTime := GetLasUpdateTimeBySourceId(sourceId)
+			youtubeId := GetString("youtube_video_id", SongJson.String())
+			videoStartTimeOffset := GetString("youtube_video_start_time_offset", SongJson.String())
+			AddSongInfoYoutubeInfo(sourceId, youtubeId, videoStartTimeOffset)
+			lastUpdateDate := GetString("last_update_date", SongJson.String())
+			//将从页面获取的时间改为CST【中国时间】时间
+			loc, err := time.LoadLocation("Local")
+			lastUpdateTime, err := time.ParseInLocation("2006-01-02 15:04:05", lastUpdateDate, loc)
+			if err != nil {
+				return
+			}
+			var tableFlage int
+			/*
+				tableFlage 为1 添加表数据
+				tableFlage 为2 更新表数据表数据
+			*/
+			if TableLastUpdateTime.IsZero() { //判断获取到的时间是否是为空如果为空就添加数据
+				//	fmt.Println("sourceId", sourceId)
+				tableFlage = 1
+			} else {
+				if TableLastUpdateTime.Before(lastUpdateTime) {
+					/*fmt.Println("TableLastUpdateTime", TableLastUpdateTime)
+					fmt.Println("lastUpdateTime", lastUpdateTime)*/
+					tableFlage = 2
+				} else if TableLastUpdateTime == lastUpdateTime { //如果表中存在数据就判断数据改歌曲的lastupdate时间与页面获取的时间是或否一致如果一一致接跳出循环
+					tableFlage = 3
+				}
+			}
+			//	fmt.Println("tableFlage", tableFlage)
+			if tableFlage == 3 { //如果是3说明改歌曲没有修改和下架【需要把该歌曲的状态改为上架状态】
+				dao.UpdateYoutubeStatus2("song_info_merge_tmp"+suffix, 1, sourceId)
+				continue
+			}
+			SongInfoMergeTmp := getTheSongData(SongJson, exist)
+			/*if ISSourceId(sourceId) {
+				fmt.Println("打印测试数据", SongInfoMergeTmp)
+			}*/
+			//这些数据在上面以获取无需二次获取
+			SongInfoMergeTmp.SourceId = sourceId
+			SongInfoMergeTmp.DossierName = youtubeId
+			SongInfoMergeTmp.UpdateTime = lastUpdateDate
+			if exist { //如果存在就用已存在的信息
+				//在曲库表已存在的歌曲进行更新操作
+				//获取最后更新时间表的时间与从页面获取到的最后更新时间做对比
+				if tableFlage == 1 { //表中没有改SourceId的数据就添加该数据
+
+					AddLasUpdateTime(sourceId, lastUpdateDate)
+					/*新增逻辑当last_update_time表里面没有数据的情况下也会更新数据*/
+					oldStatus := existSongInfoMerge.Status
+					updateStatus := 1
+					if oldStatus == 1 || oldStatus == -1 || oldStatus == -99 {
+						if oldStatus == -99 {
+							updateStatus = -2
+						} else {
+							updateStatus = oldStatus
+						}
+					}
+					SongInfoMergeTmp.Status = updateStatus
+					SongInfoMergeTmp.SongSize = existSongInfoMerge.SongSize
+					SongInfoMergeTmp.LrcSize = existSongInfoMerge.LrcSize
+					SongInfoMergeTmp.LrcSize2 = existSongInfoMerge.LrcSize2
+					if lastUpdateTime.Before(existSongInfoMerge.UpdateTime) { //如果当前时间在修改时间之前
+						SongInfoMergeTmp.UpdateTime = existSongInfoMerge.UpdateTime.Format("2006-01-02 15-04-05")
+					} else {
+						SongInfoMergeTmp.Status = 1
+					}
+					num = UpdateSongInfoMergeTmp(SongInfoMergeTmp, num)
+					fmt.Println("修改的数据", SongInfoMergeTmp)
+				} else if tableFlage == 2 { //表中没有改SourceId的数据就添加该数据
+					UpdateLasUpdateTime(sourceId, lastUpdateDate)
+					oldStatus := existSongInfoMerge.Status
+					updateStatus := 1
+					if oldStatus == 1 || oldStatus == -1 || oldStatus == -99 {
+						if oldStatus == -99 {
+							updateStatus = -2
+						} else {
+							updateStatus = oldStatus
+						}
+					}
+					SongInfoMergeTmp.Status = updateStatus
+					SongInfoMergeTmp.SongSize = existSongInfoMerge.SongSize
+					SongInfoMergeTmp.LrcSize = existSongInfoMerge.LrcSize
+					SongInfoMergeTmp.LrcSize2 = existSongInfoMerge.LrcSize2
+					if lastUpdateTime.Before(existSongInfoMerge.UpdateTime) { //如果当前时间在修改时间之前
+						SongInfoMergeTmp.UpdateTime = existSongInfoMerge.UpdateTime.Format("2006-01-02 15-04-05")
+					} else {
+						SongInfoMergeTmp.Status = 1
+					}
+					num = UpdateSongInfoMergeTmp(SongInfoMergeTmp, num)
+					fmt.Println("修改的数据", SongInfoMergeTmp)
+				} else {
+					continue
+				}
+			} else {
+				/*2022年10月11日 在添加数据前
+				1、通过歌手歌名查询临时表中 歌曲的数据
+				2、判断谁否存在该歌曲的旧数据
+				3、如果存在判断是否为上线状态
+				4、如果是上线状态 就修改旧的歌曲状态改为下架状态
+				*/
+				songInfoList := PhoneGetSongInfoBySongNameAndSinger(SongInfoMergeTmp.SongName, SongInfoMergeTmp.Singer)
+				if len(songInfoList) > 0 {
+					for _, songInfoMap := range songInfoList {
+						if songInfoMap["status"] == 1 { //如果存在上线歌曲就使其下架
+							PhoneUpdateOldSongStatue(songInfoMap["songId"])
+						}
+					}
+				}
+
+				num = AddSongInfoMergeTmp(SongInfoMergeTmp, num)
+				fmt.Println("添加的数据", SongInfoMergeTmp)
+				//临时表添加成功后将歌曲的sourceId和lastUpdatertime存入表中
+				if tableFlage == 1 { //表中没有改SourceId的数据就添加该数据
+					AddLasUpdateTime(sourceId, lastUpdateDate)
+				} else if tableFlage == 2 {
+					UpdateLasUpdateTime(sourceId, lastUpdateDate)
+				}
+			}
+		}
+	}
+	UpdateFinallyTmp()
+	/*sourceIdMap := SongWasTakenDown(onlineSongMap, SongInfoMergeList)
+	var number int
+	for sourceId := range sourceIdMap {
+		number += dao.UpdateYoutubeStatus2("song_info_merge_tmp"+suffix, 1, sourceId)
+	}
+	fmt.Println("下架歌曲数量", number)*/
+	fmt.Println("操作数据总条数", num)
+
+}
+func AddSongInfoMergeTmp(SongInfoMerge model.SongInfoMergeTmp, num int) int {
+	songInfoMergeTmp := "song_info_merge_tmp" + suffix
+	return dao.AddSongInfoMergeTmp(songInfoMergeTmp, SongInfoMerge, num)
+}
+
+func UpdateSongInfoMergeTmp(tmp model.SongInfoMergeTmp, num int) int {
+	songInfoMergeTmp := "song_info_merge_tmp" + suffix
+	return dao.UpdateSongInfoMergeTmp(songInfoMergeTmp, tmp, num)
+}
+
+func UpdateFinallyTmp() {
+	songInfoMergeTmp := "song_info_merge_tmp" + suffix
+	dao.UpdateFinallyTmp(songInfoMergeTmp)
+}
+
+//判断出已下架歌曲
+
+func SongWasTakenDown(onlineSongMap map[int]string, songInfoMergeList []model.SongInfoMerger) map[int]string {
+	allMap := make(map[int]string)
+	sourceIdMap := make(map[int]string)
+	for _, info := range songInfoMergeList {
+		allMap[info.SourceId] = strconv.Itoa(info.SourceId)
+	}
+
+	for sourceId := range allMap {
+		if onlineSongMap[sourceId] != "" {
+			continue
+		} else {
+			sourceIdMap[sourceId] = strconv.Itoa(sourceId)
+		}
+	}
+
+	return sourceIdMap
+}
+
+// 返回处理后的字段以及以存在的数据和存在标志
+func getTheSongData(json gjson.Result, exist bool) model.SongInfoMergeTmp {
+	jsonStr := json.String()
+	var SongInfoMerge model.SongInfoMergeTmp
+	//t1 := time.Now().UnixNano() / 1e6
+
+	songName := GetString("song_name", jsonStr)
+	singer := GetString("singer_name", jsonStr)
+	songTimeStr := GetInt("song_time", jsonStr)
+	songTime, _ := strconv.Atoi(songTimeStr)
+	albumName := GetString("album_name", jsonStr)
+
+	/*typePinYin := pinyin.NewArgs()
+	typePinYin.Style = pinyin.FirstLetter //首字母
+	songChinesePhoneticArray := pinyin.LazyPinyin(songName, typePinYin)*/
+	//songChinesePhonetic := SongNamePinYinProcessing(songName, songChinesePhoneticArray)
+	songChinesePhonetic := SongNamePinYinProcessing2(songName)
+	//singerChinesePhoneticArray := pinyin.LazyPinyin(singer, typePinYin)
+	//singerChinesePhonetic := SongNamePinYinProcessing(singer, singerChinesePhoneticArray)
+	singerChinesePhonetic := SongNamePinYinProcessing2(singer)
+
+	/*	t3 := time.Now().UnixNano() / 1e6
+		fmt.Println("拼音处理", t3-t2, "毫秒")*/
+	hasLrcStr := GetInt("has_lrc", jsonStr)
+	hasLrc, _ := strconv.Atoi(hasLrcStr)
+	duetModeEnabled := GetInt("duet_mode_enabled", jsonStr)
+	var lrcSize int
+	var lrc2Size int
+	lrcSize, lrc2Size, hasLrc = getLrcSizeAndLrc2Size(hasLrc, duetModeEnabled)
+	languageStr := GetInt("language", jsonStr)
+	language := getLanguage(languageStr)
+	sexTag := GetInt("song_tag", jsonStr)
+	sex := getSex(sexTag)
+
+	songIndex := GetString("song_index", jsonStr)
+	singerIndex := GetString("singer_index", jsonStr)
+	//albumIndex := getString("album_index", jsonStr)
+	songPhoneticIndex := GetString("song_phonetic_index", jsonStr)
+	singerPhoneticIndex := GetString("singer_phonetic_index", jsonStr)
+	//albumPhoneticIndex := getString("album_phonetic_index", jsonStr)
+	/*t4 := time.Now().UnixNano() / 1e6
+	fmt.Println("获取字段2用时", t4-t3, "毫秒")*/
+	keyword := getKeyWord(songIndex, singerIndex, songPhoneticIndex, singerPhoneticIndex)
+	/*	t5 := time.Now().UnixNano() / 1e6
+		fmt.Println("keyword用时", t5-t4, "毫秒")*/
+	YouTubeSongType := getYouTubeSongType(songName)
+
+	SongInfoMerge.Source = 3
+
+	SongInfoMerge.WordPart = GetWordPart(songName)
+	/*t6 := time.Now().UnixNano() / 1e6
+	fmt.Println("WordPart用时", t6-t5, "毫秒")*/
+	SongInfoMerge.SongName = songName
+
+	//	fmt.Println("flag2", exist)
+	/*t9 := time.Now().UnixNano() / 1e6
+	fmt.Println(exist, "是否存在用时", t9-t6, "毫秒")*/
+	if !exist { //如果时不存在的歌曲就给新歌曲获取注音
+		//	fmt.Println("需要获取注音的SongName和Singer", songName, singer)
+		SongInfoMerge.SongNamePhonetic = GetZhuYinNew(songName)
+		SongInfoMerge.SingerNamePhonetic = GetZhuYinNew(singer)
+	} else {
+		SongInfoMerge.SongNamePhonetic = ""
+		SongInfoMerge.SingerNamePhonetic = ""
+	}
+	/*t7 := time.Now().UnixNano() / 1e6
+	fmt.Println("GetZhuYin用时", t7-t9, "毫秒")*/
+	SongInfoMerge.Singer = singer
+	SongInfoMerge.Album = albumName
+	SongInfoMerge.LineWriter = ""
+	SongInfoMerge.SongWrite = ""
+	SongInfoMerge.Gender = sex
+	SongInfoMerge.Lang = language
+	SongInfoMerge.Year = 2018
+
+	SongInfoMerge.IsDuet = getIsDuet(duetModeEnabled)
+	SongInfoMerge.SongSize = 0
+	SongInfoMerge.LrcSize = lrcSize
+	SongInfoMerge.BackgroundImageSize = "0"
+	SongInfoMerge.IconSize = 0
+	SongInfoMerge.SongTime = songTime
+	SongInfoMerge.Status = 1
+	LrcType := hasLrc
+	SongInfoMerge.LrcType = LrcType
+
+	SongInfoMerge.Intonation = 1
+	SongInfoMerge.CreateDate = util.GetNowTime()
+	SongInfoMerge.MvSize = 0
+	SongInfoMerge.SongPath = "youtube"
+	firstNameStr, _ := strutil.Substring(songName, 0, 1)
+	firstSingerStr, _ := strutil.Substring(singer, 0, 1)
+	SongInfoMerge.SongNameStrokeNum = util.GetStrokeCount(firstNameStr)
+	SongInfoMerge.SingerStrokeNum = util.GetStrokeCount(firstSingerStr)
+	SongInfoMerge.SongNameSimple = util.Transform(songName, "zh-Hans")
+	SongInfoMerge.SingerSimple = util.Transform(singer, "zh-Hans")
+	SongInfoMerge.SongVersion = "1"
+	SongInfoMerge.LrcVersion = "1"
+	SongInfoMerge.LrcChannel = getChannel(sexTag)
+	SongInfoMerge.LrcSize2 = lrc2Size
+	SongInfoMerge.SongChinesePhonetic = songChinesePhonetic
+	SongInfoMerge.SingerChinesePhonetic = singerChinesePhonetic
+	SongInfoMerge.SearchWord = keyword
+	SongInfoMerge.YouTubeSongType = YouTubeSongType
+	/*t8 := time.Now().UnixNano() / 1e6
+	fmt.Println("赋值用时", t8-t7, "毫秒")*/
+	return SongInfoMerge
+}
+
+func ISSourceId(sourceId int) bool {
+	sourceIdLIst := []int{34880, 34881, 34882, 34889, 34890, 34891, 34896}
+	//34809,34808,34807, 34798,34797, 34794,34793,34759,34644,34643,
+	//34593, 34589, 4448 34588, 34480,27951,18241,16754,
+
+	for _, i2 := range sourceIdLIst {
+		if i2 == sourceId {
+			return true
+
+		}
+	}
+	return false
+}
+
+func GetLasUpdateTimeBySourceId(sourceId int) time.Time {
+	return dao.GetLasUpdateTimeBySourceId(sourceId)
+}
+func AddLasUpdateTime(sourceId int, lastUpdateTime string) {
+	dao.AddLasUpdateTime(sourceId, lastUpdateTime)
+}
+func UpdateLasUpdateTime(sourceId int, lastUpdateTime string) {
+	dao.UpdateLasUpdateTime(sourceId, lastUpdateTime)
+}
+func GetSongIdSngVersionLrcVersionBySourceId(sourceId int) map[string]string {
+	songInfoMerge := "song_info_merge" + suffix
+	return dao.GetSongIdSngVersionLrcVersionBySourceId(songInfoMerge, sourceId)
+}
+
+func GetSongNameAndSingerBySongInfoMergeSourceId(sourceId int) model.IdSongNameSinger {
+	songInfoMerge := "song_info_merge_test"
+	return dao.GetSongNameAndSingerBySongInfoMergeSourceId(songInfoMerge, sourceId)
+}
+func UpdatePhone(sourceId, lrcSize1, lrcSize2, songSize, songVersion int) {
+	dao.UpdatePhone("song_info_merge"+suffix, sourceId, lrcSize1, lrcSize2, songSize, songVersion)
+}
+
+func GetSongInfoMergeBySongNameAndSinger(songName, singer string) []int {
+	return dao.GetSongInfoMergeBySongNameAndSinger("song_info_merge"+suffix, songName, singer)
+}
+
+func PhoneGetSongInfoBySongNameAndSinger(songName, singer string) []map[string]int {
+	tableName := "song_info_merge_tmp"
+	return dao.GetSongInfoBySongNameAndSinger(songName, singer, tableName)
+}
+func PhoneUpdateOldSongStatue(songId int) {
+	tableName := "song_info_merge_tmp"
+	dao.UpdateOldSongStatue(songId, tableName)
+}

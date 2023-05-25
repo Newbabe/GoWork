@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbb516ee-320b-440a-b90f-83ea79c4be34" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/SongSyncProgram_9034_linux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/action/SongSyncProgram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/action/StartYoutubeMalysiaAction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/AutomaticUpdateLogTvDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/LastUpdateTimeMalysiaDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/SongInfoMergeDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/SongInfoMergeTmpDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/SongInfoYoutubeInfoDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/TableDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaDao/TwSongInfoMergeTVDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaService/StartYoutubeMalysiaService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malysiaService/StartYoutubeMalysiaService_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/UpdateDoremiUpdateTimeAndFileService_test.go_cxp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/songInfoMergeTvService_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/TimeUtil.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://E:/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BsPHFKCQ2jFyssBOvpGI1Uwtc8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;&lt;databases&gt;&lt;list&gt;&lt;schema-mapping-item&gt;&lt;source-data-source-id&gt;e2367bef-46a2-49f2-bbf9-3d90066db4a6&lt;/source-data-source-id&gt;&lt;source-path&gt;schema/\&quot;song\&quot;&lt;/source-path&gt;&lt;target-data-source-id&gt;ab9fb584-7dfc-42e3-8835-4b7ed68aee27&lt;/target-data-source-id&gt;&lt;target-path&gt;schema/\&quot;song\&quot;&lt;/target-path&gt;&lt;/schema-mapping-item&gt;&lt;schema-mapping-item&gt;&lt;source-data-source-id&gt;ab9fb584-7dfc-42e3-8835-4b7ed68aee27&lt;/source-data-source-id&gt;&lt;source-path&gt;schema/\&quot;song\&quot;&lt;/source-path&gt;&lt;target-data-source-id&gt;d62e38ab-5b72-471b-9bc8-66340cdbcfd4&lt;/target-data-source-id&gt;&lt;target-path&gt;schema/\&quot;song\&quot;&lt;/target-path&gt;&lt;/schema-mapping-item&gt;&lt;/list&gt;&lt;/databases&gt;&lt;/schema-mapping&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CengXingPeng&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redshift&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GO\src\SongSyncProgram\util" />
+      <recent name="D:\GO\pkg\mod\github.com\stevenyao\go-opencc@v0.0.0-20161014062826-cc376a51b65e\test" />
+      <recent name="D:\GO\src\SongSyncProgram" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GO\src\SongSyncProgram\MalysiaService" />
+      <recent name="D:\GO\src\SongSyncProgram\service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.SongSyncProgram_9034">
+    <configuration name="MalaysiaTest" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <option name="run" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SongSyncProgram_9034" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <option name="run" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MalaysiaTest" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$/malysiaService" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram/malysiaService" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestEndTable\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SongSyncProgram_9034" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="DIRECTORY" />
+      <package value="SongSyncProgram" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAddSongInfoMergeTmp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$/malysiaService" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram/malysiaService" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestAddSongInfoMergeTmp\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAddYoutubeSongDb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$/malysiaService" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram/malysiaService" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestAddYoutubeSongDb\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEndTable" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$/malysiaService" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram/malysiaService" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestEndTable\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUpdateMergeSongDb" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="SongSyncProgram" />
+      <working_directory value="$PROJECT_DIR$/malysiaService" />
+      <envs>
+        <env name="CGO_ENABLED" value="0" />
+        <env name="GOARCH" value="amd64" />
+        <env name="GOOS" value="linux" />
+      </envs>
+      <kind value="PACKAGE" />
+      <package value="SongSyncProgram/malysiaService" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <output_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestUpdateMergeSongDb\E$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go 构建.SongSyncProgram_9034" />
+      <item itemvalue="Go 构建.MalaysiaTest" />
+      <item itemvalue="Go 测试.SongSyncProgram_9034" />
+      <item itemvalue="Go 测试.TestEndTable" />
+      <item itemvalue="Go 测试.MalaysiaTest" />
+      <item itemvalue="Go 测试.TestAddSongInfoMergeTmp" />
+      <item itemvalue="Go 测试.TestAddYoutubeSongDb" />
+      <item itemvalue="Go 测试.TestUpdateMergeSongDb" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 测试.MalaysiaTest" />
+        <item itemvalue="Go 测试.TestEndTable" />
+        <item itemvalue="Go 测试.TestAddYoutubeSongDb" />
+        <item itemvalue="Go 测试.TestUpdateMergeSongDb" />
+        <item itemvalue="Go 测试.TestAddSongInfoMergeTmp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://E:/Go/src/crypto/tls/common.go</url>
+          <line>638</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dao/SongInfoMergeDao.go</url>
+          <line>178</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/util/TimeUtil.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/UpdateDoremiUpdateTimeAndFileService_test.go_cxp</url>
+          <line>38</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dao/SongInfoMergeTvDao.go</url>
+          <line>182</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dao/SongInfoMergeTvDao.go</url>
+          <line>474</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dao/SongInfoMergeTvDao.go</url>
+          <line>498</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dao/SongInfoMergeTvDao.go</url>
+          <line>483</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/songInfoMergeTvService.go</url>
+          <line>149</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/action/StartYoutubeTVAction.go</url>
+          <line>46</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/UpdateDoremiUpdateTimeAndFileService.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/malysiaService/StartYoutubeMalysiaService_test.go</url>
+          <line>48</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/util/CnToStrokeCountUtil.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+package service
+
+import "SongSyncProgram/dao"
+
+func GetSongClipInfoDaoBySongId(songId int) int {
+	return dao.GetSongClipInfoDaoBySongId(songId)
+}
+func SaveSongClipInfo(songId int, SongName, clip1, clip2 string) {
+	dao.SaveSongClipInfo(songId, SongName, clip1, clip2)
+}
+func UpdateSongClipInfo(songId int, SongName, clip1, clip2 string) {
+	dao.UpdateSongClipInfo(songId, SongName, clip1, clip2)
+
+}

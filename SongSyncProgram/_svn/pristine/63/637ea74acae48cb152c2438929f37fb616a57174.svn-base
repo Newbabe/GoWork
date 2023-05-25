@@ -1,0 +1,60 @@
+package dao
+
+import (
+	"SongSyncProgram/model"
+	"SongSyncProgram/util"
+	"fmt"
+	"runtime/debug"
+)
+
+func GetDoremiUpdateTime() []model.DoremiUpdateTime {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+			debug.PrintStack()
+		}
+	}()
+	sql := "SELECT `source_id`,`update_time` FROM song.doremi_last_update_date"
+	query, err := util.DbSongTest.Query(sql)
+	if err != nil {
+		panic(err)
+
+	}
+	var DoremiUpdateTimeList []model.DoremiUpdateTime
+	for query.Next() {
+		var DoremiUpdateTime model.DoremiUpdateTime
+		query.Scan(&DoremiUpdateTime.SourceId, &DoremiUpdateTime.UpdateTime)
+		DoremiUpdateTimeList = append(DoremiUpdateTimeList, DoremiUpdateTime)
+	}
+	return DoremiUpdateTimeList
+}
+
+func UpdatelastUpdate(sourceId int, updateTime string) {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+			debug.PrintStack()
+		}
+	}()
+	sql := "UPDATE song.doremi_last_update_date SET `update_time` = ? WHERE `source_id`= ? "
+	stmt, err := util.GetDbSongTest().Prepare(sql)
+	defer stmt.Close()
+	if err != nil {
+		panic(err)
+		return
+	}
+	exec, err := stmt.Exec(updateTime, sourceId)
+	if err != nil {
+		panic(err)
+		return
+	}
+	affected, _ := exec.RowsAffected()
+	if affected <= 0 {
+		sql = "INSERT INTO song.`doremi_last_update_date` (`source_id`, `update_time`) VALUES(?,?)"
+		insert, err := util.GetDbSongTest().Prepare(sql)
+		if err != nil {
+			panic(err)
+		}
+		insert.Exec(sourceId, updateTime)
+	}
+}

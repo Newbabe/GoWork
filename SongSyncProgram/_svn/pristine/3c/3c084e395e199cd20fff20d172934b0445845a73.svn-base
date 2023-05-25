@@ -1,0 +1,328 @@
+package main
+
+import (
+	"SongSyncProgram/action"
+	"SongSyncProgram/dao"
+	"SongSyncProgram/model"
+	"SongSyncProgram/service"
+	"SongSyncProgram/util"
+	"fmt"
+	"github.com/mozillazg/go-pinyin"
+	"github.com/tidwall/gjson"
+	"runtime/debug"
+	"strconv"
+	"strings"
+	"time"
+)
+
+func main() {
+	action.StartYoutubePhone()
+	action.StartYoutubeTV()
+
+}
+
+func TestAddLog() {
+	//35323
+	/*
+			34585
+			34586
+			34665
+			34653
+		35323, 34409, 34410, 34711, 35324
+	*/
+	//34711, 35324 可以正常下载的歌曲
+	//35323 mp3下载异常 歌词文件正常下载
+	sourceIdLList := []int{35323, 34409, 34410, 34711, 35324, 347111, 353244}
+	doremiNewUpdateTimeMap := make(map[int]model.DoremiSong)
+	for _, sourceId := range sourceIdLList {
+
+		DoremiUpdateTime := time.Time{}
+		lastUpdateDate := service.GetLasUpdateTimeTvBySourceId(sourceId)
+		lrcChannel, YoutubeSongTyp, isDuet := GetSongInfoMergeBySourceId(sourceId)
+		//if DoremiUpdateTime.IsZero() {
+		//改歌曲ID在DoremiUpdateTime表不存在时间信息或者改歌曲的最后修改时间有改动
+		//3是左伴右唱，7是纯伴奏
+		//if lrcChannel == 3 || lrcChannel == 7 {【测试能否成功下载并上传不需要判断】
+		fmt.Println("备源进来了<time>", DoremiUpdateTime, "<lastUpdateDate>", lastUpdateDate, "<sourceId>", sourceId)
+		var DoremiSong model.DoremiSong
+		DoremiSong.SourceId = sourceId
+		if isDuet == 1 {
+			DoremiSong.Duet = true
+		}
+		DoremiSong.UpdateTime = lastUpdateDate
+		DoremiSong.LrcChannel = strconv.Itoa(lrcChannel)
+		DoremiSong.YoutubeSongType = YoutubeSongTyp
+		doremiNewUpdateTimeMap[sourceId] = DoremiSong
+		//}
+		//}
+	}
+	//更新doremi updatetime 和 doremi mp3      下载文件的平时同步的时候可注释掉
+	fmt.Println("doremiNewUpdateTimeMap大小:", len(doremiNewUpdateTimeMap))
+	if len(doremiNewUpdateTimeMap) != 0 {
+		service.UpdateDoremiUpdateTimeAndFile(doremiNewUpdateTimeMap)
+	}
+}
+
+func GetSongInfoMergeBySourceId(sourceId int) (int, int, int) {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+			debug.PrintStack()
+		}
+	}()
+
+	sql := "SELECT lrc_channel, youtube_song_type,is_duet FROM song.song_info_merge  where source=3 and status=1 and source_id=?  "
+	rows, err := util.GetDbSongRead().Query(sql, sourceId)
+	if err != nil {
+		fmt.Println("出错的sql:", sql)
+		panic(err)
+	}
+
+	var lrcChannel, youtubeSongType, isDuet int
+	for rows.Next() {
+		rows.Scan(&lrcChannel, &youtubeSongType, &isDuet)
+	}
+	return lrcChannel, youtubeSongType, isDuet
+
+}
+func main444() {
+	doremiUpdateTimeMap := service.GetDoremiLastUpdateTime()
+	for i, time := range doremiUpdateTimeMap {
+		if i == 3 {
+			break
+		}
+		fmt.Println(time)
+
+	}
+}
+func main9() {
+	fmt.Println(service.GetOriginalMidi(21))
+}
+func main55() {
+
+	//service.UpdateAllTables()
+	//service.CopyTable()
+	//t4 := time.Now().Unix()
+
+	//service.AddYoutubeSong()
+	//t5 := time.Now().Unix()
+	//fmt.Println("keyword用时", t5-t4, "秒")
+	//service.AddYoutubeSong()
+	//SongName1 := " 兒歌 (純伴奏)"
+	//SongName1 := "陪你看星星 (純伴奏)"
+	//SongName1 := "講什麼昨暝歹勢(純伴奏)"
+	//SongName1 := "一周的朋友 (MV)"
+	//SongName1 := "一周的朋友"
+	//SongName1 := "習慣晚睡 (純伴奏)"
+	//SongName1 := "今年一定會好過"
+	//SongName1 := "好好 (想把你寫成一首歌) (MV)"
+	//SongName1 := "是不是愛過一回就懂得如何去愛"
+	/*s := service.GetZhuYin("柵欄間隙偷窺你")
+	fmt.Println(s)*/
+	/*
+				特殊符号  Good-bye I.O.I.O  Goodbye & Hello
+				中英特殊符  I'm O.K.謝謝
+				中数混合  2002年的第一場雪
+				数英混合 Califormia 1992
+				纯英文  Woosa Woosa  One Life One Love
+				 中英混合 Baby對不起 Susan說 淚滴LADY  盲目的Cinderella、
+				SongName1 := "習慣晚睡 (純伴奏)
+					中数特殊符混合 想你醒在0:03  Love*3
+				中日混合 ㄘㄨㄚˋ冰進行曲  恋愛サーキュレーション (Karaoke)
+				城市獵人 (二)
+				在水一方 (新)  有括号 Grace (Dance Version)
+				I Like You (A Happier Song) (Karaoke)
+				Somebody to Love (Remix) (MV)
+				Jambalaya (On the Bayou) (Karaoke)
+				I Like You (A Happier Song)
+				對你愛不完(現場版) (純伴奏)
+				 就忘了吧 (抒情版) (纯伴奏)
+				Gimme! Gimme! Gimme! (A Man After Midnight) (Karaoke)
+				Cold Heart (PNAU Remix) (Karaoke)
+				All Too Well (Taylor's Version) (Karaoke)
+			(You're The) Devil In Disguise  [问题修复]
+			secret base 〜君がくれたもの〜
+				(You're The) Devil In Disguise (Karaoke)
+				残酷な天使のテーゼ(日)
+				月亮代表我的心-1
+				存在(客)
+				同心行同路(台)
+					你聽見我了沒有_Del
+		Renegades (Japanese Version) (Karaoke)
+		End This (L.O.V.E.) (Karaoke)[已修复]
+		CAN'T STOP THE FEELING! (From DreamWorks Animation's "Trolls") (Karaoke)
+			忘川彼岸 (DJ名龍版)
+						光輝歲月 (粵語) (純伴奏)
+				Anyone Of Us (Stupid Mistake)
+				十年 (副歌)
+			出去走走 (高雄觀光主題曲) (純伴奏)
+				茉莉花 (吹管聲部練習版) (MV)
+				茉莉花 (低音聲部練習版) (MV)
+				茉莉花 (彈撥聲部練習版) (MV)
+			茉莉花 (拉弦聲部練習版) (MV)
+			好好 (想把你寫成一首歌) (MV)
+
+	*/
+	/*
+			歌手  The Chainsmokers, ROZES
+		冷漠, 楊小曼
+	*/
+
+	/*  规则：中文翻译拼音  日语和数字不变
+	中数混合   2002年的第一場雪  想你醒在0:03 123123木頭人
+	纯数字  1234567
+	中日混合 ㄘㄨㄚˋ冰進行曲   恋愛サーキュレーション (Karaoke)
+	残酷な天使のテーゼ(日)  僕が死のうと思ったのは  桜色舞うころ
+	 中英混合 Baby對不起 Susan說 淚滴LADY  盲目的Cinderella、
+	*/
+	/*sss := "CAN'T STOP THE FEELING! (From DreamWorks Animation's \"Trolls\") (Karaoke)"
+	fmt.Println(sss)*/
+	//Don't Give Up On Me
+	//ss := service.SongNamePinYinProcessing2("徐良, 小凌")
+	//ss := service.GetZhuYin("Don't Give Up On Me")
+	ss := service.GetWordPart("就忘了吧 (抒情版)")
+	fmt.Println(ss)
+	//fmt.Println("结果:=", ss)
+	/*firstNameStr, _ := strutil.Substring("逃", 0, 1)
+	fmt.Println(firstNameStr)
+	ss := util.GetStrokeCount(firstNameStr)
+	fmt.Println(ss)*/
+	//fmt.Println(service.ISSourceId(21861))
+	/*SongInfoMergeList := service.SelectSongInfoMerge()
+	for _, merger := range SongInfoMergeList {
+		if service.ISSourceId(merger.SourceId) {
+			fmt.Println("1111", merger)
+			break
+		}
+
+	}*/
+}
+
+/*func main() {
+	action.StartYoutubePhone()
+}*/
+func main909() {
+	//action.StartYoutubePhone()
+	//service.UpdateMergeTmpStatus()
+	//service.CopyTable()
+}
+
+/*func main() {
+	doremiLogin := dao.GetDoremiLogin2()
+	sourceId := 10812
+	lrc2 := dao.DownloadStructLrc(doremiLogin, sourceId, 2)
+	//fmt.Println("json", string(lrc2.Bytes))
+	c2 := util.ReadSongStructure(lrc2.Bytes)
+	fmt.Println("c2", c2)
+}*/
+func main90() {
+	s := dao.GetDoremiLogin()
+	/*ss := dao.DownloadLrc(s, 34249, 1)
+	marshal, err := json.Marshal(ss)
+	if err != nil {
+		return
+	}
+	fmt.Println(marshal)*/
+	result := dao.DownloadMp3(s, 34249)
+	fmt.Println(11, string(result.Bytes))
+	sss := util.DownLoadFromUrl(string(result.Bytes))
+	fmt.Println("sss", sss)
+
+}
+
+func main12() {
+	/*doremiUpdateTimeMap := service.GetDoremiLastUpdateTime()
+	DoremiUpdateTime := service.GetDoremiUpdateTime(doremiUpdateTimeMap, 333)
+	fmt.Println(DoremiUpdateTime.IsZero())*/
+	doremiNewUpdateTimeMap := make(map[int]model.DoremiSong)
+	var DoremiSong model.DoremiSong
+	for i := 0; i < 2; i++ {
+		DoremiSong.UpdateTime = time.Now()
+		DoremiSong.LrcChannel = "2"
+		DoremiSong.YoutubeSongType = 2
+		//doremiNewUpdateTimeMap[sourceId] = DoremiSong
+		doremiNewUpdateTimeMap[i] = DoremiSong
+	}
+
+	for sourceId, DoremiSong1 := range doremiNewUpdateTimeMap {
+		fmt.Println("111", sourceId, DoremiSong1)
+	}
+}
+
+func main222() {
+	songUrl := "https://api.karadoremi.net/api/song/get_song_list_by_tag.php"
+	pageSize := 1000
+	doremiUpdateTimeMap := service.GetDoremiLastUpdateTime()
+	DoremiUpdateTime := service.GetDoremiUpdateTime(doremiUpdateTimeMap, 33368)
+	//DoremiTime, _ := time.Parse("2006-01-02 15:04:05", DoremiUpdateTime)
+	fmt.Println("222", DoremiUpdateTime)
+	for page := 0; page < 20; page++ {
+		/*if page == 1 {
+			break
+		}*/
+		/*t1 := time.Now().UnixNano() / 1e6
+		fmt.Println("循环开始", t1)*/
+		songParam := "device_id=999&platform=8&client_version=0.0.0&service=3&song_tag_id=-1&song_learn_material=4&page=" + strconv.Itoa(page) + "&page_size=" + strconv.Itoa(pageSize)
+		jsonString := util.HttpsPost(songUrl, []byte(songParam))
+		array := gjson.Get(string(jsonString.Bytes), "song_list").Array()
+		for _, SongJson := range array {
+			sourceIdStr := service.GetInt("song_id", SongJson.String())
+			lastUpdateDate := service.GetString("last_update_date", SongJson.String())
+			loc, _ := time.LoadLocation("Local")
+			lastTime, _ := time.ParseInLocation("2006-01-02 15:04:05", lastUpdateDate, loc)
+			sourceId, _ := strconv.Atoi(sourceIdStr)
+			if sourceId == 33368 {
+				fmt.Println("111", lastTime)
+				fmt.Println("33", lastTime != DoremiUpdateTime)
+				break
+			}
+		}
+	}
+}
+
+func main1() {
+
+	typePinYin := pinyin.NewArgs()
+	typePinYin.Style = pinyin.FirstLetter //首字母
+	songChinesePhoneticArray := pinyin.LazyPinyin("陈随意, 谢宜君", typePinYin)
+	fmt.Println("qqq", songChinesePhoneticArray)
+	s := service.SongNamePinYinProcessing("陈随意, 谢宜君", songChinesePhoneticArray)
+	fmt.Println("", s)
+
+}
+
+func main66() {
+}
+
+/*func main() {
+	//测试lrc歌词文件是否异常
+	open, err := os.Open("C:\\Users\\CengXingPeng\\Desktop\\35324.lrc")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	defer open.Close()
+	all, err := io.ReadAll(open)
+	if err != nil {
+		return
+	}
+	bytes, _ := util.AesDecryptFile(all)
+	fmt.Println(string(bytes))
+
+}*/
+func ReadSongStructureTEst(b []byte) string {
+	var songStructure string
+	bytes, _ := util.AesDecryptFile(b)
+	if strings.Contains(string(bytes), "song_structure") {
+		fmt.Println("json", string(bytes))
+		songStructure = gjson.Get(string(bytes), "song_structure").String()
+	}
+	return songStructure
+}
+
+func mainaa() {
+	TestAddLog()
+	action.AgainDownloadSongFile()
+	action.AgainDownloadSongFile()
+
+}

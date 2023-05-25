@@ -1,0 +1,370 @@
+package service
+
+import (
+	"SongSyncProgram/dao"
+	"SongSyncProgram/model"
+	"SongSyncProgram/util"
+	"fmt"
+	"github.com/tidwall/gjson"
+	"strconv"
+	"testing"
+	"time"
+)
+
+func TestUpdateTv(t *testing.T) {
+	//创建Tv2表并复制TV临时表信息
+	//dao.CreateBackupTable("song_info_merge_tv_tmp", "song_info_merge_tv2")
+	//给TV2表添加各种索引
+	//dao.AddSongInfoMergeTV2PrimaryKey()
+	/*dao.AddSongInfoMergeTV2UNIQUEIndex()
+	dao.AddSongInfoMergeTV2Index("singer")
+	dao.AddSongInfoMergeTV2Index("status")
+	dao.AddSongInfoMergeTV2Index("dossier_name")
+	dao.AddSongInfoMergeTV2Index2()
+	dao.AddSongInfoMergeTV2FULLTEXTIndex()*/
+	//获取要跟新的mv歌曲集合
+	/*list := selectNewSaveSongInfoMerge()
+	fmt.Println("list", list)
+	dao.AddSongInfoMergeTV2BySongInfoMerge()*/
+	//dao.UpdateSongInfoMergeTV2Status()
+	//删除tv曲库表
+	//dao.DelTable("song_info_merge_tv")
+	//修改表名
+	//dao.UpdateTableName("song_info_merge_tv", "song_info_merge_tv2")
+	//判断3天前的备份表是否存在 如果存在就删除
+	/*oldTableName := "song_info_merge_tv" + time.Now().AddDate(0, 0, -3).Format("20060102")
+	fmt.Println("oldTableName", oldTableName)
+	dao.IfExistsDelTable(oldTableName)*/
+	//song_info_youtube_info表添加主键
+	//dao.DeleteIdByTableName("song_info_youtube_info")
+	//dao.AddIdByTableName("song_info_youtube_info")
+	//dao.DeleteIdByTableName("song_info_youtube_info_check")
+	//dao.AddIdByTableName("song_info_youtube_info_check")
+}
+
+func TestAddYoutubeTVSong(t *testing.T) {
+	doremiUpdateTimeMap := GetDoremiLastUpdateTime()
+	/*fmt.Println("doremiUpdateTimeMap size=", len(doremiUpdateTimeMap))*/
+	//SourceIdmMap := SelectSongInfoMergeTV()
+
+	doremiNewLrcMap := make(map[int]int)
+	doremiNewUpdateTimeMap := make(map[int]model.DoremiSong)
+	SongUrl := "https://api.karadoremi.net/api/song/get_song_list_by_tag.php"
+	pageSize := 5
+	//noUpdateSongMAP := SelectNoUpdateSong()
+	//var num int
+	//var SongPitchInfonum int
+	for page := 0; page < 20; page++ {
+		songParam := "device_id=999&platform=8&client_version=0.0.0&service=2&song_tag_id=-1&song_learn_material=4&page=" + strconv.Itoa(page) + "&page_size=" + strconv.Itoa(pageSize)
+		if page == 1 {
+			break
+		}
+		result := util.HttpsPost(SongUrl, []byte(songParam))
+		jsonString := string(result.Bytes)
+		//获取链接状态
+		status := gjson.Get(jsonString, "status").String()
+		if status != "success" { //如果链接失败直接退出
+			break
+		}
+		array := gjson.Get(jsonString, "song_list").Array()
+		if len(array) == 0 { //如果歌曲集合没有数据直接退出
+			break
+		}
+		for _, SongTvJson := range array {
+			sourceIdStr := GetInt("song_id", SongTvJson.String())
+			songName := GetString("song_name", SongTvJson.String())
+			//singer := GetString("singer_name", SongTvJson.String())
+			sourceId, _ := strconv.Atoi(sourceIdStr)
+			fmt.Println(sourceId)
+			//IsExt, _ := getIsExt(SourceIdmMap, sourceId)
+			lastUpdateDateStr := GetString("last_update_date", SongTvJson.String())
+			loc, _ := time.LoadLocation("Local")
+			lastUpdateDate, _ := time.ParseInLocation("2006-01-02 15:04:05", lastUpdateDateStr, loc)
+			/*//测试-------------------------拆分关键子部分--------------------------------------
+			fmt.Println("获取数据", songName, singer, sourceId)
+			songIndex := GetString("song_index", SongTvJson.String())
+			singerIndex := GetString("singer_index", SongTvJson.String())
+			//专辑名拼音首字母索引
+			albumIndex := GetString("album_index", SongTvJson.String())
+			//0112新增注⾳⾸字⺟索引
+			songPhoneticIndex := GetString("song_phonetic_index", SongTvJson.String())
+			singerPhoneticIndex := GetString("singer_phonetic_index", SongTvJson.String())
+			//专辑名注音首字母索引
+			albumPhoneticIndex := GetString("album_phonetic_index", SongTvJson.String())
+			fmt.Println("songIndex:", songIndex, "singerIndex:", singerIndex, "songPhoneticIndex:", songPhoneticIndex, "albumIndex:", albumIndex, "singerPhoneticIndex:", singerPhoneticIndex, "albumPhoneticIndex:", albumPhoneticIndex)
+			keyword, songNameKeyword, singerKeyword, albumKeyword := GetKeyWordTV(songIndex, singerIndex, songPhoneticIndex, albumIndex, singerPhoneticIndex, albumPhoneticIndex)
+			//keyword, _, _, _ = GetKeyWordTV(songIndex, singerIndex, songPhoneticIndex, albumIndex, singerPhoneticIndex, albumPhoneticIndex)
+
+			fmt.Println("keyword", keyword)
+			//tdj  新增  关键字拆分
+			keySongId := GetSearchKeyWordTvSongIdBySourceId(sourceId)
+			var searchKeyWordTv model.SearchKeyWordTv
+			searchKeyWordTv.SourceId = sourceId
+			searchKeyWordTv.SongName = songName
+			searchKeyWordTv.Singer = singer
+			searchKeyWordTv.SongNameKeyWord = songNameKeyword
+			searchKeyWordTv.SingerKeyWord = singerKeyword
+			searchKeyWordTv.AlbumKeyWord = albumKeyword
+			if keySongId > 0 {
+				UpdateSearKey(searchKeyWordTv)
+			} else {
+				dao.SaveSearchKeyWordTv(searchKeyWordTv)
+			}*/
+			//-------------------------------------测试doremi youtube 备援歌曲-----------------------------
+
+			sexTagStr := GetInt("song_tag", SongTvJson.String())
+			lrcChannel := getChannel(sexTagStr)
+			fmt.Println("伴奏类型:", lrcChannel)
+			duetModeEnabledStr := GetInt("duet_mode_enabled", SongTvJson.String())
+			//	fmt.Println("sourceId", sourceId)
+			isDuet := getIsDuet(duetModeEnabledStr)
+			//	fmt.Println("11", isDuet)
+			DoremiUpdateTime := GetDoremiUpdateTime(doremiUpdateTimeMap, sourceId)
+			//	fmt.Println("Doremi更新时间", DoremiUpdateTime)
+			//	fmt.Println("当前数据更新时间", lastUpdateDate)
+			//fmt.Println(DoremiUpdateTime)
+			//处理页面时间将页面获取到的时间的时区转为cts【中国时区】
+			if DoremiUpdateTime.IsZero() || DoremiUpdateTime != lastUpdateDate {
+				//改歌曲ID在DoremiUpdateTime表不存在时间信息或者改歌曲的最后修改时间有改动
+				//3是左伴右唱，7是纯伴奏
+				if lrcChannel == 3 || lrcChannel == 7 {
+					//	fmt.Println("备源进来了<time>", DoremiUpdateTime, "<lastUpdateDate>", lastUpdateDate, "<sourceId>", sourceId)
+					var DoremiSong model.DoremiSong
+					DoremiSong.SourceId = sourceId
+					if isDuet == 1 {
+						DoremiSong.Duet = true
+					}
+					DoremiSong.UpdateTime = lastUpdateDate
+					DoremiSong.LrcChannel = strconv.Itoa(lrcChannel)
+					DoremiSong.YoutubeSongType = getYouTubeSongType(songName)
+					//	fmt.Println("整理数据", DoremiSong)
+					doremiNewUpdateTimeMap[sourceId] = DoremiSong
+					youtubeLearningEnavledStr := GetInt("youtube_learning_enabled", SongTvJson.String()) //1 代表有结构歌词， 0 代表沒有
+					youtubeLearningEnavled, _ := strconv.Atoi(youtubeLearningEnavledStr)
+					duetModeEnabled, _ := strconv.Atoi(duetModeEnabledStr)
+					fmt.Println("youtubeLearningEnavled", youtubeLearningEnavled)
+					fmt.Println("duetModeEnabled", duetModeEnabled)
+					if youtubeLearningEnavled == 1 {
+						if duetModeEnabled == 1 {
+							doremiNewLrcMap[sourceId] = 2
+						} else {
+							doremiNewLrcMap[sourceId] = 1
+						}
+					}
+				}
+			}
+
+			/*	//----------------------------测试更新数据的逻辑-----------------------------------------
+				fmt.Println("sourceId", sourceId)
+				tableTime := GetLasUpdateTimeTvBySourceId(sourceId)
+				fmt.Println("tableTime", tableTime)
+				fmt.Println("lastUpdateDate", lastUpdateDate)
+				var flag int
+				if tableTime.IsZero() {
+					flag = 1
+				} else {
+					if tableTime.Before(lastUpdateDate) {
+						flag = 2
+					} else if tableTime == lastUpdateDate {
+						flag = 3
+					}
+				}
+				if flag == 3 {
+					continue
+				}
+				fmt.Println("flag", flag)
+				SongInfoMergeTvTmp := getSongTVData(SongTvJson, IsExt)
+				SongInfoMergeTvTmp.SearchWord = keyword
+				SongInfoMergeTvTmp.UpdateTime = lastUpdateDateStr
+				fmt.Println("是否存在", IsExt)
+				if IsExt { //存在的情况下修改曲库表数据
+					if flag == 1 {
+						AddLasUpdateTimeTV(sourceId, lastUpdateDateStr)
+					} else if flag == 2 {
+						UpdateLasUpdateTimeTV(sourceId, lastUpdateDateStr)
+					}
+				} else {
+					if flag == 1 {
+						AddLasUpdateTimeTV(sourceId, lastUpdateDateStr)
+					} else if flag == 2 {
+						UpdateLasUpdateTimeTV(sourceId, lastUpdateDateStr)
+					}
+				}*/
+
+			//--------------------------------测试高低音域--------------------------
+			//将高低音域更新
+			/*	id := GetSongPitchInfoBySourceId(sourceId)
+				fmt.Println("SongPitchId", id, "sourceId", sourceId)
+				if id <= 0 {
+					SongPitchInfonum = SaveSongPitchInfo(sourceId, SongInfoMergeTvTmp.MinPitch, SongPitchInfonum, SongInfoMergeTvTmp.MaxPitch)
+				}
+			}*/
+			dao.SaveUploadLrcFailRecord(sourceId)
+		}
+		//fmt.Println("doremiNewUpdateTimeMap", doremiNewUpdateTimeMap)
+		//fmt.Println("doremiNewLrcMap", doremiNewLrcMap)
+		//---------------------------测试更新备源文件大小-----------------------
+		/*if len(doremiNewUpdateTimeMap) != 0 {
+			UpdateDoremiUpdateTimeAndFile(doremiNewUpdateTimeMap)
+		}*/
+		/*	if len(doremiNewLrcMap) != 0 {
+			updateDoreminNewLrcAndFile(doremiNewLrcMap)
+		}*/
+
+		//fmt.Println("操作数据", SongPitchInfonum, "条")
+	}
+	//UpdateBeiYuanFileSize()
+}
+
+/*func TestUpdateSongInfoMergeTvTmp(t *testing.T) {
+	var SongInfoMergeTvTmp model.SongInfoMergeTvTmp
+	//SongInfoMergeTvTmp.SongName = "测试1"
+	SongInfoMergeTvTmp.SongName = "测试2"
+	SongInfoMergeTvTmp.Status = -2
+	SongInfoMergeTvTmp.SourceId = 1
+	SongInfoMergeTvTmp.Source = 3
+	//AddSongInfoMergeTvTmp(SongInfoMergeTvTmp)
+	//UpdateSongInfoMergeTvTmp(SongInfoMergeTvTmp)
+	//UpdateMergeTVSong()
+	//updateFinallyTv()
+
+}*/
+
+//func TestSaveNewMv(t *testing.T) {
+//	//创建Tv2表并复制TV临时表信息
+//	dao.CreateBackupTableTestDb("song_info_merge_tv_tmp", "song_info_merge_tv2")
+//	//给TV2表添加各种索引
+//	dao.AddSongInfoMergeTV2PrimaryKey()
+//	dao.AddSongInfoMergeTV2UNIQUEIndex()
+//	dao.AddSongInfoMergeTV2Index("singer")
+//	dao.AddSongInfoMergeTV2Index("status")
+//	dao.AddSongInfoMergeTV2Index("dossier_name")
+//	dao.AddSongInfoMergeTV2Index2()
+//	dao.AddSongInfoMergeTV2FULLTEXTIndex()
+//	//获取要跟新的mv歌曲集合
+//	list := selectNewSaveSongInfoMerge()
+//	fmt.Println(len(list))
+//	fmt.Println(list)
+//
+//	var ids string
+//	fmt.Println("新增歌曲数量", len(list))
+//	for _, saveSongInfoMerge := range list {
+//		ids += strconv.Itoa(saveSongInfoMerge.Id) + ","
+//		fmt.Println("============新增歌曲songInfoMap", saveSongInfoMerge)
+//		var num int
+//		if strings.Contains(saveSongInfoMerge.SongName, "(MV)") || strings.Contains(saveSongInfoMerge.SongName, "（MV）") {
+//			if saveSongInfoMerge.Source == 3 {
+//				tagId1 := GetSongTvTagId(saveSongInfoMerge.Id, 32)
+//				//TODO 此判断暂时无用
+//				if tagId1 == 32 {
+//					num += 1
+//				}
+//				fmt.Println("num:", num)
+//				//2021.02.24 将MV标签细分-tdj
+//				lang := GetSongLangById(saveSongInfoMerge.Id)
+//				fmt.Println("将MV标签细分", saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, lang)
+//				switch lang {
+//				case 1: //国语
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 40)
+//				case 2: //台语
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 41)
+//				case 7: //粤语
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 42)
+//				case 5: //英语
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 43)
+//				case 18: //韩语
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 44)
+//				case 4: //日语
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 45)
+//				default: //其他语言
+//					TagProcessing(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, 46)
+//				}
+//			}
+//		} else {
+//			if saveSongInfoMerge.Source == 3 {
+//				songIdList := GetSongInfoMergeTVInfoBySongNameAndSinger(saveSongInfoMerge.SongName, saveSongInfoMerge.Singer)
+//				if len(songIdList) == 0 {
+//					var count int
+//					for _, i2 := range songIdList {
+//						tag := GetSongTvTagIdBySongId(i2)
+//						if tag == 32 {
+//							count += 1
+//							continue
+//						}
+//						MaxRanking := GetSongTvTagMaxRank(tag)
+//						fmt.Println("新添加标签--song_tv_tag : ", saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, tag)
+//						SaveSongTvTag(saveSongInfoMerge.Id, saveSongInfoMerge.SourceId, saveSongInfoMerge.Source, tag, MaxRanking+1)
+//					}
+//					fmt.Println("count:", count)
+//				}
+//			}
+//		}
+//	}
+//	fmt.Println("新增歌曲Id:", ids)
+//	//删除测试表
+//	dao.DelTableTestDb("song_info_merge_tv2")
+//}
+
+func TestUpdateSongInfoMergeTvTmp(t *testing.T) {
+	//UpdateMergeTVSong()
+	//添加数据后添加音域
+	//var SongInfoMergeTvTmp model.SongInfoMergeTvTmp
+	//SongInfoMergeTvTmp.SongName = "测试tv程序添加数据"
+	//SongInfoMergeTvTmp.SongName = "测试tv程序修改数据"
+	//SongInfoMergeTvTmp.SourceId = 99999
+	//SongInfoMergeTvTmp.SourceId = 1
+	//num := AddSongInfoMergeTvTmp(SongInfoMergeTvTmp, 0)
+	//num := UpdateSongInfoMergeTvTmp(SongInfoMergeTvTmp, 0)
+	//fmt.Println(num)
+	//updateFinallyTv()
+	Update(1, 90, 90, 2, 1)
+}
+
+func TestGetSourceIdAndLrcChannelBySongNameAndSinger(t *testing.T) {
+	//singer := "测试歌手"
+	//songName := "tv测试表"
+	//s := GetSourceIdAndLrcChannelBySongNameAndSinger(songName, singer)
+	//fmt.Println(s)
+
+	//UpdateStatus(1)
+	SongMap := GetSongIdSngVersionLrcVersionBySourceId(99090111)
+	fmt.Println(SongMap)
+
+}
+
+func TestUpdate2(t *testing.T) {
+
+	//songInfoMergeTv2 := "song_info_merge_tv2" + suffix
+	//songInfoMergeTvTmp := "song_info_merge_tv" + suffix + "_tmp"
+	//dao.CreateBackupTable(songInfoMergeTvTmp, songInfoMergeTv2)
+	//给TV2表添加各种索引
+	/*dao.AddSongInfoMergeTV2PrimaryKey(songInfoMergeTv2)
+	dao.AddSongInfoMergeTV2UNIQUEIndex(songInfoMergeTv2)*/
+	/*dao.AddSongInfoMergeTV2Index(songInfoMergeTv2, "singer")
+	dao.AddSongInfoMergeTV2Index(songInfoMergeTv2, "status")
+	dao.AddSongInfoMergeTV2Index(songInfoMergeTv2, "dossier_name")
+	dao.AddSongInfoMergeTV2Index2(songInfoMergeTv2)
+	dao.AddSongInfoMergeTV2FULLTEXTIndex(songInfoMergeTv2)*/
+	//songInfoMerge := "song_info_merge" + suffix
+	//list := selectNewSaveSongInfoMerge(songInfoMerge, songInfoMergeTv2)
+	//fmt.Println(list)
+	//dao.AddSongInfoMergeTV2BySongInfoMerge(songInfoMerge, songInfoMergeTv2)
+	//dao.UpdateSongInfoMergeTV2Status(songInfoMergeTv2)
+
+	//songInfoMergeTv := "song_info_merge_tv" + suffix
+	//dao.DelTable(songInfoMergeTv)
+	//修改表名
+	//dao.UpdateTableName(songInfoMergeTv, songInfoMergeTv2)
+	//判断3天前的备份表是否存在 如果存在就删除
+	/*	oldTableName := "song_info_merge_tv_" + time.Now().AddDate(0, 0, -3).Format("20060102") + suffix
+		dao.IfExistsDelTable(oldTableName)*/
+	/*	sourceId := 99090111
+		lrcSize1 := 99
+		lrcSize2 := 90
+		songSize := 0
+		songVersion := 2
+		UpdatePhone(sourceId, lrcSize1, lrcSize2, songSize, songVersion)*/
+
+	/*s := GetSongInfoMergeBySongNameAndSinger("封装方法测试2", "测试1")
+	fmt.Println(s)*/
+}

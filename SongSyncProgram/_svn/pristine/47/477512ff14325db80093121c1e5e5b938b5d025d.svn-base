@@ -1,0 +1,18 @@
+package model
+
+import "time"
+
+type SongInfoMerger struct {
+	Status     int
+	SourceId   int
+	SongName   string
+	Singer     string
+	SongSize   int
+	LrcSize    int
+	LrcSize2   int
+	UpdateTime time.Time
+}
+type SourceIdAndChannel struct {
+	SourceId   int
+	LrcChannel int
+}

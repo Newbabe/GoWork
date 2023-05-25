@@ -1,0 +1,12 @@
+package action
+
+import (
+	"SongSyncProgram/service"
+	"testing"
+)
+
+func TestTVCopyTable(t *testing.T) {
+	service.TVCopyTable()
+
+	//service.UpdateMergeTVSong()
+}

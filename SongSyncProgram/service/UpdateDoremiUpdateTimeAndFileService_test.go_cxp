@@ -1,0 +1,138 @@
+package service
+
+import (
+	"SongSyncProgram/dao"
+	"fmt"
+	"strconv"
+	"testing"
+)
+
+/*func TestDown(t *testing.T) {
+
+	lrcDir := "/home/ec2-user/GOTest/youtube_tv_lrc/"
+	sourceId := 35380
+	doremiLogin := dao.GetDoremiLogin2()
+	var lrcSize1 int
+	//判断目录是否存在不存在创建目录
+	lrcDirexist, _ := PathExists(lrcDir)
+	if !lrcDirexist {
+		err := os.Mkdir(lrcDir, 0766)
+		if err != nil {
+			fmt.Println("创建mp3DirFile路径异常")
+			return
+		}
+	}
+	LrcFileName := lrcDir + strconv.Itoa(sourceId) + ".lrc"
+
+	fileExist := util.ExistS3SongFile("youtube_tv_lrc/" + strconv.Itoa(sourceId) + ".lrc")
+
+	if !fileExist {
+		lrc1 := dao.DownloadLrc(doremiLogin, sourceId, 1)
+		RecordLogUtilAAAA([]byte("请求代码" + strconv.Itoa(lrc1.Code)))
+		RecordLogUtilAAAA([]byte("响应体长度" + strconv.Itoa(len(lrc1.Bytes))))
+		RecordLogUtilAAAA(append([]byte("请求体"), lrc1.Bytes...))
+		if lrc1.Bytes != nil && len(lrc1.Bytes) > 0 {
+			//lrcSize1 = len(lrc1.Bytes)
+			//先将文件写入服务器（创建lrc临时文件）
+			lrcSize1 = UploadS3(lrc1, LrcFileName)
+
+			RecordLogUtilAAAA([]byte("上传成功" + strconv.Itoa(lrcSize1)))
+		}
+	}
+}
+
+func TestMP3(t *testing.T) {
+	mp3Dir := "/home/ec2-user/GOTest/youtube_tv_mp3/"
+	sourceId := 35410
+	mp3Direxists, _ := PathExists(mp3Dir)
+	if !mp3Direxists {
+		err := os.Mkdir(mp3Dir, 0766)
+		if err != nil {
+			fmt.Println("创建mp3DirFile路径异常")
+			return
+		}
+	}
+	mp3Exist := util.ExistS3SongFile("youtube_tv_mp3/" + strconv.Itoa(sourceId) + ".mp3")
+	doremiLogin := dao.GetDoremiLogin2()
+	if !mp3Exist { //如果歌曲不存在
+		result := dao.DownloadMp3(doremiLogin, sourceId)
+		if result.Bytes == nil || result.Code == 404 {
+			fmt.Println("mp3 == null || mp3.length == 0：跳过-", sourceId)
+		}
+		if result.Code == 403 {
+			doremiLogin = dao.GetDoremiLogin()
+			result = dao.DownloadMp3(doremiLogin, sourceId)
+		}
+		//fmt.Println("result.Code", result.Code)
+		mp3 := result.Bytes
+		RecordLogUtilAAAA([]byte("请求代码" + strconv.Itoa(result.Code)))
+		if mp3 == nil || len(mp3) == 0 {
+			fmt.Println("mp3 == null || mp3.length == 0：跳过-", sourceId)
+		}
+		mp3Bytes := util.DownLoadFromUrl(string(mp3))
+		mp3fileUrl := mp3Dir + strconv.Itoa(sourceId) + ".mp3"
+		UploadS3(mp3Bytes, mp3fileUrl)
+		fmt.Println("SongSize", len(mp3Bytes.Bytes))
+
+	}
+}
+
+func RecordLogUtilAAAA(s []byte) error {
+
+	logFile, err := os.OpenFile("/home/ec2-user/GOTest/log.txt", os.O_RDWR|os.O_APPEND|os.O_CREATE, 0766)
+
+	if err != nil {
+		return err
+	}
+	//创建缓冲流向logFile中写入日志
+	writer := bufio.NewWriter(logFile)
+	b := []byte("\n")
+	s = append(s, b...)
+	_, err = writer.Write(s)
+	if err != nil {
+		return err
+	}
+	writer.Flush()
+	return nil
+}
+*/
+func TestDowbLoad(t *testing.T) {
+	/*SongUrl := "https://api.karadoremi.net/api/song/get_song_list_by_tag.php"
+	pageSize := 1000
+	for page := 0; page < 20; page++ {
+		fmt.Println("addYoutubeSongDb page=", page)
+
+		songParam := "device_id=999&platform=8&client_version=0.0.0&service=2&song_tag_id=-1&song_learn_material=4&page=" + strconv.Itoa(page) + "&page_size=" + strconv.Itoa(pageSize)
+		result := util.HttpsPost(SongUrl, []byte(songParam))
+		jsonString := string(result.Bytes)
+		//获取链接状态
+		status := gjson.Get(jsonString, "status").String()
+		if status != "success" { //如果链接失败直接退出
+			break
+		}
+		array := gjson.Get(jsonString, "song_list").Array()
+		if len(array) == 0 { //如果歌曲集合没有数据直接退出
+			break
+		}
+
+		for _, SongTvJson := range array {
+			sourceIdStr := GetInt("song_id", SongTvJson.String())
+			sourceId, _ := strconv.Atoi(sourceIdStr)
+			if sourceId == 35817 || sourceId == 35732 || sourceId == 36036 || sourceId == 36037 {
+				fmt.Println("SongTvJson", SongTvJson.String())
+			}
+		}
+	}*/
+	songIdList := []int{35817, 35732}
+	for _, songId := range songIdList {
+		doremiLogin := dao.GetDoremiLogin2()
+		result := dao.DownloadMp3(doremiLogin, songId)
+		fmt.Println(strconv.Itoa(songId)+" result.Code", result.Code)
+		fmt.Println(strconv.Itoa(songId)+"  result.Bytes", result.Bytes)
+	}
+}
+
+/*func TestAgainDownLoadMp3(t *testing.T) {
+	fmt.Println("111", 16384&16384)
+}
+*/

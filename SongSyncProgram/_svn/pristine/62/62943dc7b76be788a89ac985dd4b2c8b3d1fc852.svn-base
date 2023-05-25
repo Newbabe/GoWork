@@ -1,0 +1,26 @@
+package action
+
+import (
+	"SongSyncProgram/model"
+	"SongSyncProgram/service"
+	"testing"
+)
+
+func TestCopyTable(t *testing.T) {
+	//service.CopyTable()
+	//service.AddYoutubeSong()
+	var SongInfoMergeTmp model.SongInfoMergeTmp
+	//SongInfoMergeTmp.SongName = "1"
+	SongInfoMergeTmp.SongName = "2222"
+	//SongInfoMergeTmp.Singer = "33333"
+	SongInfoMergeTmp.Source = 3
+	SongInfoMergeTmp.SourceId = 2
+	var num int
+	num = service.UpdateSongInfoMergeTmp(SongInfoMergeTmp, num)
+	//num = service.AddSongInfoMergeTmp(SongInfoMergeTmp, num)
+	//fmt.Println(num)
+	//service.UpdateAllTables()
+	//service.UpdateMergeTmpStatus()
+	//service.UpdateFinallyTmp()
+	service.UpdateAllTables()
+}
