@@ -1,0 +1,1653 @@
+[
+  {
+    "roomId": 1025,
+    "userList": [
+      {
+        "userId": "37336136",
+        "userData": "{\"userLevel\":\"23\",\"headDressUrl\":\"\",\"userLiveLv\":\"31\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default.png\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.86\",\"headDressType\":0,\"nickName\":\"新达人wur1v9\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 1027,
+    "userList": [
+      {
+        "userId": "1091071",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"\",\"headDressUrl\":\"\",\"userLiveLv\":\"34\",\"nickName\":\"清风伴语\",\"userLevel\":\"44\",\"headDressType\":0,\"platform\":\"3\",\"version\":\"5.6.113\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/2182/202304240056216c5685ac-4d21-4442-9719-4ad370f2b2a6.jpg\"}"
+      },
+      {
+        "userId": "14709334",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"26\",\"headDressUrl\":\"\",\"userLiveLv\":\"33\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/29418/2023050721563179c7e564-8147-458a-94a7-169a55d3842f.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.106\",\"headDressType\":0,\"nickName\":\"落了白\"}"
+      },
+      {
+        "userId": "28438665",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"16\",\"headDressUrl\":\"\",\"userLiveLv\":\"22\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/56877/20230401114213f71b6f82-5598-4256-adf9-7b43b3f6118c.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"嗓子成茧\"}"
+      },
+      {
+        "userId": "1216870",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"51\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"59\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/2433/20230508024728358397ab-0836-46b4-9044-a8c3a7610ca6.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"北巷不冬\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "28438665",
+        "songData": "{\"icon\":\"http://img.kgeplay.cn/image/head/10248/2020022923083380ad3555-debd-4070-9037-c142bebce7e5.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/56877/20230401114213f71b6f82-5598-4256-adf9-7b43b3f6118c.jpg\",\"liveUserklv\":\"22\",\"singer\":\"Nuan姐\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"142.01\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"-1\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"20133080\",\"liveUserName\":\"嗓子成茧\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"鸽子 - 徐秉龙\",\"songLrcType\":\"5\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334808,
+        "zxLen": 0
+      },
+      {
+        "userId": "1091071",
+        "songData": "{\"ytImageStr\":\"youtube_normal_mark\",\"liveUserName\":\"清风伴语\",\"timeDifference\":\"0.000000\",\"backUpsSongSize\":\"0\",\"org_song\":\"\",\"fashionShowBgPlayId\":0,\"queueSingType\":\"0\",\"isdafe\":\"0\",\"songLrcType\":\"5\",\"choursUserId\":\"\",\"isBackUpsSong\":\"0\",\"song_initial\":\"#\",\"locSongPath\":\"\",\"isAECMode\":0,\"recommend\":\"0\",\"liveUserklv\":\"34\",\"fashionShowImageUrl\":\"\",\"detailUrl\":\"\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/2182/202304240056216c5685ac-4d21-4442-9719-4ad370f2b2a6.jpg\",\"fashionShowBgUrl\":\"\",\"songTime\":\"225.48\",\"songName\":\"不再说话\",\"locLrcPath\":\"\",\"fee\":\"0\",\"song_id\":\"21140899\",\"songSourceType\":\"2\",\"songSingType\":\"0\",\"fashionShowBgIsCoverShow\":false,\"artist_index\":\"#\",\"songTrackType\":2,\"song_index\":\"#\",\"singer\":\"一二丶Zzz\",\"icon\":\"http://img.kgeplay.cn/image/head/54478/20230331135726bee8e307-0e33-4c16-ad7b-5c4892ac5a8a.jpg\"}",
+        "iid": 3334809,
+        "zxLen": 0
+      },
+      {
+        "userId": "14709334",
+        "songData": "{\"icon\":\"http://img.kgeplay.cn/image/head/2633/1402817543348.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/29418/2023050721563179c7e564-8147-458a-94a7-169a55d3842f.jpg\",\"liveUserklv\":\"33\",\"singer\":\"Sean爸\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"262.34\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"-1\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"15756638\",\"liveUserName\":\"落了白\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"可惜不是你-Sean爸伴奏\",\"songLrcType\":\"3\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334810,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 33823,
+    "userList": [
+      {
+        "userId": "38429473",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"\",\"headDressUrl\":\"\",\"userLiveLv\":\"31\",\"nickName\":\"没感情就不痛\",\"userLevel\":\"23\",\"headDressType\":0,\"platform\":\"3\",\"version\":\"5.6.113\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76858/20230407192014d03606b0-e19c-439d-acc5-2494079f15f4.jpg\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 66611,
+    "userList": [
+      {
+        "userId": "26459713",
+        "userData": "{\"userLevel\":\"24\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"37\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/52919/1571550229264.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.86\",\"headDressType\":0,\"nickName\":\"忘记密码了\"}"
+      },
+      {
+        "userId": "26459836",
+        "userData": "{\"userLevel\":\"22\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"34\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/52919/2021020309073817351ac1-6862-4e32-ace4-d1dbb16d0769.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.84\",\"headDressType\":0,\"nickName\":\"江流儿\"}"
+      },
+      {
+        "userId": "10526865",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"35\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"userLiveLv\":\"45\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/21053/2020110609434202d3ad62-fb37-4e62-b466-a0a5dcb247dd.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"version\":\"5.6.110\",\"headDressType\":0,\"nickName\":\"摘一朵玫瑰送给你\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 44146,
+    "userList": [
+      {
+        "userId": "31499555",
+        "userData": "{\"nickName\":\"淡定糊涂哥\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/62999\\/1493636818139.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"26\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 1256,
+    "userList": [
+      {
+        "userId": "37656979",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"17\",\"headDressUrl\":\"\",\"userLiveLv\":\"23\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75313/20230330103843111137b8-e124-40cb-9214-1e099f578ae5.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"冰淇淋\"}"
+      },
+      {
+        "userId": "33638397",
+        "userData": "{\"nickName\":\"密码\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/67276\\/202210301247044c4deced-56e5-4df6-b00b-d0db21928532.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "34728879",
+        "userData": "{\"userLevel\":\"28\",\"headDressUrl\":\"\",\"userLiveLv\":\"34\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/69457/20220416145517b7987f45-6d6f-4efd-8813-5f5484a3a3c1.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.94\",\"headDressType\":0,\"nickName\":\"瘋了的兔\"}"
+      },
+      {
+        "userId": "16937948",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"29\",\"headDressUrl\":\"\",\"userLiveLv\":\"33\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/33875/20230406022341d71c5e72-6393-469c-85bb-de493eea3dee.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"夏季海風\"}"
+      },
+      {
+        "userId": "38423422",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"21\",\"headDressUrl\":\"\",\"userLiveLv\":\"29\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76846/20220926164437e55aa102-1cd2-478b-a335-d8eec280f8c9.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"美而美-掛聽\"}"
+      },
+      {
+        "userId": "35300330",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"25\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"userLiveLv\":\"35\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70600/202201251128517dcbec1b-9528-442a-b0c2-35404c040a94.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"月儿重来\"}"
+      },
+      {
+        "userId": "36015658",
+        "userData": "{\"userLevel\":\"1\",\"headDressUrl\":\"\",\"userLiveLv\":\"31\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/72031/202304111437404b949b11-6af4-447e-bb3f-72ca787d0da5.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.87\",\"headDressType\":0,\"nickName\":\"愤怒的刘铁柱\"}"
+      },
+      {
+        "userId": "10603738",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"27\",\"headDressUrl\":\"\",\"userLiveLv\":\"29\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/21207/202210251011581e327065-20e1-4471-ba49-ab5e8b1f730d.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"默祤\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "36015658",
+        "songData": "{\"icon\":\"http://img.qlkge.com/image/head/71510/20200513042741d16b8be2-934c-4171-8a8d-9398dcdbc9c1.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/72031/202304111437404b949b11-6af4-447e-bb3f-72ca787d0da5.jpg\",\"liveUserklv\":\"31\",\"singer\":\"一叶之秋\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"212.83\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"-1\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"20717152\",\"liveUserName\":\"愤怒的刘铁柱\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"鴉雀無聲-Ice Paper（原唱）\",\"songLrcType\":\"5\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334427,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 56565,
+    "userList": [
+      {
+        "userId": "13872544",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/4403.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"107\",\"currUserDrivingCarId\":\"330780\",\"userLevel\":\"81\",\"platform\":\"3\",\"currUserCarId\":\"44\",\"nickName\":\"戒_-\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/27745/20230423065203b3254c09-8f88-4957-8390-a7d3a154e067.jpg\",\"currUserCarName\":\"烈焰旋风摩托\",\"stageBgAnimId\":28,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38219982",
+        "userData": "{\"nickName\":\"打工_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76439\\/20220719080502b2b72f3e-03ae-4bce-810c-645b0a771b22.jpg\",\"userLiveLv\":\"59\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"59\"}"
+      },
+      {
+        "userId": "18737142",
+        "userData": "{\"nickName\":\"忆惜__潇湘\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/37474\\/20210112052220945acae6-dff1-4892-8ed7-c5ce9eda16f6.jpg\",\"userLiveLv\":\"62\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/53b3.png\",\"currUserCarName\":\"小帆船\",\"currUserCarId\":\"53\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"329667\",\"userSex\":\"1\",\"userLevel\":\"43\"}"
+      },
+      {
+        "userId": "14140449",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/65.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/49a3.png\",\"version\":\"5.6.112\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/65.png\",\"userLiveLv\":\"95\",\"currUserDrivingCarId\":\"331078\",\"userLevel\":\"64\",\"platform\":\"3\",\"currUserCarId\":\"49\",\"nickName\":\"磊磊女王\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/28280/1538613070302.jpg\",\"currUserCarName\":\"极速风暴赛车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "13872544",
+        "songData": "{\"icon\":\"http://img.kgeplay.cn/image/head/34449/1570014653911.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/27745/20230423065203b3254c09-8f88-4957-8390-a7d3a154e067.jpg\",\"liveUserklv\":\"107\",\"singer\":\"魔界_埋名隐姓\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"1220.00\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"0\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"20713556\",\"liveUserName\":\"戒_-\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"树心旁专属\",\"songLrcType\":\"2\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334240,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 70917,
+    "userList": [
+      {
+        "userId": "36466381",
+        "userData": "{\"nickName\":\"过往云烟\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/72932\\/202103311532175206fd0a-b2bb-434f-bc60-d07d054766f0.jpg\",\"userLiveLv\":\"50\",\"version\":\"5.7.7\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.svga\",\"userSex\":\"1\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "28731090",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"\",\"headDressUrl\":\"\",\"userLiveLv\":\"55\",\"nickName\":\"jeuli\",\"userLevel\":\"31\",\"headDressType\":0,\"platform\":\"3\",\"version\":\"5.6.113\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/57462/1493878309415.jpg\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 63755,
+    "userList": [
+      {
+        "userId": "2664045",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"34\",\"nickName\":\"你听起来真好看\",\"userLevel\":\"27\",\"headDressType\":0,\"platform\":\"3\",\"version\":\"5.6.113\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/5328/202107051947129ac264ce-695e-4036-9709-cded986eb390.jpg\"}"
+      },
+      {
+        "userId": "2051588",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"31\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"36\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/4103/202107050656497ddf879c-a0d9-4d50-9155-44d6b3b4231a.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.101\",\"headDressType\":0,\"nickName\":\"春風巭逨婲齍闓8888\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 70980,
+    "userList": [
+      {
+        "userId": "36505380",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"9\",\"headDressUrl\":\"\",\"userLiveLv\":\"17\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/73010/202302211605054cd7dd8b-8bc6-4861-a94f-94c221da08dc.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"Libra_樂樂\"}"
+      },
+      {
+        "userId": "36412765",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"16\",\"headDressUrl\":\"\",\"userLiveLv\":\"26\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/72825/202204292129150931d123-6700-4d13-83cb-782bc4d0b1e6.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.109\",\"headDressType\":0,\"nickName\":\"加戴\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "36412765",
+        "songData": "{\"icon\":\"424/2924.png\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/72825/202204292129150931d123-6700-4d13-83cb-782bc4d0b1e6.jpg\",\"liveUserklv\":\"26\",\"singer\":\"张学友\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"tltwdych\",\"isAECMode\":0,\"song_initial\":\"tltwdych\",\"queueSingType\":\"0\",\"artist_index\":\"zxy\",\"songTime\":\"293.11\",\"songSourceType\":\"0\",\"choursUserId\":\"\",\"fee\":\"0\",\"isdafe\":\"1\",\"song_id\":\"2924\",\"liveUserName\":\"加戴\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"org_song_size\":\"1758417\",\"backUpsSongSize\":\"0\",\"songName\":\"她来听我的演唱会\",\"songLrcType\":\"0\",\"org_song\":\"424/2924.mp3\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3338763,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 33103,
+    "userList": [
+      {
+        "userId": "8732112",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/60.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/60.png\",\"userLiveLv\":\"96\",\"currUserDrivingCarId\":\"329754\",\"userLevel\":\"60\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"墨白\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/17464/202005130542587fb0a315-4449-49b5-9003-e6ff587485fc.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9728268",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"49\",\"currUserDrivingCarId\":\"329766\",\"userLevel\":\"31\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"墨白白\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/19456/20230406230330351c56de-1695-4a73-84f9-602d5412275c.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "17320459",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.114\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"45\",\"currUserDrivingCarId\":\"329766\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"爱我和吃屎选一个\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/34640/1524235809967.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "13661921",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.110\",\"headDressType\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"48\",\"currUserDrivingCarId\":\"329763\",\"userLevel\":\"33\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"KING-墨白\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/27323/202111280924082062ce25-a6b3-47d4-a913-d6b926e6b3d3.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9760430",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/75.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/2003.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/75.png\",\"userLiveLv\":\"117\",\"currUserDrivingCarId\":\"330989\",\"userLevel\":\"106\",\"platform\":\"3\",\"currUserCarId\":\"20\",\"nickName\":\"心如止水的水\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/19520/20230315211545b64cd708-34a7-41f1-abf2-48a58938fe20.jpg\",\"currUserCarName\":\"萌版热气球\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "37745118",
+        "userData": "{\"nickName\":\"习惯被习惯\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/75490\\/2023042016030934a9eaf5-e65b-415b-80bd-59eed62ce516.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"20\"}"
+      },
+      {
+        "userId": "37339717",
+        "userData": "{\"nickName\":\"新达人008_5\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74679\\/20200725130630319e5784-b359-45e7-8e0d-5632805bec74.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.6.50\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"18\"}"
+      },
+      {
+        "userId": "7827478",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/81.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/81.png\",\"userLiveLv\":\"133\",\"currUserDrivingCarId\":\"328837\",\"userLevel\":\"107\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"请叫我哇哈哈\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/15654/20230325080246460c5cef-0940-47d6-8772-ba8f1ede3689.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":24,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "23697206",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/75.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/2003.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/75.png\",\"userLiveLv\":\"91\",\"currUserDrivingCarId\":\"331163\",\"userLevel\":\"62\",\"platform\":\"3\",\"currUserCarId\":\"20\",\"nickName\":\"白雪雪\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/47394/2022121702055119612605-679e-4308-ba55-5b4649232b55.jpg\",\"currUserCarName\":\"萌版热气球\",\"stageBgAnimId\":18,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "10090147",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/56h3.png\",\"version\":\"5.6.89\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"135\",\"currUserDrivingCarId\":\"328857\",\"userLevel\":\"91\",\"platform\":\"3\",\"currUserCarId\":\"56\",\"nickName\":\"Phillip_愛亦無痕\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/20180/2021042912073996f116b1-cb2f-4d1f-b128-a1ba704b35c6.jpg\",\"currUserCarName\":\"爱心火箭\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "19030031",
+        "userData": "{\"nickName\":\"九叔公\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/38060\\/20230420125445a1797bd0-c7ea-4598-a3cb-28f6dbf14694.jpg\",\"userLiveLv\":\"39\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1203.png\",\"currUserCarName\":\"南瓜车\",\"currUserCarId\":\"12\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331430\",\"userSex\":\"0\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "4883135",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"23\",\"headDressUrl\":\"\",\"userLiveLv\":\"36\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/9766/20230411115142a62a53f5-7d53-4ddd-ba82-64358957068f.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.109\",\"headDressType\":0,\"nickName\":\"偷星寄于君\"}"
+      },
+      {
+        "userId": "3209111",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.102\",\"headDressType\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"66\",\"currUserDrivingCarId\":\"237728\",\"userLevel\":\"42\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"乄貝兒\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/6418/20230331174008911bdf2a-e528-47fa-b311-64dbb9ef9439.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38273689",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/79.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/60_show.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/79.png\",\"userLiveLv\":\"76\",\"currUserDrivingCarId\":\"330691\",\"userLevel\":\"61\",\"platform\":\"3\",\"currUserCarId\":\"60\",\"nickName\":\"柚稚心\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76547/20230503135831fc1c5ca1-a320-47cb-91ac-72190998d483.jpg\",\"currUserCarName\":\"兰博基尼\",\"stageBgAnimId\":26,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38580621",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"26\",\"headDressUrl\":\"\",\"userLiveLv\":\"38\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77161/20230501200507bb07ca12-90b0-4785-a78f-f6c8e90e9309.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.110\",\"headDressType\":0,\"nickName\":\"泡泡不来灬萌宝爱哭\"}"
+      },
+      {
+        "userId": "38157794",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"9\",\"headDressUrl\":\"\",\"userLiveLv\":\"16\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76315/202206022240180811a298-40bc-4704-b269-d3b1b783e468.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"QQQQQQ\"}"
+      },
+      {
+        "userId": "38236589",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"20\",\"headDressUrl\":\"\",\"userLiveLv\":\"33\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default_head_img/5.png\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"忘了\"}"
+      },
+      {
+        "userId": "38394840",
+        "userData": "{\"nickName\":\"新达人qiogi\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"1\",\"version\":\"5.6.49\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"1\"}"
+      },
+      {
+        "userId": "37003237",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"56\",\"headDressUrl\":\"\",\"userLiveLv\":\"73\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74006/202303301259016a94debf-a82a-46e9-9670-cb11b135577a.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"如也\"}"
+      },
+      {
+        "userId": "10876662",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"userLiveLv\":\"109\",\"currUserDrivingCarId\":\"329032\",\"userLevel\":\"81\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"__曉紅娘\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/21753/202301231915300f3f4f32-1d5a-47c9-8970-e0def5b1e4eb.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "31493367",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"52\",\"currUserDrivingCarId\":\"331072\",\"userLevel\":\"35\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"冷冷\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/62986/202305021039056ed0787e-3533-4a98-9fd3-2374689fef15.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38629433",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"1\",\"headDressUrl\":\"\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77258/1683529932986.jpg\",\"platform\":\"3\",\"headDress\":\"\",\"userSex\":\"0\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"新达人1lv1x\"}"
+      },
+      {
+        "userId": "33842669",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"20\",\"headDressUrl\":\"\",\"userLiveLv\":\"33\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default.png\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"只听歌的人\"}"
+      },
+      {
+        "userId": "37464224",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/51.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/51.png\",\"userLiveLv\":\"65\",\"currUserDrivingCarId\":\"330571\",\"userLevel\":\"45\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"林小瓜\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74928/20221104175809a84ddd6d-7598-4896-8290-9f0cf2b51937.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9013308",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"94\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/55_new.svga\",\"userLiveLv\":\"92\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/18026/1471134706621.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/55_new.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"随缘-ZY轻舞飞扬\"}"
+      },
+      {
+        "userId": "14434314",
+        "userData": "{\"nickName\":\"梅林通妮o\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/28868\\/2022070612594121f11e78-daec-4281-b5a9-22a426d3721c.jpg\",\"userLiveLv\":\"78\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"304692\",\"userSex\":\"1\",\"userLevel\":\"68\"}"
+      },
+      {
+        "userId": "38459949",
+        "userData": "{\"stageBgAnimId\":0,\"headDressUrl\":\"\",\"userLiveLv\":\"28\",\"platform\":\"3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76919/202302222133378a1c5647-30dc-43c8-a850-27aafa34fbab.jpg\",\"headDress\":\"\",\"userSex\":\"0\",\"version\":\"5.6.114\",\"headDressType\":0,\"nickName\":\"名侦探-嘿嘿\"}"
+      },
+      {
+        "userId": "33478298",
+        "userData": "{\"nickName\":\"_掛_尊_號_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/66956\\/20230507040017bfb520c2-4f87-469c-83bc-2a23331b3596.jpg\",\"userLiveLv\":\"149\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/56h3.png\",\"currUserCarName\":\"爱心火箭\",\"currUserCarId\":\"56\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"329229\",\"userSex\":\"1\",\"userLevel\":\"106\"}"
+      },
+      {
+        "userId": "37776953",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"30\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/54_bak.svga\",\"userLiveLv\":\"50\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75553/202108090859052e2097de-f0b6-453a-a0c7-02e51352f0e9.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/54_bak.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"小y小u小a小n-x2mep\"}"
+      },
+      {
+        "userId": "12542082",
+        "userData": "{\"nickName\":\"ZY-轻舞飞扬-\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/25084\\/1464773206162.jpg\",\"userLiveLv\":\"48\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/81.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/81.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330308\",\"userSex\":\"1\",\"userLevel\":\"40\"}"
+      },
+      {
+        "userId": "37373701",
+        "userData": "{\"nickName\":\"爱睡觉的三月月月月月月\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74747\\/2023031305235159ad0e89-e859-493a-8acb-b18fd5032051.jpg\",\"userLiveLv\":\"48\",\"version\":\"5.7.5\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "9276351",
+        "userData": "{\"nickName\":\"__静静__八姨太2\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18552\\/1548497948528.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315180\",\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "18489844",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/82.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/303.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/82.png\",\"userLiveLv\":\"72\",\"currUserDrivingCarId\":\"77838\",\"userLevel\":\"65\",\"platform\":\"3\",\"currUserCarId\":\"3\",\"nickName\":\"-_小雨_-\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/36979/202302271138087b220956-c69b-4346-90db-4783f75628fc.jpg\",\"currUserCarName\":\"保时捷911\",\"stageBgAnimId\":14,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9277026",
+        "userData": "{\"headDressUrl\":\"\",\"headDressType\":0,\"userLiveLv\":\"42\",\"currUserCarId\":\"2\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/18554/1548500266838.jpg\",\"headDress\":\"\",\"platform\":\"3\",\"currUserCarName\":\"宝马MINI\",\"userLevel\":\"26\",\"version\":\"5.6.94\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"nickName\":\"__静静__八姨太8\",\"currUserDrivingCarId\":\"315179\"}"
+      },
+      {
+        "userId": "37719026",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"userLiveLv\":\"65\",\"currUserDrivingCarId\":\"331382\",\"userLevel\":\"39\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"Sweetie222\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75438/20230308060332cab7a10b-f22b-4208-b544-59ccb777dea8.jpg\",\"currUserCarName\":\"Smart\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9276622",
+        "userData": "{\"nickName\":\"__静静__八姨太3\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18553\\/1548500933307.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315182\",\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "29761691",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"23\",\"headDressUrl\":\"\",\"userLiveLv\":\"40\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/59523/20230404112921b2c0c8d7-4934-4869-9336-6c5d30a432e4.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"丹丹吖\"}"
+      },
+      {
+        "userId": "38562671",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"25\",\"currUserDrivingCarId\":\"331394\",\"userLevel\":\"11\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"不慌不忙\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77125/2023042501362902a5b9f4-9462-47ff-81dc-9bd26003f0c5.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "37481410",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"19\",\"headDressUrl\":\"\",\"userLiveLv\":\"38\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74962/202302251601138e0fb6dc-5fea-4e7b-865a-0c6a587c506e.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"迷-倒一大片\"}"
+      },
+      {
+        "userId": "24905210",
+        "userData": "{\"nickName\":\"傾城D小臉蛋\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/49810\\/202210102058171e732095-54b4-41f6-85dc-0b85108747b0.jpg\",\"userLiveLv\":\"115\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331318\",\"userSex\":\"0\",\"userLevel\":\"87\"}"
+      },
+      {
+        "userId": "9276328",
+        "userData": "{\"nickName\":\"__静静__八姨太1\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18552\\/1548497719633.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.9.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315182\",\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "9276642",
+        "userData": "{\"nickName\":\"__静静__八姨太4\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18553\\/1548498245354.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315179\",\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "38433010",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/81.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/81.png\",\"userLiveLv\":\"80\",\"currUserDrivingCarId\":\"331402\",\"userLevel\":\"74\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"仙界__骑猪旅游至尊宝\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76866/20221222173735344e4d40-1543-4826-b0cc-cfe2900c705a.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":28,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38601181",
+        "userData": "{\"nickName\":\"名侦探-新哒人kawaii\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/77202\\/202303281414266e4cd6b0-7447-4943-bc5f-082921da0dcf.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"15\"}"
+      },
+      {
+        "userId": "10613625",
+        "userData": "{\"nickName\":\"__静静__八姨太7\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/21227\\/1548499628840.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.6.49\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315180\",\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "37615595",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/82.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/53b3.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/82.png\",\"userLiveLv\":\"64\",\"currUserDrivingCarId\":\"328708\",\"userLevel\":\"57\",\"platform\":\"3\",\"currUserCarId\":\"53\",\"nickName\":\"__葡萄魅力女神__\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75231/20230411020952380a936d-5452-4f4c-8f86-2cef3961cc4a.jpg\",\"currUserCarName\":\"小帆船\",\"stageBgAnimId\":27,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38424599",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"18\",\"headDressUrl\":\"\",\"userLiveLv\":\"37\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76849/2022072113502995c6da85-5acb-4f52-bdbc-79b802bf3243.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"新达人v48bt\"}"
+      },
+      {
+        "userId": "9277072",
+        "userData": "{\"nickName\":\"__无所谓老婆__八姨太9\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18554\\/1548500444492.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.7.2\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315182\",\"userSex\":\"1\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "9276293",
+        "userData": "{\"nickName\":\"无所谓八姨太0\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18552\\/202302071850584812285c-015e-4cd8-bb7b-42c1f15ccf05.jpg\",\"userLiveLv\":\"53\",\"version\":\"5.6.50\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315182\",\"userSex\":\"1\",\"userLevel\":\"35\"}"
+      },
+      {
+        "userId": "5592829",
+        "userData": "{\"nickName\":\"xx别别别xx\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/11185\\/1552082674189.jpg\",\"userLiveLv\":\"37\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "20369165",
+        "userData": "{\"nickName\":\"忆惜_北极星辰HAHAHAHA\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/40738\\/202303160136594fff8452-705d-47ad-8457-c012d48d3afc.jpg\",\"userLiveLv\":\"65\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331428\",\"userSex\":\"1\",\"userLevel\":\"36\"}"
+      },
+      {
+        "userId": "25255322",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"30\",\"headDressUrl\":\"\",\"userLiveLv\":\"42\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/50510/2023010803084388b17b7b-80d0-447c-8785-3aae2bdbb7f2.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"爆笑猫\"}"
+      },
+      {
+        "userId": "19571932",
+        "userData": "{\"nickName\":\"Hey_siri___\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/39143\\/2023032100542608918709-5aa3-46e6-924a-f670eff52824.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.6.50\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"23\"}"
+      },
+      {
+        "userId": "38582303",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"16\",\"headDressUrl\":\"\",\"userLiveLv\":\"28\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77164/1677496072393.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"新达人r33yg\"}"
+      },
+      {
+        "userId": "143950",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"17\",\"headDressUrl\":\"\",\"userLiveLv\":\"37\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/287/2021042607521378452903-35f3-4c96-a342-1a2e32095733.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"未来\"}"
+      },
+      {
+        "userId": "38244889",
+        "userData": "{\"nickName\":\"o小_幸_運o\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76489\\/20221213085631aa5224e6-f0ba-4d04-99d8-a67d1f3025fc.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"currUserDrivingCarId\":\"330842\"}"
+      },
+      {
+        "userId": "17476472",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/60.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/60.png\",\"userLiveLv\":\"103\",\"currUserDrivingCarId\":\"329754\",\"userLevel\":\"76\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"喵喵\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/34952/202304292245110e284cd2-a610-4601-945e-64c043a02212.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":13,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9276666",
+        "userData": "{\"nickName\":\"__无所谓老婆__八姨太5\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18553\\/1548499345154.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315179\",\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "35898784",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"49\",\"currUserDrivingCarId\":\"330851\",\"userLevel\":\"32\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"-乄星星知我心乄-\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/71797/202004270212401e1a61b8-f339-4867-822b-4307e05e3458.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "9277005",
+        "userData": "{\"nickName\":\"__无所谓老婆__八姨太6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18554\\/1548499470172.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"315179\",\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "21532712",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"55\",\"currUserDrivingCarId\":\"328958\",\"userLevel\":\"41\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"深灬_灬龙灬虎灬乱灬舞灬_灬月\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/43065/20230316105848805f3bc3-9596-4162-bcf7-34352c977d86.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":22,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "1139156",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"88\",\"currUserDrivingCarId\":\"330653\",\"userLevel\":\"98\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"忆惜_小刘瓜瓜瓜瓜瓜瓜瓜\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/2278/202012071740376dfc082f-c7f0-414c-a62d-e2678ca82f14.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35769424",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"32\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"userLiveLv\":\"50\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/71538/202104250527385d4c0ba1-70f6-42ab-ac93-9899c119b8d9.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"音悦-LG喵喵\"}"
+      },
+      {
+        "userId": "35239331",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/60.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/60.png\",\"userLiveLv\":\"99\",\"currUserDrivingCarId\":\"330915\",\"userLevel\":\"59\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"LIU__LING__\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70478/2022012106532387fb24e0-e078-4fec-ac4d-97acf5febf6c.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "37606397",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"33\",\"headDressUrl\":\"\",\"userLiveLv\":\"48\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75212/202209011047578eaa5244-8fdb-4f57-9d10-e7d9134b9d5d.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"_圆圆和圈圈比圆_\"}"
+      },
+      {
+        "userId": "38411726",
+        "userData": "{\"nickName\":\"新达人1f9wk\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default_head_img\\/5.png\",\"userLiveLv\":\"32\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "38380274",
+        "userData": "{\"nickName\":\"新达人43adw\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"0\",\"version\":\"5.7.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"1\"}"
+      },
+      {
+        "userId": "19235234",
+        "userData": "{\"nickName\":\"忆惜_白卉悉\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/38470\\/20230507172330d75d21b0-b5e0-406f-b44c-80be93977759.jpg\",\"userLiveLv\":\"63\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"305163\",\"userSex\":\"1\",\"userLevel\":\"51\"}"
+      },
+      {
+        "userId": "38478366",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"26\",\"headDressUrl\":\"\",\"userLiveLv\":\"45\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76956/20230421020813aca20372-b58a-438d-a129-aaf2c85eaef7.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"睡醒\"}"
+      },
+      {
+        "userId": "13896080",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"101\",\"currUserDrivingCarId\":\"328829\",\"userLevel\":\"64\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"小七七\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/27792/20230131211657b5ea84ae-1bb4-4657-a9d6-48610d02a01b.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "31391603",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"41\",\"headDressUrl\":\"\",\"userLiveLv\":\"50\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/62783/202304211812122f54683a-9e89-4ff5-a936-34f8f8337d3e.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.109\",\"headDressType\":0,\"nickName\":\"Lovemomoko\"}"
+      },
+      {
+        "userId": "36795502",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"47\",\"currUserDrivingCarId\":\"328526\",\"userLevel\":\"39\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"乔奇-Talent\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/73591/20201214101453553d57c9-28f9-4e32-b1b1-f3f23e1831d0.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "26546448",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.88\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"43\",\"currUserDrivingCarId\":\"330667\",\"userLevel\":\"24\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"动物王国-熊熊\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/53092/1478241281690.jpg\",\"currUserCarName\":\"Smart\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "17151724",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/71.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.108\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/71.png\",\"userLiveLv\":\"93\",\"currUserDrivingCarId\":\"329815\",\"userLevel\":\"69\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"忧忧\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/34303/202208120939242e7ecc7a-a7a7-4dbc-afa3-0926e2604540.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38258030",
+        "userData": "{\"headDressUrl\":\"\",\"stageBgAnimId\":0,\"headDressType\":0,\"userLiveLv\":\"44\",\"currUserCarId\":\"12\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76516/20230507014323cf4a8a77-9a3c-4430-a019-3e62289b5c3a.jpg\",\"headDress\":\"\",\"platform\":\"3\",\"currUserCarName\":\"南瓜车\",\"userLevel\":\"27\",\"version\":\"5.6.108\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"nickName\":\"Kingsley\",\"currUserDrivingCarId\":\"329243\"}"
+      },
+      {
+        "userId": "38487441",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"15\",\"headDressUrl\":\"\",\"userLiveLv\":\"32\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76974/1666924076122.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"新达人xgf53\"}"
+      },
+      {
+        "userId": "34128186",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"userLiveLv\":\"61\",\"currUserDrivingCarId\":\"331381\",\"userLevel\":\"42\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"婉余生\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/68256/202304111808234e3ba94e-c1e0-4b20-962e-89009da08378.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "2850538",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"84\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"userLiveLv\":\"72\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/5701/20220308073329c99455d5-0cb8-4235-b1aa-8887418b3df9.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"version\":\"5.6.112\",\"headDressType\":1,\"nickName\":\"丨灬大灬丨小灬小灬小丨灬姐灬丨\"}"
+      },
+      {
+        "userId": "7963504",
+        "userData": "{\"nickName\":\"山鷄\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/15927\\/20210804132805c5d2b548-8ff5-4e15-b123-95f73ade4867.jpg\",\"userLiveLv\":\"77\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/303.png\",\"currUserCarName\":\"保时捷911\",\"currUserCarId\":\"3\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"49772\",\"userSex\":\"0\",\"userLevel\":\"58\"}"
+      },
+      {
+        "userId": "16797858",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"20\",\"headDressUrl\":\"\",\"userLiveLv\":\"29\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/33595/2021050410293514c1d96b-65ef-44ad-bc43-27e1276949a0.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.101\",\"headDressType\":0,\"nickName\":\"新达人Stuttgart\"}"
+      },
+      {
+        "userId": "38608358",
+        "userData": "{\"nickName\":\"新达人huok7\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"0\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"1\"}"
+      },
+      {
+        "userId": "30365510",
+        "userData": "{\"nickName\":\"无恙\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/60731\\/2023042521394012d758f2-dda7-405c-a8ff-c31b7198833b.jpg\",\"userLiveLv\":\"48\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"35\"}"
+      },
+      {
+        "userId": "11213772",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/67.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/56h3.png\",\"version\":\"5.6.88\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/67.png\",\"userLiveLv\":\"156\",\"currUserDrivingCarId\":\"329908\",\"userLevel\":\"114\",\"platform\":\"3\",\"currUserCarId\":\"56\",\"nickName\":\"心亦葑鎖\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/22427/202301221038039c168b48-a41c-4c86-8d7b-9de6a3640df9.jpg\",\"currUserCarName\":\"爱心火箭\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38629437",
+        "userData": "{\"nickName\":\"新达人17w7p\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"0\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"1\"}"
+      },
+      {
+        "userId": "38437792",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"24\",\"headDressUrl\":\"\",\"userLiveLv\":\"38\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76875/202210061510424c8858e9-7489-4986-8be3-00559a905120.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"蓝天白云\"}"
+      },
+      {
+        "userId": "18248376",
+        "userData": "{\"nickName\":\"--仙亽掌\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/36496\\/20200405124737f661ab5a-05ad-458c-b58c-8a51ff310c2c.jpg\",\"userLiveLv\":\"43\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1203.png\",\"currUserCarName\":\"南瓜车\",\"currUserCarId\":\"12\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331088\",\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "34818503",
+        "userData": "{\"nickName\":\"_谜_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/69637\\/2023040613131728805c81-f17d-4bfd-b49c-74722cd7dac6.jpg\",\"userLiveLv\":\"23\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"10\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "8732112",
+        "songData": "{\"icon\":\"http://img.qlkge.com/image/head/33748/20200909173758266e3612-ee35-447a-baf9-476c507ee167.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/17464/202005130542587fb0a315-4449-49b5-9003-e6ff587485fc.jpg\",\"liveUserklv\":\"96\",\"singer\":\"戒毒乄告别K达乄不刷不充不爱\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"599.78\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"0\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"20376988\",\"liveUserName\":\"墨白\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"魅力包(十分钟伴奏）\",\"songLrcType\":\"3\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334456,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 2431,
+    "userList": [
+      {
+        "userId": "38501376",
+        "userData": "{\"nickName\":\"猪一样聪明\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/77002\\/202304301427593375fb3a-349a-4ecb-9567-d446a6cef0bf.jpg\",\"userLiveLv\":\"32\",\"version\":\"5.9.1\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"22\"}"
+      },
+      {
+        "userId": "37080854",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"31\",\"headDressUrl\":\"\",\"userLiveLv\":\"47\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74161/20220607234031c521c510-336f-4361-8c0e-c80d106df934.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"Navigator_Marshmallow\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "37080854",
+        "songData": "{\"icon\":\"http://img.kgeplay.cn/image/head/38029/20220127220000b1d2b539-852a-4ed7-a597-3e388a11739b.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/74161/20220607234031c521c510-336f-4361-8c0e-c80d106df934.jpg\",\"liveUserklv\":\"47\",\"singer\":\"淇淇\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"139.80\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"0\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"20953065\",\"liveUserName\":\"Navigator_Marshmallow\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"别错过（dj版原唱）-程jiajia\",\"songLrcType\":\"5\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334332,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 2432,
+    "userList": [
+      {
+        "userId": "38432917",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"22\",\"headDressUrl\":\"\",\"userLiveLv\":\"31\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76865/20230427101144d58f2a85-29ab-4e46-8057-410f033e6ed8.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.109\",\"headDressType\":0,\"nickName\":\"月光宝盒挂听号\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 69000,
+    "userList": [
+      {
+        "userId": "23818974",
+        "userData": "{\"nickName\":\"专属-随时随地\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/47637\\/1470371185131.jpg\",\"userLiveLv\":\"31\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"17\"}"
+      },
+      {
+        "userId": "24899954",
+        "userData": "{\"nickName\":\"从未忘初心\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/49799\\/20230110011152fa8c635c-2f6e-4b0d-8de9-b7c0cb5389dc.jpg\",\"userLiveLv\":\"48\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"141018\",\"userSex\":\"1\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "26459617",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"21\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"35\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/52919/1484024603570.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"南方的天空\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 54702,
+    "userList": [
+      {
+        "userId": "19873354",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"43\",\"currUserDrivingCarId\":\"93768\",\"userLevel\":\"40\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"情韵阁-艳艳-不会唱-只会吼\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/39746/1479017537210.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 71106,
+    "userList": [
+      {
+        "userId": "21829518",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"29\",\"headDressUrl\":\"\",\"userLiveLv\":\"45\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/43659/20230504233650211dcca4-0b72-4192-9df3-f177f4086ceb.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"嘿嘿\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "21829518",
+        "songData": "{\"icon\":\"http://img.kgeplay.cn/image/head/62544/1512125262963.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/43659/20230504233650211dcca4-0b72-4192-9df3-f177f4086ceb.jpg\",\"liveUserklv\":\"45\",\"singer\":\"歪歪伴奏\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"3590.18\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"0\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"20244796\",\"liveUserName\":\"嘿嘿\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"歪歪粤语合辑貮\",\"songLrcType\":\"5\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334191,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 29197,
+    "userList": [
+      {
+        "userId": "33717569",
+        "userData": "{\"nickName\":\"陌生人\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/67435\\/20230322100721485044e2-7760-48c6-ac8a-dab555f2be45.jpg\",\"userLiveLv\":\"71\",\"version\":\"5.8.0\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/53b3.png\",\"currUserCarName\":\"小帆船\",\"currUserCarId\":\"53\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"currUserDrivingCarId\":\"331284\",\"userSex\":\"1\",\"userLevel\":\"38\"}"
+      },
+      {
+        "userId": "32448443",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/48.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/48.png\",\"userLiveLv\":\"62\",\"currUserDrivingCarId\":\"331345\",\"userLevel\":\"45\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"-_小媚娘_-\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/64896/202304251002235f51a45e-2c26-4c36-95ab-47e4828be903.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "30690343",
+        "userData": "{\"nickName\":\"假_行_僧_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/61380\\/1534586267691.jpg\",\"userLiveLv\":\"83\",\"version\":\"5.8.0\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/53b3.png\",\"currUserCarName\":\"小帆船\",\"currUserCarId\":\"53\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.svga\",\"currUserDrivingCarId\":\"331272\",\"userSex\":\"0\",\"userLevel\":\"67\"}"
+      },
+      {
+        "userId": "1474250",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"55\",\"headDressUrl\":\"\",\"userLiveLv\":\"58\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/2948/1445943296252.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"可爱多\"}"
+      },
+      {
+        "userId": "34902360",
+        "userData": "{\"nickName\":\"八啦De婆娘\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/69804\\/2022090111404260818989-5f59-4816-b83a-ff8d95f98af4.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"22\"}"
+      },
+      {
+        "userId": "26977211",
+        "userData": "{\"nickName\":\"请为我转身\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/53954\\/1479656548845.jpg\",\"userLiveLv\":\"38\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "21858566",
+        "userData": "{\"nickName\":\"花花草草10\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43717\\/1467495207419.jpg\",\"userLiveLv\":\"37\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"215642\",\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "29168791",
+        "userData": "{\"platform\":2,\"userLiveLv\":\"43\",\"nickName\":\"月季--刺手\",\"version\":\"5.6.8.6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58337\\/1543967829320.jpg\"}"
+      },
+      {
+        "userId": "33737141",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/303.png\",\"version\":\"5.6.108\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"42\",\"currUserDrivingCarId\":\"48090\",\"userLevel\":\"32\",\"platform\":\"3\",\"currUserCarId\":\"3\",\"nickName\":\"是啊我们一起\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/67474/1531889296890.jpg\",\"currUserCarName\":\"保时捷911\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "24295911",
+        "userData": "{\"nickName\":\"7青儿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/48591\\/1471588353457.jpg\",\"userLiveLv\":\"34\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330273\",\"userSex\":\"1\",\"userLevel\":\"14\"}"
+      },
+      {
+        "userId": "6265735",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/82.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/3703.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/82.png\",\"userLiveLv\":\"79\",\"currUserDrivingCarId\":\"331407\",\"userLevel\":\"81\",\"platform\":\"3\",\"currUserCarId\":\"37\",\"nickName\":\"丿仙界-Kristine\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/12531/20230506200352815cc515-a6dd-4859-a110-4aed81e66077.jpg\",\"currUserCarName\":\"魔法飞天\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "29680303",
+        "userData": "{\"nickName\":\"啦啦--\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/59360\\/20230330161144a88da923-14b5-4a2c-87cb-e8f8317e4fef.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330835\",\"userSex\":\"1\",\"userLevel\":\"19\"}"
+      },
+      {
+        "userId": "35393519",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/82.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/3703.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/82.png\",\"userLiveLv\":\"128\",\"currUserDrivingCarId\":\"331408\",\"userLevel\":\"88\",\"platform\":\"3\",\"currUserCarId\":\"37\",\"nickName\":\"仙界_月神\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70787/202304291618420831ab82-f28c-4bcf-9f13-46c852a896fe.jpg\",\"currUserCarName\":\"魔法飞天\",\"stageBgAnimId\":28,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38244785",
+        "userData": "{\"nickName\":\"晚晚\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76489\\/202303301614070eca7b5f-cb32-4cd5-8ea4-0d300a23ccf6.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330271\",\"userSex\":\"1\",\"userLevel\":\"11\"}"
+      },
+      {
+        "userId": "24186273",
+        "userData": "{\"nickName\":\"新达人-777\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/48372\\/1471343339007.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"328853\",\"userSex\":\"0\",\"userLevel\":\"13\"}"
+      },
+      {
+        "userId": "20051523",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/303.png\",\"version\":\"5.6.99\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"44\",\"currUserDrivingCarId\":\"48753\",\"userLevel\":\"32\",\"platform\":\"3\",\"currUserCarId\":\"3\",\"nickName\":\"小小家伙1\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/40103/1464860057353.jpg\",\"currUserCarName\":\"保时捷911\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38451160",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"27\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"36\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76902/202301230736221413ab31-7864-4959-9b98-7936cdc9638e.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"忆惜_如莲-似玉_\"}"
+      },
+      {
+        "userId": "21680602",
+        "userData": "{\"nickName\":\"小卷毛2\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43361\\/1465501423747.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.7.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "35809893",
+        "userData": "{\"nickName\":\"丿奇怪_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71619\\/202210120823188833e431-95b1-4f45-90bc-ed8fdc0946c2.jpg\",\"userLiveLv\":\"51\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"30\"}"
+      },
+      {
+        "userId": "20919158",
+        "userData": "{\"nickName\":\"-乐瑶-\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/41838\\/20230223181020aa29eb34-7fcd-4402-a307-f8f069e46027.jpg\",\"userLiveLv\":\"34\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/303.png\",\"currUserCarName\":\"保时捷911\",\"currUserCarId\":\"3\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"77841\",\"userSex\":\"1\",\"userLevel\":\"17\"}"
+      },
+      {
+        "userId": "29168716",
+        "userData": "{\"platform\":2,\"userLiveLv\":\"43\",\"nickName\":\"石榴花树\",\"version\":\"5.6.8.6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58337\\/1506608209800.jpg\"}"
+      },
+      {
+        "userId": "37343481",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.109\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"84\",\"currUserDrivingCarId\":\"330161\",\"userLevel\":\"53\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"__听风阁__\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74686/2020072809433884b10292-b773-4c4b-983a-bc17ab29da99.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35825087",
+        "userData": "{\"nickName\":\"仙界_龙飞凤舞\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71650\\/202305081213221c2b9193-bb12-467d-883d-c11702a37884.jpg\",\"userLiveLv\":\"67\",\"version\":\"5.9.2\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/3703.png\",\"currUserCarName\":\"魔法飞天\",\"currUserCarId\":\"37\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.svga\",\"currUserDrivingCarId\":\"331409\",\"userSex\":\"1\",\"userLevel\":\"52\"}"
+      },
+      {
+        "userId": "20908709",
+        "userData": "{\"nickName\":\"凉城\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/41817\\/1464314564490.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331264\",\"userSex\":\"1\",\"userLevel\":\"18\"}"
+      },
+      {
+        "userId": "21011757",
+        "userData": "{\"nickName\":\"蓝魅子\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/42023\\/1486544352654.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "35825247",
+        "userData": "{\"nickName\":\"仙界_Tina\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71650\\/202209021511294c6b3db2-fc6a-4116-8a42-cc5940d8ec24.jpg\",\"userLiveLv\":\"63\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"51\"}"
+      },
+      {
+        "userId": "17586448",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"112\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/60.svga\",\"userLiveLv\":\"152\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/35172/2022050322323949e79959-cfd4-4642-a194-b2b1feb6da39.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/60.png\",\"version\":\"5.6.108\",\"headDressType\":1,\"nickName\":\"K__C\"}"
+      },
+      {
+        "userId": "21858188",
+        "userData": "{\"nickName\":\"花花草草5\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43716\\/1467450866425.jpg\",\"userLiveLv\":\"37\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"204795\",\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "20878763",
+        "userData": "{\"nickName\":\"_大鸡居_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/41757\\/1512716854954.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330834\",\"userSex\":\"1\",\"userLevel\":\"20\"}"
+      },
+      {
+        "userId": "33623209",
+        "userData": "{\"currUserDrivingCarId\":\"47841\",\"userLiveLv\":\"57\",\"platform\":\"3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/67246/1565362167280.jpg\",\"currUserCarId\":\"3\",\"userSex\":\"1\",\"version\":\"5.6.71\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/303.png\",\"currUserCarName\":\"保时捷911\",\"nickName\":\"随缘_乎乎\",\"headDress\":\"\"}"
+      },
+      {
+        "userId": "35769921",
+        "userData": "{\"nickName\":\"仙界_灿烂\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71539\\/20230421202847a0599c0c-d9e9-4fae-9425-f908522800cc.jpg\",\"userLiveLv\":\"65\",\"version\":\"5.9.2\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/81.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/81.svga\",\"userSex\":\"0\",\"userLevel\":\"48\"}"
+      },
+      {
+        "userId": "26441744",
+        "userData": "{\"nickName\":\"仙界\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/52883\\/2023050407330762b929fc-b85b-4617-836f-3c63a5ed20a8.jpg\",\"userLiveLv\":\"139\",\"version\":\"5.9.2\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/81.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/81.svga\",\"userSex\":\"1\",\"userLevel\":\"104\"}"
+      },
+      {
+        "userId": "35904342",
+        "userData": "{\"nickName\":\"丿四当家\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71808\\/20220905120822c09ab4e4-aebb-4380-bf3b-1ed9acdeae12.jpg\",\"userLiveLv\":\"52\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "6303523",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"61\",\"currUserDrivingCarId\":\"329954\",\"userLevel\":\"48\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"Bambi-瑩\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/12607/2023040821420503b97f82-4b58-4cfb-a455-440a83bb4e85.jpg\",\"currUserCarName\":\"Smart\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "29168594",
+        "userData": "{\"platform\":2,\"userLiveLv\":\"43\",\"nickName\":\"紫藤花一韵\",\"version\":\"5.6.8.6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58337\\/1506608054508.jpg\"}"
+      },
+      {
+        "userId": "32894145",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"30\",\"headDressUrl\":\"\",\"userLiveLv\":\"56\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/65788/20200920194303e542c9db-a2fc-4027-87dd-8747036d3175.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.110\",\"headDressType\":0,\"nickName\":\"k__诺\"}"
+      },
+      {
+        "userId": "29168483",
+        "userData": "{\"platform\":2,\"userLiveLv\":\"43\",\"nickName\":\"桃花--劫\",\"version\":\"5.6.8.6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58336\\/1488600535648.jpg\"}"
+      },
+      {
+        "userId": "31767509",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"25\",\"headDressUrl\":\"\",\"userLiveLv\":\"45\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/63535/202012011913067a3dc5ff-ea37-404b-b944-b05e87a6be59.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"爺___大俊\"}"
+      },
+      {
+        "userId": "34165530",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"68\",\"headDressUrl\":\"\",\"userLiveLv\":\"93\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/68331/20200621033555ad70b697-09e6-4519-94c3-a3872e121ec1.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"_妳寶爺\"}"
+      },
+      {
+        "userId": "12001092",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"65\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"userLiveLv\":\"66\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/24002/20230422230729b5f9584d-af83-41ad-89e1-a57b7b3b0b82.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"林初一\"}"
+      },
+      {
+        "userId": "27015542",
+        "userData": "{\"nickName\":\"生生世世发\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/54031\\/202108110228579fa47274-213c-4bb3-89d8-eb6a6b14447c.jpg\",\"userLiveLv\":\"54\",\"version\":\"5.7.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "29168387",
+        "userData": "{\"platform\":2,\"userLiveLv\":\"43\",\"nickName\":\"牡丹__洁\",\"version\":\"5.6.8.6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58336\\/1506607986084.jpg\"}"
+      },
+      {
+        "userId": "6379147",
+        "userData": "{\"nickName\":\"k_u__wtf__xx\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/12758\\/20200530203001a766e135-e8f8-4576-9772-b120b0ade092.jpg\",\"userLiveLv\":\"131\",\"version\":\"5.7.5\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/72.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/72.svga\",\"currUserDrivingCarId\":\"329168\",\"userSex\":\"0\",\"userLevel\":\"90\"}"
+      },
+      {
+        "userId": "38396303",
+        "userData": "{\"userLiveLv\":\"56\",\"platform\":\"3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76792/202209202124281ad96c6c-e495-4221-a611-a3926e3d2b00.jpg\",\"headDress\":\"\",\"userSex\":\"1\",\"version\":\"5.6.74\",\"nickName\":\"悶暪鍆樠\"}"
+      },
+      {
+        "userId": "29168133",
+        "userData": "{\"platform\":2,\"userLiveLv\":\"43\",\"nickName\":\"黄色一太阳花\",\"version\":\"5.6.8.6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58336\\/1506607878671.jpg\"}"
+      },
+      {
+        "userId": "34230956",
+        "userData": "{\"nickName\":\"爺__的倔强\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/68461\\/202005262209196b7d58bd-1187-4422-aaa6-49f23834eeb3.jpg\",\"userLiveLv\":\"56\",\"version\":\"5.7.5\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "5323096",
+        "userData": "{\"nickName\":\"XX_阿布_XX\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "11453080",
+        "userData": "{\"nickName\":\"爺__恋\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/22906\\/1557244407821.jpg\",\"userLiveLv\":\"55\",\"version\":\"5.7.5\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"userSex\":\"0\",\"userLevel\":\"32\"}"
+      },
+      {
+        "userId": "29170251",
+        "userData": "{\"nickName\":\"朵儿艳艳_17\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58340\\/2020110122392774be0093-6ae5-4111-9fe5-7695aaca645d.jpg\",\"userLiveLv\":\"41\",\"version\":\"5.6.24.1\",\"platform\":2}"
+      },
+      {
+        "userId": "34225981",
+        "userData": "{\"nickName\":\"安_然\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/68451\\/202006261647007f3bf5a2-da1f-4a15-855a-2719375e3945.jpg\",\"userLiveLv\":\"50\",\"version\":\"5.7.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "5322601",
+        "userData": "{\"nickName\":\"XX_大眼仔_XX\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "25255294",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"27\",\"headDressUrl\":\"\",\"userLiveLv\":\"39\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/50510/202212220050361390a482-241e-4076-915f-f82b8f402381.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"迷-茫\"}"
+      },
+      {
+        "userId": "29170367",
+        "userData": "{\"nickName\":\"朵儿艳艳_18\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58340\\/20201101223833ac16b606-4f85-4525-b8eb-9f0ddc4c12b8.jpg\",\"userLiveLv\":\"41\",\"version\":\"5.6.24.1\",\"platform\":2}"
+      },
+      {
+        "userId": "29170563",
+        "userData": "{\"nickName\":\"朵儿艳艳_19\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58341\\/2020110122373665698412-52e3-47c2-ab95-6ddd9be1c869.jpg\",\"userLiveLv\":\"41\",\"version\":\"5.6.24.1\",\"platform\":2}"
+      },
+      {
+        "userId": "38617238",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"9\",\"headDressUrl\":\"\",\"userLiveLv\":\"28\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77234/20230423071149bbb33435-fa2c-42f7-a46f-93fc6e8130ce.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"小掌柜\"}"
+      },
+      {
+        "userId": "38057391",
+        "userData": "{\"nickName\":\"肆无忌惮\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76114\\/2022041821204096861bfc-4a5e-4db6-ab65-e8d9a08f8515.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.9.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"22\"}"
+      },
+      {
+        "userId": "5311191",
+        "userData": "{\"nickName\":\"XX_毛怪_XX\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "29170725",
+        "userData": "{\"nickName\":\"朵儿艳艳_20\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/58341\\/20201101223643822734bb-af3c-4efc-97a1-439a42c52e18.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.6.24.1\",\"platform\":2}"
+      },
+      {
+        "userId": "35904434",
+        "userData": "{\"nickName\":\"仙界-一\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71808\\/20230118181337b03bc0fd-3361-4139-af94-d371b573bf09.jpg\",\"userLiveLv\":\"51\",\"version\":\"5.7.7\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"32\"}"
+      },
+      {
+        "userId": "38414503",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/67.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/67.png\",\"userLiveLv\":\"39\",\"currUserDrivingCarId\":\"331390\",\"userLevel\":\"28\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"仙界-李掌柜\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76829/202305080643478ff0b691-0f98-4fe6-b9c6-f76f85f7a5c9.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "5327935",
+        "userData": "{\"nickName\":\"XX_小飞象_XX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10655\\/20230228102224fd133bc9-d495-4813-bf0b-95d65cd8f092.jpg\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "5326914",
+        "userData": "{\"nickName\":\"XX_尼莫_XX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10653\\/20230228101959e2508d86-d5b8-4c3d-bda5-8d2b378f6442.jpg\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "5326295",
+        "userData": "{\"nickName\":\"XX_多莉_XX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10652\\/20230228101754d731b6b0-5053-43b6-ba6d-f3dc391225b9.jpg\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "35813604",
+        "userData": "{\"nickName\":\"丿紅豆------\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71627\\/202210120815362284690b-a97a-4b32-9215-25c0fb0740b0.jpg\",\"userLiveLv\":\"50\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"30\"}"
+      },
+      {
+        "userId": "5326162",
+        "userData": "{\"nickName\":\"XX_帅流氓_XX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10652\\/20230228094721b516bb38-82ab-46cd-952c-ff8a1ea22a13.jpg\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "36203082",
+        "userData": "{\"nickName\":\"丿樓垚\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/72406\\/20221012081704c88bcb0a-6832-434e-8035-1dc3031d5504.jpg\",\"userLiveLv\":\"51\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "36528551",
+        "userData": "{\"nickName\":\"烈如歌丿丿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73057\\/20221012081056697dc1b8-e683-4d6f-b00a-2b9441e0284e.jpg\",\"userLiveLv\":\"49\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"29\"}"
+      },
+      {
+        "userId": "5325769",
+        "userData": "{\"nickName\":\"XX_俏小姐_XX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10651\\/20230228094508c5a2460f-3519-4d18-abb1-f0fdf02f0d38.jpg\",\"userLiveLv\":\"31\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "36453008",
+        "userData": "{\"nickName\":\"仙界_楼犇丿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/72906\\/202210120814054110f4b8-e18d-49cd-b591-1d442c9b2715.jpg\",\"userLiveLv\":\"51\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"30\"}"
+      },
+      {
+        "userId": "5325733",
+        "userData": "{\"nickName\":\"XX_史迪奇_XX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10651\\/20230228093813e7b69eb1-4632-422c-be8a-1646062808cd.jpg\",\"userLiveLv\":\"32\",\"version\":\"5.6.22\",\"platform\":2}"
+      },
+      {
+        "userId": "26546499",
+        "userData": "{\"nickName\":\"动物王国-熊二\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/53092\\/1478241525359.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.6.22\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/103.png\",\"currUserCarName\":\"Smart\",\"currUserCarId\":\"1\",\"currUserDrivingCarId\":\"330668\"}"
+      },
+      {
+        "userId": "100371",
+        "userData": "{\"nickName\":\"嗑瓜子看表演\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/200\\/20230505232352684e7814-d7c6-4e66-9c1d-bd5d11080335.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"21\"}"
+      },
+      {
+        "userId": "19020735",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/77.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.88\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/77.png\",\"userLiveLv\":\"67\",\"currUserDrivingCarId\":\"329117\",\"userLevel\":\"38\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"来生缘\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/38041/20230506235508eeab4ffe-9f3c-4529-831b-230711679cf8.jpg\",\"currUserCarName\":\"宝马MINI\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "21858405",
+        "userData": "{\"nickName\":\"花花草草7\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43716\\/1467494871718.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"215641\",\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "3666716",
+        "userData": "{\"nickName\":\"懒散灬习惯\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/7333\\/2023050618580189d249cf-6c0f-420d-96c5-b86650c0091c.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"18\"}"
+      },
+      {
+        "userId": "38623906",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"6\",\"headDressUrl\":\"\",\"userLiveLv\":\"26\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77247/20230503135033662ebd0c-851e-4050-b4d9-ba5a19ee71f0.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"愛愛寶寶\"}"
+      },
+      {
+        "userId": "26977122",
+        "userData": "{\"nickName\":\"深邃的枫叶\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/53954\\/1479656312075.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      },
+      {
+        "userId": "2893637",
+        "userData": "{\"nickName\":\"孤城宫罜\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/5787\\/20230425233038a49371a8-6460-4ff9-9bc6-22d2ff08a7a6.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"53564\",\"userSex\":\"1\",\"userLevel\":\"49\"}"
+      },
+      {
+        "userId": "34902385",
+        "userData": "{\"nickName\":\"八啦的大宝贝儿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/69804\\/20230302190423a532483d-3012-498e-a3ed-45f3de09a92a.jpg\",\"userLiveLv\":\"45\",\"version\":\"5.9.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "38537557",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"22\",\"headDressUrl\":\"\",\"userLiveLv\":\"34\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77075/202303252238333307b4ad-3a04-4f48-a9d5-25a90a0bfd51.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"仙界___圈你不圆\"}"
+      },
+      {
+        "userId": "36705360",
+        "userData": "{\"nickName\":\"仙界_Bbbusy\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73410\\/202210120824079078639b-3724-47b3-adda-dca644a18e43.jpg\",\"userLiveLv\":\"54\",\"version\":\"5.9.2\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.svga\",\"userSex\":\"1\",\"userLevel\":\"33\"}"
+      },
+      {
+        "userId": "36775184",
+        "userData": "{\"nickName\":\"丿庭生-\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73550\\/2022102217022106caa2e7-b967-4c47-95ab-63219bd8260d.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.9.2\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.svga\",\"userSex\":\"0\",\"userLevel\":\"23\"}"
+      },
+      {
+        "userId": "36855969",
+        "userData": "{\"nickName\":\"丿龙门客栈丿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73711\\/2022102109043211081178-6543-4821-b668-4426db75c5ba.jpg\",\"userLiveLv\":\"43\",\"version\":\"5.9.2\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.svga\",\"userSex\":\"0\",\"userLevel\":\"26\"}"
+      },
+      {
+        "userId": "17487959",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"45\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"62\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/34975/20210217104508e1beaa1c-87ef-4619-9ce6-a38bf0001ec1.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"女蕉蕉\"}"
+      },
+      {
+        "userId": "37032987",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/57.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/57.png\",\"userLiveLv\":\"82\",\"currUserDrivingCarId\":\"247943\",\"userLevel\":\"63\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"Angeline安乔琳\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74065/202211040005130e3bcbc1-7335-4d63-89b8-915c57d61bdb.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "37534959",
+        "userData": "{\"nickName\":\"小乔琳\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/75069\\/20220216154744510b11dc-cb18-43be-848a-a3cb5fbf87a3.jpg\",\"userLiveLv\":\"45\",\"version\":\"5.6.40\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\"}"
+      },
+      {
+        "userId": "38438088",
+        "userData": "{\"nickName\":\"我来了你走了\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76876\\/20230421181601e0f07cb9-589e-4ca8-a475-767ebc07de96.jpg\",\"userLiveLv\":\"32\",\"version\":\"5.9.8\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"17\"}"
+      },
+      {
+        "userId": "37581389",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"43\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"userLiveLv\":\"48\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75162/2022092115501015108124-9a22-48d2-bd35-6ebc87a835d0.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"管理号\"}"
+      },
+      {
+        "userId": "38427043",
+        "userData": "{\"nickName\":\"昵称\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76854\\/20220729182243cada5709-f293-4cf9-91fe-e1cca18b500d.jpg\",\"userLiveLv\":\"38\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "37294886",
+        "userData": "{\"nickName\":\"Love_myself\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74589\\/20220218131612fc102a9c-f160-43f7-b865-6614c6896717.jpg\",\"userLiveLv\":\"44\",\"version\":\"5.6.40\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\"}"
+      },
+      {
+        "userId": "37314948",
+        "userData": "{\"nickName\":\"戳泡泡\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74629\\/20220915002654f04a244d-6db5-43f7-8c41-79a50edf8654.jpg\",\"userLiveLv\":\"47\",\"version\":\"5.9.4\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.svga\",\"userSex\":\"1\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "21857944",
+        "userData": "{\"nickName\":\"花花草草1\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43715\\/1467317763989.jpg\",\"userLiveLv\":\"38\",\"version\":\"5.6.42\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"currUserDrivingCarId\":\"215641\"}"
+      },
+      {
+        "userId": "2244650",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"71\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"67\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/4489/1547286998008.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"Esc丨退出\"}"
+      },
+      {
+        "userId": "22230618",
+        "userData": "{\"nickName\":\"02bird\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/44461\\/1466803369618.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.7.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "21858349",
+        "userData": "{\"nickName\":\"花花草草6\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43716\\/1467494776245.jpg\",\"userLiveLv\":\"37\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"215641\",\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "21858455",
+        "userData": "{\"nickName\":\"花花草草8\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43716\\/1467494993687.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.7.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"215642\",\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "17390485",
+        "userData": "{\"nickName\":\"-_格格_-\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/34780\\/2023050423323439031b9b-a2b3-4ece-a760-38dcd6dd4105.jpg\",\"userLiveLv\":\"100\",\"version\":\"5.6.42\",\"platform\":2}"
+      },
+      {
+        "userId": "10929082",
+        "userData": "{\"nickName\":\"永远的毛\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/21858\\/1531509472052.jpg\",\"userLiveLv\":\"73\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331290\",\"userSex\":\"0\",\"userLevel\":\"58\"}"
+      },
+      {
+        "userId": "36242453",
+        "userData": "{\"nickName\":\"QUEEN_鐘楚紅\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/72484\\/1577499011116.jpg\",\"userLiveLv\":\"59\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"305415\",\"userSex\":\"0\",\"userLevel\":\"40\"}"
+      },
+      {
+        "userId": "9734955",
+        "userData": "{\"nickName\":\"我是乖乖\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/19469\\/20230414180051cb606513-f9f3-4818-8c66-71eefc87e027.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"21\"}"
+      },
+      {
+        "userId": "3539965",
+        "userData": "{\"nickName\":\"婴儿笑脸\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/7079\\/20230413084427b9baad6e-c3a8-4c40-8e1f-ce49adc9231e.jpg\",\"userLiveLv\":\"58\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"257807\",\"userSex\":\"1\",\"userLevel\":\"46\"}"
+      },
+      {
+        "userId": "9406169",
+        "userData": "{\"nickName\":\"KING_伊人宝宝\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18812\\/20200809135755bb6f9b4f-ffcc-4c7a-a0f9-b21121add755.jpg\",\"userLiveLv\":\"47\",\"version\":\"5.9.8\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.svga\",\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"30\"}"
+      },
+      {
+        "userId": "14140462",
+        "userData": "{\"nickName\":\"莫忆女王\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/28280\\/20221204154309bc7891d2-8053-481f-a7f3-5071049d379f.jpg\",\"userLiveLv\":\"41\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"23\"}"
+      },
+      {
+        "userId": "37715689",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"25\",\"headDressUrl\":\"\",\"userLiveLv\":\"39\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75431/2022121408412997640e5b-7488-4e48-af02-2ca478fdc839.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"蘄思楠\"}"
+      },
+      {
+        "userId": "35392176",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/2003.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"54\",\"currUserDrivingCarId\":\"331340\",\"userLevel\":\"32\",\"platform\":\"3\",\"currUserCarId\":\"20\",\"nickName\":\"公主的小幸运\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70784/2023050814523001dd8c58-5b4a-4cc5-8e17-5213884a2937.jpg\",\"currUserCarName\":\"萌版热气球\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "36846915",
+        "userData": "{\"nickName\":\"Iced_Thai_Tea_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73693\\/20210506140108071e8389-bc30-4880-8239-a2effce91395.jpg\",\"userLiveLv\":\"50\",\"version\":\"5.6.40\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\"}"
+      },
+      {
+        "userId": "33826377",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"\",\"headDressUrl\":\"\",\"userLiveLv\":\"35\",\"nickName\":\"迷惘\",\"userLevel\":\"20\",\"headDressType\":0,\"platform\":\"3\",\"version\":\"5.6.108\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/67652/202303221731125597a0ed-de2f-438d-b030-d5c82b7995cf.jpg\"}"
+      },
+      {
+        "userId": "26794097",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/44.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/62_show.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/44.png\",\"userLiveLv\":\"48\",\"currUserDrivingCarId\":\"330553\",\"userLevel\":\"27\",\"platform\":\"3\",\"currUserCarId\":\"62\",\"nickName\":\"春雨细无丝\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default.png\",\"currUserCarName\":\"劳斯莱斯\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "26181693",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/3103.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"48\",\"currUserDrivingCarId\":\"331393\",\"userLevel\":\"28\",\"platform\":\"3\",\"currUserCarId\":\"31\",\"nickName\":\"冬日暖阳\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default.png\",\"currUserCarName\":\"魅力大咖座驾\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "16369471",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"29\",\"headDressUrl\":\"\",\"userLiveLv\":\"36\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/32738/2023030617063848415755-cad9-479d-b7b9-c5b9e38ee433.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"仙界_幻想与现实\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 66152,
+    "userList": [
+      {
+        "userId": "36832346",
+        "userData": "{\"nickName\":\"1025藍\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73664\\/20201006013337751e1fa2-8e28-40ba-a6c2-240bc4c2fac2.jpg\",\"userLiveLv\":\"41\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330319\",\"userSex\":\"0\",\"userLevel\":\"24\"}"
+      },
+      {
+        "userId": "17422306",
+        "userData": "{\"nickName\":\"隨緣_小北京\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/34844\\/202201112040204911a992-1465-4d54-b29a-43da9e7ac693.jpg\",\"userLiveLv\":\"60\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"310243\",\"userSex\":\"1\",\"userLevel\":\"36\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 48771,
+    "userList": [
+      {
+        "userId": "17944416",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"userLiveLv\":\"94\",\"currUserDrivingCarId\":\"329659\",\"userLevel\":\"71\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"miyuuu\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/35888/20221225223424ebd87e67-41c6-415f-9c30-335fbc2045e1.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "37371025",
+        "userData": "{\"nickName\":\"雨后\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74742\\/2023041502012212c48942-8d05-4fd3-ba44-2d7b6e7614b8.jpg\",\"userLiveLv\":\"61\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330273\",\"userSex\":\"0\",\"userLevel\":\"45\"}"
+      },
+      {
+        "userId": "19094991",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/40.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.109\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/40.png\",\"userLiveLv\":\"114\",\"currUserDrivingCarId\":\"331238\",\"userLevel\":\"85\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"无惧_一_不怕\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/38189/20200826100751b5a7dc23-1aea-4aaa-b114-881895ce72e9.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35272044",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"24\",\"headDressUrl\":\"\",\"userLiveLv\":\"36\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70544/20220520074225e90c2608-2949-4b60-bf73-7427e821a4fd.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"一个爱哭鬼\"}"
+      },
+      {
+        "userId": "16512430",
+        "userData": "{\"nickName\":\"女人如书\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/33024\\/202303140922293c674c0d-fe44-4716-9bbd-59c826fdaa19.jpg\",\"userLiveLv\":\"76\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1303.png\",\"currUserCarName\":\"豪华马车（仙女版）\",\"currUserCarId\":\"13\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"186565\",\"userSex\":\"1\",\"userLevel\":\"66\"}"
+      },
+      {
+        "userId": "38007376",
+        "userData": "{\"userLevel\":\"25\",\"headDressUrl\":\"\",\"userLiveLv\":\"36\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76014/20220902152137afa61c7f-43b5-45f9-9ad3-46d9ad460fcb.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.88\",\"headDressType\":0,\"nickName\":\"子夜\"}"
+      },
+      {
+        "userId": "9848998",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.88\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"69\",\"currUserDrivingCarId\":\"39679\",\"userLevel\":\"55\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"涵泡泡-_-\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/19697/2023032409403807b88a59-1224-4e85-a3a5-19de98c73ad5.jpg\",\"currUserCarName\":\"宝马MINI\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "17474900",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.110\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"48\",\"currUserDrivingCarId\":\"248557\",\"userLevel\":\"39\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"可轩轩\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/34949/1524673487155.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "18026962",
+        "userData": "{\"headDressUrl\":\"\",\"headDressType\":0,\"userLiveLv\":\"78\",\"currUserCarId\":\"2\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/36053/20220819191418bac7a8a9-61d8-413e-89b2-0ee9de2cf0b5.jpg\",\"headDress\":\"\",\"platform\":\"3\",\"currUserCarName\":\"宝马MINI\",\"userLevel\":\"55\",\"version\":\"5.6.86\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"nickName\":\"名字还没想好呢\",\"currUserDrivingCarId\":\"229558\"}"
+      },
+      {
+        "userId": "16027476",
+        "userData": "{\"nickName\":\"Y-CNov1-\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/32054\\/202305061627317d5829ce-6699-4c49-9fbe-538f96383adc.jpg\",\"userLiveLv\":\"96\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/75.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/75.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330947\",\"userSex\":\"1\",\"userLevel\":\"54\"}"
+      },
+      {
+        "userId": "7865754",
+        "userData": "{\"nickName\":\"奶油派\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/15731\\/202304061156532ac8c74a-5977-4048-b84e-f1765cfd265a.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"26\"}"
+      },
+      {
+        "userId": "15986780",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/48_show.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"136\",\"currUserDrivingCarId\":\"330953\",\"userLevel\":\"125\",\"platform\":\"3\",\"currUserCarId\":\"48\",\"nickName\":\"随缘_Connie2277\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/31973/1476494113558.jpg\",\"currUserCarName\":\"天使之翼\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "33851461",
+        "userData": "{\"nickName\":\"轻喵述说_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/67702\\/1533625114332.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "31669533",
+        "userData": "{\"nickName\":\"平凡先生\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/63339\\/20230502181150ef7745f4-6c60-4500-a4f4-8273168a0025.jpg\",\"userLiveLv\":\"45\",\"version\":\"5.9.8\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.svga\",\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"34\"}"
+      },
+      {
+        "userId": "37539533",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"44\",\"currUserDrivingCarId\":\"299119\",\"userLevel\":\"10\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"风子\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default.png\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "14191828",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.86\",\"headDressType\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/27.png\",\"userLiveLv\":\"77\",\"currUserDrivingCarId\":\"181934\",\"userLevel\":\"54\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"忆惜_夏晓心_乖巧十\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/28383/202006120919209903c7ff-a142-45ac-aa47-482ac442f313.jpg\",\"currUserCarName\":\"宝马MINI\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38440431",
+        "userData": "{\"nickName\":\"喵球噗噗_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76880\\/202208161732345bae139f-c9c1-4ceb-935e-2deb5cbc9ba5.jpg\",\"userLiveLv\":\"37\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "7393500",
+        "userData": "{\"nickName\":\"火辣辣辣條_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/14787\\/1544885324375.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"26\"}"
+      },
+      {
+        "userId": "36142473",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.109\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"51\",\"currUserDrivingCarId\":\"299119\",\"userLevel\":\"39\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"新达人t8af3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/default.png\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "25915921",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"35\",\"currUserDrivingCarId\":\"330916\",\"userLevel\":\"16\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"芷兮\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/51831/1476063153317.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "24366183",
+        "userData": "{\"nickName\":\"心若向阳\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/48732\\/202302260149093ae357b2-e4fe-438e-a435-e9acb943f789.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"18\"}"
+      },
+      {
+        "userId": "5536455",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/82.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/82.png\",\"userLiveLv\":\"79\",\"currUserDrivingCarId\":\"331056\",\"userLevel\":\"64\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"八啦八啦-\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/11072/202301121229497bb80400-65fc-49ca-8230-252079bb82d0.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":26,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "36403790",
+        "userData": "{\"nickName\":\"新大人009090000\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"60\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"36\"}"
+      },
+      {
+        "userId": "32863061",
+        "userData": "{\"nickName\":\"老公-骗财-骗色\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/65726\\/20210311014626ed560615-19ac-4413-adca-5ec0c4a20fd2.jpg\",\"userLiveLv\":\"70\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"154914\",\"userSex\":\"0\",\"userLevel\":\"54\"}"
+      },
+      {
+        "userId": "38582830",
+        "userData": "{\"nickName\":\"微星\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/77165\\/1677569399989.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/303.png\",\"currUserCarName\":\"保时捷911\",\"currUserCarId\":\"3\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"77837\",\"userSex\":\"1\",\"userLevel\":\"14\"}"
+      },
+      {
+        "userId": "9149017",
+        "userData": "{\"nickName\":\"潇湘\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18298\\/202304140911433ed836a9-850d-43b9-b622-a0c115d5f212.jpg\",\"userLiveLv\":\"66\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1203.png\",\"currUserCarName\":\"南瓜车\",\"currUserCarId\":\"12\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330939\",\"userSex\":\"0\",\"userLevel\":\"56\"}"
+      },
+      {
+        "userId": "27511687",
+        "userData": "{\"nickName\":\"妞妞-爱唱歌\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/55023\\/20230411021413a956423c-e7ca-4544-afb6-f91625f319a0.jpg\",\"userLiveLv\":\"34\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330835\",\"userSex\":\"1\",\"userLevel\":\"12\"}"
+      },
+      {
+        "userId": "37332434",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/45.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/45.png\",\"userLiveLv\":\"61\",\"currUserDrivingCarId\":\"330945\",\"userLevel\":\"43\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"迷-迷歌邦妮\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74664/20230128132645b173bc78-d847-40b8-ac8d-4e85eb05aecf.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "18350020",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"76\",\"headDressUrl\":\"\",\"userLiveLv\":\"70\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/36700/202112231500153ffb15ca-79c5-432b-a7e0-78c9d6042f4d.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.109\",\"headDressType\":0,\"nickName\":\"痛了-心痛\"}"
+      },
+      {
+        "userId": "38513387",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/28.png\",\"userLiveLv\":\"41\",\"currUserDrivingCarId\":\"330877\",\"userLevel\":\"26\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"仙界-铁扇公主\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77026/20230506043829e5811b7e-e056-4bbd-b474-10577aaca4cd.jpg\",\"currUserCarName\":\"Smart\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "25500182",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/44.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.89\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/44.png\",\"userLiveLv\":\"76\",\"currUserDrivingCarId\":\"330668\",\"userLevel\":\"65\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"一字頭單車\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/51000/1599237901069.jpg\",\"currUserCarName\":\"Smart\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35067389",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/1203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"83\",\"currUserDrivingCarId\":\"330925\",\"userLevel\":\"57\",\"platform\":\"3\",\"currUserCarId\":\"12\",\"nickName\":\"乄灬Iko\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70134/20220507134815e23a5992-3fae-46a5-bd6a-d463637d813a.jpg\",\"currUserCarName\":\"南瓜车\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "20880066",
+        "userData": "{\"nickName\":\"_大西几_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/41760\\/1512718181453.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330919\",\"userSex\":\"1\",\"userLevel\":\"18\"}"
+      },
+      {
+        "userId": "25654981",
+        "userData": "{\"currUserDrivingCarId\":\"330663\",\"userLiveLv\":\"73\",\"platform\":\"3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/51309/1484491389951.jpg\",\"currUserCarId\":\"1\",\"userSex\":\"0\",\"version\":\"5.6.67\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"currUserCarName\":\"Smart\",\"nickName\":\"天上飞_飞飞\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/44.png\"}"
+      },
+      {
+        "userId": "20917506",
+        "userData": "{\"nickName\":\"_缤纷_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/41835\\/1533968208610.jpg\",\"userLiveLv\":\"36\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330836\",\"userSex\":\"1\",\"userLevel\":\"18\"}"
+      },
+      {
+        "userId": "24186033",
+        "userData": "{\"nickName\":\"花小染\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/48372\\/20230411022143a1ec99df-d7af-443f-a572-e6a0ef4d83fb.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"14\"}"
+      },
+      {
+        "userId": "26546481",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/44.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/44.png\",\"userLiveLv\":\"49\",\"currUserDrivingCarId\":\"330655\",\"userLevel\":\"28\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"上帝也瘋狂\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/53092/1530422589305.jpg\",\"currUserCarName\":\"Smart\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "21344597",
+        "userData": "{\"nickName\":\"林林\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/42689\\/2023021810473461e3ca45-afa6-45f9-bf0e-e2b7220bbe9b.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"17\"}"
+      },
+      {
+        "userId": "35474315",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"58\",\"currUserDrivingCarId\":\"307907\",\"userLevel\":\"42\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"丷小巫婆丷\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70948/2021041809565744f85777-8866-4415-83bc-27fcf8df0fcd.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "31192983",
+        "userData": "{\"nickName\":\"黑貓警長_飞飞\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/62385\\/1556525561035.jpg\",\"userLiveLv\":\"51\",\"version\":\"5.6.49\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/103.png\",\"currUserCarName\":\"Smart\",\"currUserCarId\":\"1\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"currUserDrivingCarId\":\"330654\",\"userSex\":\"0\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "21039606",
+        "userData": "{\"nickName\":\"天真浪漫勇敢无敌小逗比\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/42079\\/1464453058551.jpg\",\"userLiveLv\":\"43\",\"version\":\"5.6.49\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/103.png\",\"currUserCarName\":\"Smart\",\"currUserCarId\":\"1\",\"headDressType\":0,\"currUserDrivingCarId\":\"330669\",\"userSex\":\"1\",\"userLevel\":\"24\"}"
+      },
+      {
+        "userId": "37191814",
+        "userData": "{\"nickName\":\"跳跳虎_跳跳\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74383\\/20200515150313da1e8d8c-39d4-402b-a89d-981f62750d66.jpg\",\"userLiveLv\":\"46\",\"version\":\"5.6.44\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/103.png\",\"currUserCarName\":\"Smart\",\"currUserCarId\":\"1\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"currUserDrivingCarId\":\"330656\"}"
+      },
+      {
+        "userId": "21623981",
+        "userData": "{\"nickName\":\"L_风雨\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/43247\\/1465391856744.jpg\",\"userLiveLv\":\"34\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330917\",\"userSex\":\"1\",\"userLevel\":\"14\"}"
+      },
+      {
+        "userId": "20407136",
+        "userData": "{\"nickName\":\"rtfsy\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/40814\\/20230505100230fddbf895-2f4b-447b-a515-16e34019722b.jpg\",\"userLiveLv\":\"131\",\"version\":\"5.9.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/50b3.png\",\"currUserCarName\":\"童年的纸飞机\",\"currUserCarId\":\"50\",\"headDressType\":0,\"currUserDrivingCarId\":\"329308\",\"userSex\":\"0\",\"userLevel\":\"96\"}"
+      },
+      {
+        "userId": "37252150",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"60\",\"currUserDrivingCarId\":\"331155\",\"userLevel\":\"38\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"名偵探_B\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74504/202303280658283bbe1986-18c9-4682-91f5-40528359f475.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "36145001",
+        "userData": "{\"nickName\":\"宁渝\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/72290\\/2023043003554075743e3a-ca96-4e56-a0d3-09da73e52eaf.jpg\",\"userLiveLv\":\"58\",\"version\":\"5.9.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDressType\":0,\"currUserDrivingCarId\":\"328551\",\"userSex\":\"1\",\"userLevel\":\"33\"}"
+      },
+      {
+        "userId": "21450989",
+        "userData": "{\"nickName\":\"星空物語\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/42901\\/1504497847253.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"15\"}"
+      },
+      {
+        "userId": "36472429",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/2003.png\",\"version\":\"5.6.113\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"57\",\"currUserDrivingCarId\":\"330049\",\"userLevel\":\"44\",\"platform\":\"3\",\"currUserCarId\":\"20\",\"nickName\":\"l灬兀屮丌屮灬l\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/72944/2023030720145056fa6fc4-bbf1-4d23-99a5-d09ad2a54307.jpg\",\"currUserCarName\":\"萌版热气球\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "26510130",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/50.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/6403.png\",\"version\":\"5.6.88\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/50.png\",\"userLiveLv\":\"102\",\"currUserDrivingCarId\":\"329335\",\"userLevel\":\"76\",\"platform\":\"3\",\"currUserCarId\":\"64\",\"nickName\":\"甜心公主_\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/53020/202305081043207470532d-fde8-4465-b632-bcf4de486ccb.jpg\",\"currUserCarName\":\"梦幻热气球\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "33030132",
+        "userData": "{\"headDressUrl\":\"\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/2003.png\",\"version\":\"5.6.111\",\"headDressType\":0,\"headDress\":\"\",\"userLiveLv\":\"98\",\"currUserDrivingCarId\":\"330049\",\"userLevel\":\"66\",\"platform\":\"3\",\"currUserCarId\":\"20\",\"nickName\":\"丨M丶____丨\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/66060/20230307003254f2be4d67-2058-4f47-8103-597b494a0c16.jpg\",\"currUserCarName\":\"萌版热气球\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35821097",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"version\":\"5.6.88\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"57\",\"currUserDrivingCarId\":\"330050\",\"userLevel\":\"42\",\"platform\":\"3\",\"currUserCarId\":\"50\",\"nickName\":\"乄灬猫寶寶_\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/71642/20210124230337c6411f05-973d-4c8f-9d2f-f5fe53763a9e.jpg\",\"currUserCarName\":\"童年的纸飞机\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "28505031",
+        "userData": "{\"nickName\":\"媚绮婷\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/57010\\/2023050602091074acf269-dcaa-499f-8ed7-572a59cd1b76.jpg\",\"userLiveLv\":\"68\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/56h3.png\",\"currUserCarName\":\"爱心火箭\",\"currUserCarId\":\"56\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"329818\",\"userSex\":\"0\",\"userLevel\":\"46\"}"
+      },
+      {
+        "userId": "35319824",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"stageBgAnimId\":0,\"headDressType\":1,\"userLiveLv\":\"66\",\"currUserCarId\":\"50\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70639/2021010902414213e6c6bf-8601-40a6-98e8-7a1e752a785c.jpg\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"platform\":\"3\",\"currUserCarName\":\"童年的纸飞机\",\"userLevel\":\"52\",\"version\":\"5.6.113\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/50b3.png\",\"nickName\":\"_o_喵喵喵_o_\",\"currUserDrivingCarId\":\"330050\"}"
+      },
+      {
+        "userId": "26306517",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/76_show.png\",\"version\":\"5.6.88\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"65\",\"currUserDrivingCarId\":\"330847\",\"userLevel\":\"53\",\"platform\":\"3\",\"currUserCarId\":\"76\",\"nickName\":\"婉婷婷\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/52613/20230506222454c6eba8fa-e957-43bf-a0a6-ca096959f18d.jpg\",\"currUserCarName\":\"星梦南瓜车\",\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "29559364",
+        "userData": "{\"nickName\":\"--晴儿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/59118\\/2022090816034842e78f55-b991-4bee-af12-f42a6a2779bc.jpg\",\"userLiveLv\":\"56\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/2003.png\",\"currUserCarName\":\"萌版热气球\",\"currUserCarId\":\"20\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"331340\",\"userSex\":\"0\",\"userLevel\":\"32\"}"
+      },
+      {
+        "userId": "24140955",
+        "userData": "{\"nickName\":\"喜7洋洋\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/48281\\/1471224865737.jpg\",\"userLiveLv\":\"35\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"14\"}"
+      },
+      {
+        "userId": "37252471",
+        "userData": "{\"nickName\":\"亦复如是\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74504\\/20211221024601dce52ac1-daf3-4d76-8c6b-1c95bb344c28.jpg\",\"userLiveLv\":\"58\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1203.png\",\"currUserCarName\":\"南瓜车\",\"currUserCarId\":\"12\",\"currUserDrivingCarId\":\"331166\"}"
+      },
+      {
+        "userId": "22876359",
+        "userData": "{\"nickName\":\"无趣\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/45752\\/202008040107052c2fde4b-ebe9-41c0-9298-f4aeebf62e93.jpg\",\"userLiveLv\":\"51\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "37870106",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"32\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"52\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75740/202301100127168dd98828-603e-48e7-8329-665fb2c81484.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"影兒\"}"
+      },
+      {
+        "userId": "9849786",
+        "userData": "{\"nickName\":\"友情_初心\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/19699\\/1559294403865.jpg\",\"userLiveLv\":\"56\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1103.png\",\"currUserCarName\":\"法拉利F12\",\"currUserCarId\":\"11\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/44.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"244924\",\"userSex\":\"1\",\"userLevel\":\"44\"}"
+      },
+      {
+        "userId": "37536693",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/54_bak.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/54_bak.png\",\"userLiveLv\":\"69\",\"currUserDrivingCarId\":\"331235\",\"userLevel\":\"47\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"鳶YuanWeiHua1\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75073/202101170729222b31db95-c66e-4ad6-a9c2-aaa16b0da503.jpg\",\"currUserCarName\":\"Smart\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "23499921",
+        "userData": "{\"nickName\":\"momo\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/46999\\/2022100912293305d62880-fe26-4759-b258-047e86de7ffc.jpg\",\"userLiveLv\":\"58\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/53b3.png\",\"currUserCarName\":\"小帆船\",\"currUserCarId\":\"53\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"currUserDrivingCarId\":\"330127\"}"
+      },
+      {
+        "userId": "37536405",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/49.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/103.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"69\",\"currUserDrivingCarId\":\"330802\",\"userLevel\":\"45\",\"platform\":\"3\",\"currUserCarId\":\"1\",\"nickName\":\"名偵探-鳶尾花-Yuan\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75072/2020112511121103b1c0d6-17f6-4ecd-af7a-fa6b66ceae24.jpg\",\"currUserCarName\":\"Smart\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "33361487",
+        "userData": "{\"nickName\":\"白玉\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/66722\\/202206301945416d33da70-f6c2-4c39-a475-8a370e9def2a.jpg\",\"userLiveLv\":\"58\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"currUserDrivingCarId\":\"329651\"}"
+      },
+      {
+        "userId": "29735188",
+        "userData": "{\"nickName\":\"啊啊\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/59470\\/202305021845043aeb2ddb-5915-4b20-9b27-5866beaa22c4.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"27\"}"
+      },
+      {
+        "userId": "4645266",
+        "userData": "{\"nickName\":\"若然菲儿\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/9290\\/202207171527035e43c722-7199-4c3e-8b51-191f6b504c9e.jpg\",\"userLiveLv\":\"97\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/303.png\",\"currUserCarName\":\"保时捷911\",\"currUserCarId\":\"3\",\"headDressType\":0,\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"81299\",\"userSex\":\"1\",\"userLevel\":\"87\"}"
+      },
+      {
+        "userId": "37087037",
+        "userData": "{\"nickName\":\"老舍\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74174\\/20210409232148410420eb-c4ec-48f1-a40d-3fc5d0bb5af5.jpg\",\"userLiveLv\":\"58\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1203.png\",\"currUserCarName\":\"南瓜车\",\"currUserCarId\":\"12\",\"currUserDrivingCarId\":\"331168\"}"
+      },
+      {
+        "userId": "5416639",
+        "userData": "{\"nickName\":\"_天蓝云白_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10833\\/1577244739057.jpg\",\"userLiveLv\":\"46\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "37253184",
+        "userData": "{\"nickName\":\"小野\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74506\\/202304112155516eefa54c-89cd-4cb5-bed4-1e5943087cfc.jpg\",\"userLiveLv\":\"56\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "33697183",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"53\",\"currUserDrivingCarId\":\"319210\",\"userLevel\":\"38\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"零六_\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/67394/202112221732423eb49651-e526-4be7-83da-80cb8366360c.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "24630641",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"54\",\"currUserDrivingCarId\":\"319210\",\"userLevel\":\"36\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"_零六\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/49261/20201225044619f9aeebae-3c5e-4b61-af94-5b73c84f524a.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38270216",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"userLiveLv\":\"55\",\"currUserDrivingCarId\":\"320117\",\"userLevel\":\"42\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"迷-雙玥\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76540/20220503213206f1170425-b802-4f8c-a7dc-8e45aa0cfa3a.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "38586690",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/67.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/4503.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/67.png\",\"userLiveLv\":\"57\",\"currUserDrivingCarId\":\"329231\",\"userLevel\":\"50\",\"platform\":\"3\",\"currUserCarId\":\"45\",\"nickName\":\"__伦敦主持人__\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/77173/20230422031807dbb5daa1-ffc5-45c5-8a8b-522a72e48330.jpg\",\"currUserCarName\":\"冰雪神话\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35568100",
+        "userData": "{\"nickName\":\"II-陌路人-II\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/71136\\/20211025120127ec50fa53-68ed-4780-9449-8b439ca348bd.jpg\",\"userLiveLv\":\"63\",\"version\":\"5.9.2\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.svga\",\"currUserDrivingCarId\":\"321621\",\"userSex\":\"1\",\"userLevel\":\"43\"}"
+      },
+      {
+        "userId": "37716671",
+        "userData": "{\"nickName\":\"新达人ddjn7\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/75433\\/20211221181642a9457aad-ebe0-462d-a709-3fa0ca55d566.jpg\",\"userLiveLv\":\"45\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/46.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"324625\",\"userSex\":\"0\",\"userLevel\":\"30\"}"
+      },
+      {
+        "userId": "33936637",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/75.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/75.png\",\"userLiveLv\":\"87\",\"currUserDrivingCarId\":\"329172\",\"userLevel\":\"60\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"雨后_De_彩红\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/67873/202211061843157e19ed9c-f1c9-45e2-a8ab-eb80ec70ae6b.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "35431802",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"userLiveLv\":\"55\",\"currUserDrivingCarId\":\"321621\",\"userLevel\":\"36\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"_不如_不如_\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70863/20210306025936b6060bdf-a1c5-44df-98b6-a5a1a564885d.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "37252936",
+        "userData": "{\"nickName\":\"沐子柒\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/74505\\/20230427112223ea6f4ca4-f855-49f2-9942-d8cddd0717ed.jpg\",\"userLiveLv\":\"56\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "37680758",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/44.png\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/44.svga\",\"userLiveLv\":\"52\",\"nickName\":\"涵養-鳶Yuan\",\"userLevel\":\"31\",\"headDressType\":1,\"platform\":\"3\",\"version\":\"5.6.113\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75361/2021040814594196dc2858-cfb1-49e8-bff2-2cacfc243c09.jpg\"}"
+      },
+      {
+        "userId": "38057019",
+        "userData": "{\"nickName\":\"新达人l9ulm\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"37\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "36843539",
+        "userData": "{\"nickName\":\"泰国谜___迷谜迷谜迷谜迷谜迷\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73687\\/20220905125619296be900-5fa6-492c-9a3c-e99d6d1e772e.jpg\",\"userLiveLv\":\"73\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"currUserDrivingCarId\":\"328896\"}"
+      },
+      {
+        "userId": "5416634",
+        "userData": "{\"nickName\":\"_莫失莫忘_\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/10833\\/1577243726721.jpg\",\"userLiveLv\":\"47\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"1\",\"userLevel\":\"34\"}"
+      },
+      {
+        "userId": "37669487",
+        "userData": "{\"nickName\":\"珀然\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/75338\\/20221019123250a5063f15-fe3c-4dd2-9207-2e0af3b07339.jpg\",\"userLiveLv\":\"53\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "37483605",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"31\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"48\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74967/20201220154955b356b87c-7ca2-459c-9f48-69aaedc1e497.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"诸葛秩秩\"}"
+      },
+      {
+        "userId": "37372731",
+        "userData": "{\"userLevel\":\"31\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"49\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74745/20201209100817d7e51c50-ba78-483f-8127-187ce8657380.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.86\",\"headDressType\":1,\"nickName\":\"拽雕gian姐\"}"
+      },
+      {
+        "userId": "36615118",
+        "userData": "{\"headDress\":\"http://img.kgeplay.cn/image/head_dress/49.png\",\"userLiveLv\":\"55\",\"nickName\":\"啊___为什么泡泡泡泡声响不停\",\"platform\":\"3\",\"version\":\"5.6.69\",\"userSex\":\"1\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/73230/202109151743405967e76f-9406-4296-9715-931fa54efd2d.jpg\"}"
+      },
+      {
+        "userId": "37210935",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"33\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"50\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/74421/20220215120801d4c62fa0-ac91-4bba-a9dd-4b9123249d67.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"奔波儿灞\"}"
+      },
+      {
+        "userId": "36482759",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"37\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"55\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/72965/202008241214137ecbe4b5-ddd6-4d9d-be1a-763fd90ac524.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"丷就是这么拽丷\"}"
+      },
+      {
+        "userId": "37661559",
+        "userData": "{\"nickName\":\"新达人99yd9\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/75323\\/202102281059405b7131b7-bb14-4757-8536-7a38eee4a1ec.jpg\",\"userLiveLv\":\"50\",\"version\":\"5.6.40\",\"platform\":2}"
+      },
+      {
+        "userId": "36875761",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"33\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"51\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/73751/20220619081708f5a62ae5-b2ee-4a1f-ba16-a550445ea9d0.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"丷小巫师丷\"}"
+      },
+      {
+        "userId": "37669785",
+        "userData": "{\"nickName\":\"新达人y6k6m\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/default.png\",\"userLiveLv\":\"40\",\"version\":\"5.9.2\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "22916559",
+        "userData": "{\"nickName\":\"小胖子\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/45833\\/20221222112509ed215a81-cded-4704-9fce-31adea01cb6c.jpg\",\"userLiveLv\":\"80\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/2003.png\",\"currUserCarName\":\"萌版热气球\",\"currUserCarId\":\"20\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"currUserDrivingCarId\":\"331040\"}"
+      },
+      {
+        "userId": "37504123",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/44.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.114\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/44.png\",\"userLiveLv\":\"52\",\"currUserDrivingCarId\":\"330876\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"云子\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75008/202304131307458e25fe6d-49d8-4d1a-b463-c870d303c99f.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "33202294",
+        "userData": "{\"currUserDrivingCarId\":\"249485\",\"userLiveLv\":\"71\",\"platform\":\"3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/66404/2023031416111599a3672f-2425-4203-86cf-2f1b779d7342.jpg\",\"currUserCarId\":\"2\",\"userSex\":\"1\",\"version\":\"5.6.70\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"currUserCarName\":\"宝马MINI\",\"nickName\":\"HannahBaby__168\",\"headDress\":\"\"}"
+      },
+      {
+        "userId": "20182044",
+        "userData": "{\"nickName\":\"ShellieMay\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/40364\\/20221012133318487edd33-9785-4bda-8f4d-2863b5560373.jpg\",\"userLiveLv\":\"55\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"currUserDrivingCarId\":\"329969\"}"
+      },
+      {
+        "userId": "18611310",
+        "userData": "{\"nickName\":\"小蜜柚\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/37222\\/202206301948313bf7dc9e-8a83-4e02-b65a-4ff8f3962328.jpg\",\"userLiveLv\":\"60\",\"version\":\"5.6.40\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\",\"currUserDrivingCarId\":\"329650\"}"
+      },
+      {
+        "userId": "36856150",
+        "userData": "{\"nickName\":\"咩咩咩咩咩咩咩咩咩\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73712\\/20230216165458b039351f-3521-4fc1-bce6-c8851d3bcb17.jpg\",\"userLiveLv\":\"60\",\"version\":\"5.6.40\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/49.png\"}"
+      },
+      {
+        "userId": "26412956",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"65\",\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/46.svga\",\"userLiveLv\":\"86\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/52825/202210161554007f5e9802-f78d-439c-ae4d-a496da9aa647.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"http://img.kgeplay.cn/image/head_dress/46.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"nickName\":\"迷-乄乄SSSweet醉夢dream乄乄\"}"
+      },
+      {
+        "userId": "35039783",
+        "userData": "{\"nickName\":\"Begonia___秋海棠棠棠\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/70079\\/20220223164601908e4bec-36f5-4f74-9afd-699252a83da6.jpg\",\"userLiveLv\":\"60\",\"version\":\"5.6.40\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/56.png\"}"
+      },
+      {
+        "userId": "33369015",
+        "userData": "{\"nickName\":\"迷-Rose唯一的Rose\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/66738\\/202205021621371b9c1f0d-6a46-48ca-8f63-ad8b19128a81.jpg\",\"userLiveLv\":\"57\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/61_show.png\",\"currUserCarName\":\"奔驰⼤G\",\"currUserCarId\":\"61\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"329769\",\"userSex\":\"1\",\"userLevel\":\"34\"}"
+      },
+      {
+        "userId": "33936640",
+        "userData": "{\"nickName\":\"木有泡泡怎么点星星啊___\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/67873\\/20230507192311bf03e35f-a4b9-4d3e-9acb-352960c4b3d0.jpg\",\"userLiveLv\":\"56\",\"version\":\"5.7.7\",\"platform\":2,\"headDressType\":0,\"userSex\":\"1\",\"userLevel\":\"31\"}"
+      },
+      {
+        "userId": "38386082",
+        "userData": "{\"nickName\":\"-八啦八啦-\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76772\\/20221111204639500fa8d0-6936-4ac5-b683-b268f7305f0f.jpg\",\"userLiveLv\":\"63\",\"version\":\"5.9.4\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/82.svga\",\"currUserDrivingCarId\":\"328990\",\"userSex\":\"0\",\"userLevel\":\"39\"}"
+      },
+      {
+        "userId": "12552950",
+        "userData": "{\"nickName\":\"醉_雨涵\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/25105\\/202304140043279d10d1e0-6a3a-4e84-9090-f53b8cca361c.jpg\",\"userLiveLv\":\"117\",\"version\":\"5.9.7\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/80.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/80.svga\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"329523\",\"userSex\":\"1\",\"userLevel\":\"78\"}"
+      },
+      {
+        "userId": "38413565",
+        "userData": "{\"nickName\":\"dickielo\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76827\\/202207031637520d769457-1117-42bc-8a8a-ac5166263261.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/1203.png\",\"currUserCarName\":\"南瓜车\",\"currUserCarId\":\"12\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"330177\",\"userSex\":\"0\",\"userLevel\":\"23\"}"
+      },
+      {
+        "userId": "38382223",
+        "userData": "{\"nickName\":\"jack\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76764\\/1652391387107.jpg\",\"userLiveLv\":\"40\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/28.png\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"320117\",\"userSex\":\"0\",\"userLevel\":\"25\"}"
+      },
+      {
+        "userId": "38382225",
+        "userData": "{\"nickName\":\"湘玥\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76764\\/20220618125343b3baa6f1-a4f0-44b7-bc71-72077028b0b7.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"320117\",\"userSex\":\"0\",\"userLevel\":\"26\"}"
+      },
+      {
+        "userId": "38283386",
+        "userData": "{\"headDressUrl\":\"http://img.kgeplay.cn/image/head_dress/56.svga\",\"currUserCarImgUrl\":\"http://img.kgeplay.cn/images/car/203.png\",\"version\":\"5.6.113\",\"headDressType\":1,\"headDress\":\"http://img.kgeplay.cn/image/head_dress/56.png\",\"userLiveLv\":\"49\",\"currUserDrivingCarId\":\"331354\",\"userLevel\":\"33\",\"platform\":\"3\",\"currUserCarId\":\"2\",\"nickName\":\"霜玥\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/76566/20230429004711fc067ba6-72d6-4017-a71c-65fe3301e914.jpg\",\"currUserCarName\":\"宝马MINI\",\"stageBgAnimId\":0,\"userSex\":\"0\"}"
+      },
+      {
+        "userId": "36940172",
+        "userData": "{\"stageBgAnimId\":0,\"headDress\":\"\",\"headDressUrl\":\"\",\"userLiveLv\":\"45\",\"nickName\":\"温暖_De_阳光\",\"userLevel\":\"29\",\"headDressType\":0,\"platform\":\"3\",\"version\":\"5.6.112\",\"userSex\":\"0\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/73880/20230307145337202126be-d99a-411e-bdd5-5e2410de3769.jpg\"}"
+      },
+      {
+        "userId": "38286004",
+        "userData": "{\"nickName\":\"小燕子\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76572\\/202203300803156160e304-1663-4891-bbda-775bbb447ae9.jpg\",\"userLiveLv\":\"42\",\"version\":\"5.9.8\",\"platform\":2,\"currUserCarImgUrl\":\"http:\\/\\/img.kgeplay.cn\\/images\\/car\\/203.png\",\"currUserCarName\":\"宝马MINI\",\"currUserCarId\":\"2\",\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"headDressType\":0,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/27.png\",\"stageBgAnimId\":0,\"currUserDrivingCarId\":\"320117\",\"userSex\":\"1\",\"userLevel\":\"28\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "17944416",
+        "songData": "{\"isdafe\":\"0\",\"fashionShowBgIsCoverShow\":false,\"liveUserklv\":\"94\",\"fashionShowImageUrl\":\"http://img.kgeplay.cn/image/image_show/14.png\",\"songName\":\"♥️免费礼物不要浪费尊♥️\",\"choursUserId\":\"\",\"locLrcPath\":\"\",\"songSingType\":\"0\",\"song_id\":\"20230121014522\",\"songLrcType\":\"3\",\"singer\":\".\",\"locSongPath\":\"\",\"detailUrl\":\"\",\"songTrackType\":2,\"songTime\":\"1823.19\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/35888/20221225223424ebd87e67-41c6-415f-9c30-335fbc2045e1.jpg\",\"liveUserName\":\"miyuuu\",\"fashionShowBgUrl\":\"\",\"fee\":\"0\",\"songSourceType\":\"3\",\"fashionShowBgPlayId\":0,\"timeDifference\":\"0.000000\",\"isBackUpsSong\":\"0\",\"backUpsSongSize\":\"0\",\"queueSingType\":\"0\",\"ytImageStr\":\"youtube_normal_mark\",\"isAECMode\":0}",
+        "iid": 3334181,
+        "zxLen": 98
+      }
+    ]
+  },
+  {
+    "roomId": 71311,
+    "userList": [
+      {
+        "userId": "38477068",
+        "userData": "{\"nickName\":\"爆蛋馬路炸麦XxMIxX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/76954\\/20230106114842da229fae-c79f-427e-aa13-703c9dff836e.jpg\",\"userLiveLv\":\"38\",\"version\":\"5.9.7\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"23\"}"
+      },
+      {
+        "userId": "37835759",
+        "userData": "{\"nickName\":\"QUEEN爆咪馬路炸彈XxMIxX\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/75671\\/2023042921341873713e13-07bc-41b1-8bcb-0f114904b5c4.jpg\",\"userLiveLv\":\"48\",\"version\":\"5.9.7\",\"platform\":2,\"headDress\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/65.png\",\"headDressType\":1,\"headDressUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head_dress\\/65.svga\",\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"36\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 59235,
+    "userList": [
+      {
+        "userId": "35060794",
+        "userData": "{\"userLevel\":\"28\",\"headDressUrl\":\"\",\"userLiveLv\":\"38\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/70121/20220422224921bf0dd8b8-c561-429b-ae2e-79f3186e4678.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.94\",\"headDressType\":0,\"nickName\":\"风吹云散_\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 70569,
+    "userList": [
+      {
+        "userId": "18999035",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"22\",\"headDressUrl\":\"\",\"userLiveLv\":\"37\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/37998/2023041616471800792294-a70f-480c-a250-f859aeb24a91.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.111\",\"headDressType\":0,\"nickName\":\"梦回旧瑾\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 30699,
+    "userList": [
+      {
+        "userId": "9277407",
+        "userData": "{\"nickName\":\"无所谓老婆______九姨太0\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18554\\/202010170403258b1889ef-13cb-4623-adb0-c1125deca486.jpg\",\"userLiveLv\":\"43\",\"version\":\"5.9.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"24\"}"
+      },
+      {
+        "userId": "9277429",
+        "userData": "{\"nickName\":\"无所谓___九姨太1\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/18554\\/20201229143619b1fc486d-9365-4875-980f-d712df4a4705.jpg\",\"userLiveLv\":\"43\",\"version\":\"5.9.4\",\"platform\":2,\"headDressType\":0,\"userSex\":\"0\",\"userLevel\":\"24\"}"
+      }
+    ]
+  },
+  {
+    "roomId": 1006,
+    "userList": [
+      {
+        "userId": "22484196",
+        "userData": "{\"stageBgAnimId\":0,\"headDressUrl\":\"\",\"userLiveLv\":\"35\",\"platform\":\"3\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/44968/202212171903073cc262c4-c628-42e4-99a9-778d0d3db15a.jpg\",\"headDress\":\"\",\"userSex\":\"0\",\"version\":\"5.6.114\",\"headDressType\":0,\"nickName\":\"山人\"}"
+      },
+      {
+        "userId": "19313889",
+        "userData": "{\"headDress\":\"http://img.kgeplay.cn/image/head_dress/54_bak.png\",\"userLiveLv\":\"45\",\"nickName\":\"締樂20446_遊走宇宙間的__銀凝__\",\"platform\":\"3\",\"version\":\"5.6.69\",\"userSex\":\"1\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/38627/20210823234844dc24e96b-3d2c-49e2-8a96-398c94f84044.jpg\"}"
+      },
+      {
+        "userId": "36997997",
+        "userData": "{\"nickName\":\"银河\",\"iconUrl\":\"http:\\/\\/img.kgeplay.cn\\/image\\/head\\/73995\\/202305032058531e47b00d-e8c4-4402-9da8-671536d7a84d.jpg\",\"userLiveLv\":\"50\",\"version\":\"5.9.8\",\"platform\":2,\"headDressType\":0,\"stageBgAnimId\":0,\"userSex\":\"0\",\"userLevel\":\"39\"}"
+      },
+      {
+        "userId": "14068537",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"21\",\"headDressUrl\":\"\",\"userLiveLv\":\"27\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/28137/2021071215073128b0a9f2-3661-40cb-8584-0c03bb950492.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.111\",\"headDressType\":0,\"nickName\":\"___阿\"}"
+      },
+      {
+        "userId": "33928894",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"16\",\"headDressUrl\":\"\",\"userLiveLv\":\"22\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/67857/1513841991685.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.113\",\"headDressType\":0,\"nickName\":\"新达人ai7ip\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "22484196",
+        "songData": "{\"icon\":\"333/3833.png\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/44968/202212171903073cc262c4-c628-42e4-99a9-778d0d3db15a.jpg\",\"liveUserklv\":\"35\",\"singer\":\"许茹芸\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"mmcz\",\"isAECMode\":0,\"song_initial\":\"mmcz\",\"queueSingType\":\"0\",\"artist_index\":\"xry\",\"songTime\":\"259.20\",\"songSourceType\":\"0\",\"choursUserId\":\"\",\"fee\":\"0\",\"isdafe\":\"1\",\"song_id\":\"3833\",\"liveUserName\":\"山人\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"org_song_size\":\"1555233\",\"backUpsSongSize\":\"0\",\"songName\":\"美梦成真\",\"songLrcType\":\"0\",\"org_song\":\"333/3833.mp3\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334891,
+        "zxLen": 0
+      },
+      {
+        "userId": "33928894",
+        "songData": "{\"icon\":\"http://img.kgeplay.cn/image/head/4148/1561007882209.jpg\",\"songTrackType\":2,\"songSingType\":\"0\",\"fashionShowBgUrl\":\"\",\"timeDifference\":\"0.000000\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/67857/1513841991685.jpg\",\"liveUserklv\":\"22\",\"singer\":\"T_MacMine\",\"ytImageStr\":\"youtube_normal_mark\",\"fashionShowImageUrl\":\"\",\"isBackUpsSong\":\"0\",\"song_index\":\"#\",\"isAECMode\":0,\"song_initial\":\"#\",\"queueSingType\":\"0\",\"artist_index\":\"#\",\"songTime\":\"276.84\",\"songSourceType\":\"2\",\"choursUserId\":\"\",\"recommend\":\"0\",\"fee\":\"0\",\"isdafe\":\"0\",\"song_id\":\"18552751\",\"liveUserName\":\"新达人ai7ip\",\"detailUrl\":\"\",\"locLrcPath\":\"\",\"fashionShowBgPlayId\":0,\"backUpsSongSize\":\"0\",\"songName\":\"周杰伦 - 枫\",\"songLrcType\":\"3\",\"org_song\":\"\",\"locSongPath\":\"\",\"fashionShowBgIsCoverShow\":false}",
+        "iid": 3334892,
+        "zxLen": 0
+      }
+    ]
+  },
+  {
+    "roomId": 66556,
+    "userList": [
+      {
+        "userId": "37800119",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"65\",\"headDressUrl\":\"\",\"userLiveLv\":\"71\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75600/202304272226269bdecdfe-fd49-4cbf-9a30-3d865c58c0ab.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.108\",\"headDressType\":0,\"nickName\":\"风斯在下\"}"
+      },
+      {
+        "userId": "37798330",
+        "userData": "{\"stageBgAnimId\":0,\"userLevel\":\"75\",\"headDressUrl\":\"\",\"userLiveLv\":\"78\",\"iconUrl\":\"http://img.kgeplay.cn/image/head/75596/2023041116264033253aee-0a0a-48c7-b6a1-46eed6c9d17e.jpg\",\"platform\":\"3\",\"userSex\":\"0\",\"headDress\":\"\",\"version\":\"5.6.108\",\"headDressType\":0,\"nickName\":\"溸雪\"}"
+      }
+    ],
+    "songList": [
+      {
+        "userId": "37800119",
+        "songData": "{\"isdafe\":\"0\",\"fashionShowBgIsCoverShow\":false,\"liveUserklv\":\"71\",\"fashionShowImageUrl\":\"\",\"icon\":\"\",\"songName\":\"fx\",\"choursUserId\":\"\",\"locLrcPath\":\"\",\"songSingType\":\"0\",\"song_id\":\"20230114205416\",\"songLrcType\":\"3\",\"singer\":\"fx\",\"detailUrl\":\"\",\"locSongPath\":\"\",\"songTrackType\":2,\"songTime\":\"540.65\",\"liveUserIcon\":\"http://img.kgeplay.cn/image/head/75600/202304272226269bdecdfe-fd49-4cbf-9a30-3d865c58c0ab.jpg\",\"liveUserName\":\"风斯在下\",\"fashionShowBgUrl\":\"\",\"fee\":\"0\",\"songSourceType\":\"3\",\"fashionShowBgPlayId\":0,\"timeDifference\":\"0.000000\",\"isBackUpsSong\":\"0\",\"backUpsSongSize\":\"0\",\"queueSingType\":\"0\",\"ytImageStr\":\"youtube_normal_mark\",\"isAECMode\":0}",
+        "iid": 3337304,
+        "zxLen": 0
+      }
+    ]
+  }
+]

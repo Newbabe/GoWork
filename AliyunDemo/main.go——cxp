@@ -1,0 +1,152 @@
+package main
+
+import (
+	"AliyunDemo/sortCxp"
+	"AliyunDemo/util"
+	"encoding/json"
+	"fmt"
+	"sort"
+	"strconv"
+)
+
+type OnlineRoomUserId struct {
+	RoomId     string   `json:"room_id"`
+	UserIdList []string `json:"user_id_list"`
+}
+type OkeLiveUserInfo struct {
+	UserId   string `json:"userId"`
+	UserData string `json:"userData"`
+}
+type UserInfoList struct {
+	UserId   int        `json:"UserId"`
+	UserData []UserData `json:"userData"`
+}
+type UserData struct {
+	HeadDressUrl         string `json:"headDressUrl"`
+	CurrUserCarImgUrl    string `json:"currUserCarImgUrl"`
+	Version              string `json:"version"`
+	HeadDressType        int    `json:"headDressType"`
+	HeadDress            string `json:"headDress"`
+	UserLiveLv           string `json:"userLiveLv"`
+	CurrUserDrivingCarId string `json:"currUserDrivingCarId"`
+	UserLevel            string `json:"userLevel"`
+	Platform             string `json:"platform"`
+	CurrUserCarId        string `json:"currUserCarId"`
+	NickName             string `json:"nickName"`
+	IconUrl              string `json:"iconUrl"`
+	CurrUserCarName      string `json:"currUserCarName"`
+	StageBgAnimId        int    `json:"stageBgAnimId"`
+	UserSex              string `json:"userSex"`
+}
+type OkeLiveSongInfo struct {
+	Iid      int
+	UserId   int
+	SongData string
+	// 尊享用户
+	VipUsers string
+	// 请求合唱用户
+	ReqUsers string
+	// 合唱用户
+	ChorusUsers string
+	ZxLen       int
+}
+type SongData struct {
+	Icon                     string `json:"icon"`
+	FashionShowBgUrl         string `json:"fashionShowBgUrl"`
+	SongSingType             string `json:"songSingType"`
+	TimeDifference           string `json:"timeDifference"`
+	SongTrackType            int    `json:"songTrackType"`
+	Song                     string `json:"song"`
+	LiveUserIcon             string `json:"liveUserIcon"`
+	LiveUserklv              string `json:"liveUserklv"`
+	Singer                   string `json:"singer"`
+	YtImageStr               string `json:"ytImageStr"`
+	FashionShowImageUrl      string `json:"fashionShowImageUrl"`
+	IsBackUpsSong            string `json:"isBackUpsSong"`
+	SongIndex                string `json:"song_index"`
+	IsAECMode                int    `json:"isAECMode"`
+	SongInitial              string `json:"song_initial"`
+	QueueSingType            string `json:"queueSingType"`
+	ArtistIndex              string `json:"artist_index"`
+	SongTime                 string `json:"songTime"`
+	SongSourceType           string `json:"songSourceType"`
+	ChoursUserId             string `json:"choursUserId"`
+	Recommend                string `json:"recommend"`
+	Fee                      string `json:"fee"`
+	Isdafe                   string `json:"isdafe"`
+	SongId                   string `json:"songId"`
+	LiveUserName             string `json:"liveUserName"`
+	DetailUrl                string `json:"detailUrl"`
+	LocLrcPath               string `json:"locLrcPath"`
+	FashionShowBgPlayId      int    `json:"fashionShowBgPlayId"`
+	BackUpsSongSize          string `json:"backUpsSongSize"`
+	SongName                 string `json:"songName"`
+	SongLrcType              string `json:"songLrcType"`
+	Org_song                 string `json:"org_song"`
+	LocSongPath              string `json:"locSongPath"`
+	FashionShowBgIsCoverShow bool   `json:"fashionShowBgIsCoverShow"`
+}
+
+func main() {
+	frList := []map[string]interface{}{
+		{"name": "Alice", "age": 25},
+		{"name": "Bob", "age": 30},
+		{"name": "Charlie", "age": 20},
+	}
+
+	sort.Sort(sortCxp.ListMap(frList))
+
+	fmt.Println(frList)
+
+	/*songListKey := "room_user_info_cache_" + strconv.Itoa(66611)
+	key := util.GetStringFromRedisByKey(songListKey)
+
+	var list []OkeLiveUserInfo
+	json.Unmarshal([]byte(key), &list)
+	for _, info := range list {
+		var userData UserData
+		str := info.UserData
+		json.Unmarshal([]byte(str), &userData)
+		fmt.Println(userData)
+	}*/
+	/*var roomInfos []RoomInfo
+	if err := json.Unmarshal([]byte(dataStr), &roomInfos); err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+	var strMap = make(map[int]RoomInfo)
+	for _, info := range roomInfos {
+		strMap[info.RoomId] = info
+	}*/
+
+}
+
+// 定义结构体类型
+type RoomInfo struct {
+	RoomId   int `json:"roomId"`
+	UserList []struct {
+		UserId   string `json:"userId"`
+		UserData string `json:"userData"`
+	} `json:"userList"`
+	SongList []struct {
+		UserId   string `json:"userId"`
+		SongData string `json:"songData"`
+		Iid      int    `json:"iid"`
+		ZxLen    int    `json:"zxLen"`
+	} `json:"songList,omitempty"`
+}
+
+func GetSongLists(roomId int) []OkeLiveSongInfo {
+
+	// 获取当前时间并减去 30 秒
+	var list []OkeLiveSongInfo
+
+	songListKey := "room_song_list_cache_" + strconv.Itoa(roomId)
+	key := util.GetStringFromRedisByKey(songListKey)
+	fmt.Println("key", key)
+	if key != "" {
+		json.Unmarshal([]byte(key), &list)
+	}
+
+	return list
+}
