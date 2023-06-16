@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>LOGIN</title>
+    <link rel="icon" href="icon/favicon.ico" sizes="16x16" >
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="form">
+            <div class="left"><video src="https://zhanhun-10021436.cos.ap-shanghai.myqcloud.com/video.mp4" muted loop autoplay></video></div>
+            <div class="right">
+                <div class="right-con">
+                    <h1>NEW HERE SIGN UP</h1>
+                    <h3>NAME</h3>
+                    <input class="text" type="text" name="name">
+                    <h3>EMAIL</h3>
+                    <input class="text" type="text" name="email">
+                    <h3>PASSWORD</h3>
+                    <input class="text" type="password" name="password">
+                    <input class="btn" type="submit" value="LOGIN">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js"></script>
+<script>
+     $('.btn').click(function(){
+            var name = $('input[name="name"]').val();
+            var email = $('input[name="email"]').val();
+            var password = $('input[name="password"]').val();
+            $.ajax({
+                url:"/userLogin",
+                type:"post",
+                data:{name:name,email:email,password:password},
+                dataType:"json",
+                success:function(res){
+                    console.log(res)
+                    if(res.code==200){
+                        alert(res.msg);
+                        location.reload();
+                    }else{
+                        alert(res.msg);
+                    }
+                }
+            })
+        })
+</script>
+</html>
